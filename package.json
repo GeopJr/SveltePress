@@ -14,7 +14,7 @@
 		"@sveltejs/adapter-static": "1.0.0-next.13",
 		"@sveltejs/adapter-vercel": "1.0.0-next.24",
 		"@sveltejs/kit": "next",
-		"carbon-components-svelte": "0.38.2",
+		"carbon-components-svelte": "0.39.0",
 		"carbon-icons-svelte": "10.35.0",
 		"carbon-preprocess-svelte": "0.4.0",
 		"eslint": "7.30.0",
