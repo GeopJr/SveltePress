@@ -66,7 +66,6 @@ export function md2html(post) {
 		const frontmatter = md2fm(md);
 		// Here you can change the default markdown
 		const content = marked(frontmatter.body);
-		console.log(content);
 		// Sanitize it
 		// meta includes ALL fm attributes
 		return {

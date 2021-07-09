@@ -1,50 +1,79 @@
-# create-svelte
+<p align="center">
+  <img alt="SveltePress branding" src="https://i.imgur.com/k0MgzIl.png">
+</p>
+<h1 align="center">SveltePress</h1>
+<h4 align="center">Documentation for humans.</h4>
+<p align="center">
+  <br />
+    <a href="https://github.com/GeopJr/SveltePress/blob/main/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff3e00.svg?style=for-the-badge&labelColor=ffd0bf" alt="Code Of Conduct" /></a>
+    <a href="https://github.com/GeopJr/SveltePress/blob/main/UNLICENSE"><img src="https://img.shields.io/badge/LICENSE-UNLICENSE-ff3e00.svg?style=for-the-badge&labelColor=ffd0bf" alt="UNLICENSE" /></a>
+</p>
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+#
 
-## Creating a project
+## What is SveltePress?
 
-If you're seeing this, you've probably already done this step. Congrats!
+SveltePress is a documentation tool built on top of [SvelteKit](https://kit.svelte.dev/), a "serverless-first" framework for building web applications for [Svelte](https://svelte.dev/).
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+SvelteKit & Svelte's simplicity allow the user to modify SveltePress to fit their needs with little to no effort while taking advantage of the incredible performance of both of them.
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+Apart from all the super powers inherited from Svelte & SvelteKit, the main point of SveltePress is to allow less knowledgeable users to create and publish content. To achieve that, SveltePress uses a filesystem-based structure.
 
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+For example the following structure...
 
 ```bash
-npm run build
+pages
+└── cooking
+    ├── allergies.md
+    ├── main_dish
+    │   ├── pizza.md
+    │   └── spaghetti.md
+    └── readme.md
 ```
 
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+will generate the following sidebar:
 
-structure
+```md
+- Cooking
+- Allergies
+  -- Main Dish
+  --- Pizza
+  --- Spaghetti
+```
 
-- posts
-  -- readme.md
-  -- guide-1
-  --- readme.md
-  --- Basics
-  ---- Getting_Started.md
-  ---- Asking_for_help.md
-  -- guide-2
-  --- readme.md
+#
+
+## Installation
+
+The best way to install SveltePress is by using [degit](https://github.com/Rich-Harris/degit). degit works similarly to git but uses only the latest commit (plus can be configured to delete some files), you can read more about it on its repo page.
+
+```bash
+# Replace `my-sveltepress-project` with the name you desire
+npx degit GeopJr/SveltePress my-sveltepress-project
+
+# Change directory to the folder from the previous step
+cd my-sveltepress-project
+
+# Install dependencies
+# PNPM is recommended but both YARN and NPM will do
+pnpm install
+```
+
+> For more info on how SveltePress works, how to set it up & more, visit [https://sveltepress.geopjr.dev/](https://sveltepress.geopjr.dev/)
+
+#
+
+<p align="center">
+    <img alt="diagram of filesystem and the coresponding sidebar" src="https://i.imgur.com/nD87FA2.png">
+</p>
+
+#
+
+## Contributing
+
+1. Read the [Code of Conduct](https://github.com/GeopJr/argyle/blob/main/CODE_OF_CONDUCT.md)
+2. Fork it ( https://github.com/GeopJr/SveltePress/fork )
+3. Create your feature branch (git checkout -b my-new-feature)
+4. Commit your changes (git commit -am 'Add some feature')
+5. Push to the branch (git push origin my-new-feature)
+6. Create a new Pull Request
