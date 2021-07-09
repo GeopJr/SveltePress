@@ -71,7 +71,7 @@ pnpm install
 
 ## Contributing
 
-1. Read the [Code of Conduct](https://github.com/GeopJr/argyle/blob/main/CODE_OF_CONDUCT.md)
+1. Read the [Code of Conduct](https://github.com/GeopJr/SveltePress/blob/main/CODE_OF_CONDUCT.md)
 2. Fork it ( https://github.com/GeopJr/SveltePress/fork )
 3. Create your feature branch (git checkout -b my-new-feature)
 4. Commit your changes (git commit -am 'Add some feature')
