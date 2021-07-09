@@ -6,7 +6,7 @@ specifiers:
   '@sveltejs/adapter-static': 1.0.0-next.13
   '@sveltejs/adapter-vercel': 1.0.0-next.24
   '@sveltejs/kit': next
-  carbon-components-svelte: 0.38.2
+  carbon-components-svelte: 0.39.0
   carbon-icons-svelte: 10.35.0
   carbon-preprocess-svelte: 0.4.0
   eslint: 7.30.0
@@ -32,7 +32,7 @@ devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.13
   '@sveltejs/adapter-vercel': 1.0.0-next.24
   '@sveltejs/kit': 1.0.0-next.123_svelte@3.38.3
-  carbon-components-svelte: 0.38.2
+  carbon-components-svelte: 0.39.0
   carbon-icons-svelte: 10.35.0
   carbon-preprocess-svelte: 0.4.0_svelte@3.38.3
   eslint: 7.30.0
@@ -273,11 +273,10 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /carbon-components-svelte/0.38.2:
-    resolution: {integrity: sha512-wlrCizYDma2flIssUzUDCG0o9XdyOxAV43v3AhJFvmdAYg7u5pevZM55NIuo+DlGsAsFcEJJIbo4MZ0Ihmv9hA==}
+  /carbon-components-svelte/0.39.0:
+    resolution: {integrity: sha512-pz6P8JwU959YyrjJ9TUxM4O9uVjj51htGFWHAXyH2ou2TcY2t2u8DgRQMAXImAqVpwOKgwTNJ5HhnEzNyFhiSw==}
     dependencies:
       carbon-icons-svelte: 10.35.0
-      clipboard-copy: 3.2.0
       flatpickr: 4.6.9
     dev: true
 
@@ -325,10 +324,6 @@ packages:
   /cheap-watch/1.0.3:
     resolution: {integrity: sha512-xC5CruMhLzjPwJ5ecUxGu1uGmwJQykUhqd2QrCrYbwvsFYdRyviu6jG9+pccwDXJR/OpmOTOJ9yLFunVgQu9wg==}
     engines: {node: '>=8'}
-    dev: true
-
-  /clipboard-copy/3.2.0:
-    resolution: {integrity: sha512-vooFaGFL6ulEP1liiaWFBmmfuPm3cY3y7T9eB83ZTnYc/oFeAKsq3NcDrOkBC8XaauEE8zHQwI7k0+JSYiVQSQ==}
     dev: true
 
   /color-convert/1.9.3:
