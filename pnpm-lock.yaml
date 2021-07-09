@@ -8,7 +8,7 @@ specifiers:
   '@sveltejs/kit': next
   carbon-components-svelte: 0.39.0
   carbon-icons-svelte: 10.35.0
-  carbon-preprocess-svelte: 0.4.0
+  carbon-preprocess-svelte: 0.5.0
   eslint: 7.30.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-svelte3: 3.2.0
@@ -34,7 +34,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.123_svelte@3.38.3
   carbon-components-svelte: 0.39.0
   carbon-icons-svelte: 10.35.0
-  carbon-preprocess-svelte: 0.4.0_svelte@3.38.3
+  carbon-preprocess-svelte: 0.5.0_svelte@3.38.3
   eslint: 7.30.0
   eslint-config-prettier: 8.3.0_eslint@7.30.0
   eslint-plugin-svelte3: 3.2.0_eslint@7.30.0+svelte@3.38.3
@@ -284,8 +284,8 @@ packages:
     resolution: {integrity: sha512-GGh6tCWOUL7UjObSECpLfQ83k2xKfJRJTy6uy4v/R1BKj/Nk3bPc1vNyEwygHYI0JjPRNMbPCc53qisBPb1JGA==}
     dev: true
 
-  /carbon-preprocess-svelte/0.4.0_svelte@3.38.3:
-    resolution: {integrity: sha512-uY4/faPub6Qa/kJl5LZXSzs52qBB9zaN5SoLd0ElJc7jYRCDlwoyZc8xssZi3GU/3uZ39t0HR5423nMbiAHF8A==}
+  /carbon-preprocess-svelte/0.5.0_svelte@3.38.3:
+    resolution: {integrity: sha512-mfXlKeHbpUTF0+Di73xM3lJ4y9Ck5i7X4+y5o3g38RhA6TXUDY5h2PJ+/qvXb6Hi+NrpmlK5iniyXoTnPVJ3ng==}
     dependencies:
       purgecss: 4.0.3
       svelte-preprocess: 4.7.3_svelte@3.38.3+typescript@4.3.5
