@@ -14,13 +14,18 @@
 
 	export let isSideNavOpen;
 	export let groupMap;
+
+	// SideNavLinks and SideNavMenuItems
+	// should have on:click={() => (isSideNavOpen = false)}
+	// but only on `md` else desktop wont be able to reopen
+	// the sidebar
 </script>
 
 <SideNav bind:isOpen={isSideNavOpen}>
 	<SideNavItems>
 		{#each groupMap as [, valueP], i}
 			{#if i === 0}
-				<SideNavLink text={getName(valueP)} />
+				<SideNavLink class="sp--sidebar-grandparent" text={getName(valueP)} />
 				{#if valueP && [...valueP.files].length > 0}
 					<SideNavDivider />
 					{#each [...valueP.files] as [key, value]}

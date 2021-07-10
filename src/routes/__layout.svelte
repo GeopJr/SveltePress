@@ -25,6 +25,9 @@
 <slot />
 
 <style lang="css">
+	:global(.sp--sidebar-grandparent) {
+		pointer-events: none;
+	}
 	:global(.bx--btn) {
 		overflow-wrap: anywhere;
 		/* Safari & Opera */
