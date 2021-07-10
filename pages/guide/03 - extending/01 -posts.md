@@ -42,7 +42,7 @@ This will instantly have the following outcome:
 
 ## Date
 
-Similarly, we can also do the same for the date the file was modified or made. SveltePress already passes a the last modified date in metadata, however this can get overwritten if eg. this is an old blog post.
+Similarly, we can also do the same for the date the file was modified or made. SveltePress already passes the last modified date in metadata, however this can get overwritten if eg. this is an old blog post.
 
 ```svelte
 <Content pagination={post.pagination}>
