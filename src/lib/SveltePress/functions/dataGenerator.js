@@ -46,7 +46,7 @@ export default function createPressData(
 			}
 		} else if (item.isFile()) {
 			const date = statSync(path.join(source, item.name)).mtime.toGMTString();
-			let noCase = item.name.split('.').slice(0, -1).join('.');
+			const noCase = item.name.replace(/\.[^/.]+$/, '');
 			const fm = md2fm(readFileSync(`${source}/${noCase}.md`).toString());
 			const body = new Map([
 				['name', noCase],

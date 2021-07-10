@@ -41,20 +41,15 @@
 </script>
 
 <script>
-	import { page } from '$app/stores';
-
 	import Content from '$lib/SveltePress/components/content.svelte';
 	import Config from '$lib/SveltePress/sveltePress.config';
 
 	export let post;
-
-	// the post title is either postName if it exists else slug
-	$: title = post.meta?.postName ? post.meta.postName : $page.path.split('/').pop();
 </script>
 
 <svelte:head>
-	<meta name="og:title" content={title + ' - ' + Config.title} />
-	<title>{title + ' - ' + Config.title}</title>
+	<meta name="og:title" content={post.meta.postName + ' - ' + Config.title} />
+	<title>{post.meta.postName + ' - ' + Config.title}</title>
 </svelte:head>
 
 <Content pagination={post.pagination}>

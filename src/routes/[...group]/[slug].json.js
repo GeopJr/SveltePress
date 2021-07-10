@@ -76,6 +76,11 @@ export function post({ params, body }) {
 		content.meta.date = file.get('date');
 	}
 
+	// Same for postName
+	if (!Object.prototype.hasOwnProperty.call(content.meta, 'postName') && file) {
+		content.meta.postName = file.get('postName');
+	}
+
 	const pagination = getPagination(folder, slug);
 
 	// Pagination can return undefined
