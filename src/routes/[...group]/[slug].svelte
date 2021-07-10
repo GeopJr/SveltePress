@@ -49,7 +49,7 @@
 	export let post;
 
 	// the post title is either postName if it exists else slug
-	const title = post.meta?.postName ? post.meta.postName : $page.path.split('/').pop();
+	$: title = post.meta?.postName ? post.meta.postName : $page.path.split('/').pop();
 </script>
 
 <svelte:head>
