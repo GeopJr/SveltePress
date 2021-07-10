@@ -25,6 +25,9 @@
 <slot />
 
 <style lang="css">
+	:global(.bx--switcher__item-link:focus) {
+		outline-color: var(--cds-button-primary);
+	}
 	:global(#main-content) :global(ul) {
 		list-style-type: square;
 	}
