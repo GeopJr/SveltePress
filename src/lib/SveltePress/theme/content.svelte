@@ -43,6 +43,7 @@
 	.pagination {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 
 	@media only screen and (min-width: 1056px) {
