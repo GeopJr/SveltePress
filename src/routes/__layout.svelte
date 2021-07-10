@@ -25,6 +25,11 @@
 <slot />
 
 <style lang="css">
+	:global(.bx--btn) {
+		overflow-wrap: anywhere;
+		/* Safari & Opera */
+		word-break: break-word;
+	}
 	:global(.bx--switcher__item-link:focus) {
 		outline-color: var(--cds-button-primary);
 	}
