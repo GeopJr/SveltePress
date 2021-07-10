@@ -63,3 +63,4 @@ SveltePress wouldn't exist without the following:
 - [Svelte](https://svelte.dev/)
 - [SvelteKit](https://kit.svelte.dev/)
 - [VuePress](https://vuepress.vuejs.org/)
+- [Carbon Design System](https://www.carbondesignsystem.com/)
