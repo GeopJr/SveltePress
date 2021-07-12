@@ -20,7 +20,7 @@ const config = {
 
 if (config.kit?.adapter?.name === '@sveltejs/adapter-static') {
 	config.kit.prerender = {
-		crawl: false,
+		crawl: true,
 		enabled: true,
 		force: true,
 		pages: generatePrerenderRoutes()
