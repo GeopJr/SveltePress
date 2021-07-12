@@ -1,0 +1,27 @@
+{
+	"name": "create-sveltepress-app",
+	"version": "1.0.2",
+	"description": "Documentation for humans.",
+	"bin": {
+		"create-sveltepress-app": "createSveltepressApp.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GeopJr/SveltePress.git"
+	},
+	"keywords": [
+		"svelte",
+		"documentation",
+		"sveltepress",
+		"sveltekit"
+	],
+	"author": "GeopJr",
+	"license": "Unlicense",
+	"bugs": {
+		"url": "https://github.com/GeopJr/SveltePress/issues"
+	},
+	"homepage": "https://github.com/GeopJr/SveltePress#readme",
+	"dependencies": {
+		"degit": "^2.8.4"
+	}
+}

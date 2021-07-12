@@ -9,6 +9,8 @@ The best way to install SveltePress is by using [degit](https://github.com/Rich-
 ```bash
 # Replace `my-sveltepress-project` with the name you desire
 npx degit GeopJr/SveltePress my-sveltepress-project
+# or by using create-sveltepress-app (which wraps the above)
+npx create-sveltepress-app my-sveltepress-project
 
 # Change directory to the folder from the previous step
 cd my-sveltepress-project
@@ -17,6 +19,8 @@ cd my-sveltepress-project
 # PNPM is recommended but both YARN and NPM will do
 pnpm install
 ```
+
+> Note: `src/routes/index.svelte` is self-contained, feel free to delete, modify or leave it as is.
 
 # Running
 
@@ -41,6 +45,4 @@ pnpm run build
 pnpm run preview
 ```
 
-## Notes
-
-Both `pnpm/yarn/npm run build` & `pnpm/yarn/npm run dev` run a small script that generates some index databases before running the svelte-kit command.
+> Note: Both `pnpm/yarn/npm run build` & `pnpm/yarn/npm run dev` run a small script that generates some index databases before running the svelte-kit command.

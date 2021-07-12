@@ -1,6 +1,6 @@
 [
 	{
 		"action": "remove",
-		"files": ["UNLICENSE", "CODE_OF_CONDUCT.md"]
+		"files": ["UNLICENSE", "CODE_OF_CONDUCT.md", "create-sveltepress-app/"]
 	}
 ]
