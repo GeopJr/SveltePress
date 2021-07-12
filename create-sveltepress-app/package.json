@@ -22,6 +22,6 @@
 	},
 	"homepage": "https://github.com/GeopJr/SveltePress#readme",
 	"dependencies": {
-		"degit": "^2.8.4"
+		"degit": "2.8.4"
 	}
 }
