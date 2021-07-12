@@ -4,6 +4,7 @@
 	import ArrowLeft32 from 'carbon-icons-svelte/lib/ArrowLeft32';
 
 	export let pagination = {};
+	export let meta = {};
 </script>
 
 <Content>

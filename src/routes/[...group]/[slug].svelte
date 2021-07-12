@@ -52,6 +52,6 @@
 	<title>{post.meta.postName + ' - ' + Config.title}</title>
 </svelte:head>
 
-<Content pagination={post.pagination}>
+<Content pagination={post.pagination} meta={post.meta}>
 	{@html post.body}
 </Content>

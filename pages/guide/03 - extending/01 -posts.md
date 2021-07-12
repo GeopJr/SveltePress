@@ -28,7 +28,7 @@ Inside `src/routes/[...group]/[slug].svelte` the tags will be available by calli
 Let's now display them at the top, by creating a Svelte loop that will display each one:
 
 ```svelte
-<Content pagination={post.pagination}>
+<Content pagination={post.pagination} meta={post.meta}>
 	{#each post.meta.tags as tag}
 		<span style="margin-right: 5px; padding: 2px; background-color: green">{tag}</span>
 	{/each}
@@ -45,7 +45,7 @@ This will instantly have the following outcome:
 Similarly, we can also do the same for the date the file was modified or made. SveltePress already passes the last modified date in metadata, however this can get overwritten if eg. this is an old blog post.
 
 ```svelte
-<Content pagination={post.pagination}>
+<Content pagination={post.pagination} meta={post.meta}>
 	{post.meta.date}
 	{@html post.body}
 </Content>
@@ -60,5 +60,6 @@ Similarly, we can also do the same for the date the file was modified or made. S
 - Original author
 - Time to read
 - Rating
+- Edit on Git button
 
-> Note: Obviously this is a bit more advanced. Ideally pass the metadata you want to the `Content` component and let the theme handle them. The built-in theme doesn't have any extra components for most metadata ideas.
+> Note: Obviously this is a bit more advanced. The built-in theme doesn't have any extra components for most metadata ideas. The `Content` component passes all metadata to theme, you can manually use them there.
