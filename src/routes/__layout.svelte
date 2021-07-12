@@ -66,7 +66,9 @@
 	:global(code) {
 		white-space: pre-wrap;
 	}
-	/* :global(p) */
+	:global(.bx--btn--primary:hover) {
+		background-color: var(--cds-button-primary-hover);
+	}
 	:global(.bx--side-nav ~ .bx--content) {
 		margin-left: 0;
 	}
