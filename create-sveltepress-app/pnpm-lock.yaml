@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  degit: ^2.8.4
+  degit: 2.8.4
 
 dependencies:
   degit: 2.8.4
