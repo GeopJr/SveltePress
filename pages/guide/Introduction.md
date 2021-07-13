@@ -25,9 +25,9 @@ will generate the following sidebar:
 ```md
 - Cooking
 - Allergies
-  -- Main Dish
-  --- Pizza
-  --- Spaghetti
+- Main Dish
+  - Pizza
+  - Spaghetti
 ```
 
 As shown above, the sidebar is sorted alphabetically and categorized based on the folder structure. However, both category and post names do not only depend on the filename. This allows you to eg. have the following file names:

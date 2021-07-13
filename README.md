@@ -36,9 +36,9 @@ will generate the following sidebar:
 ```md
 - Cooking
 - Allergies
-  -- Main Dish
-  --- Pizza
-  --- Spaghetti
+- Main Dish
+  - Pizza
+  - Spaghetti
 ```
 
 #
