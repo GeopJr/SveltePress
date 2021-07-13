@@ -6,7 +6,7 @@
 	const parent = $page.params.group?.split('/');
 	const guide = parent ? $session.get(parent[0]) : null;
 
-	let groupMap = guide ? [...guide] : [];
+	$: groupMap = guide ? [...guide] : [];
 
 	export let isSideNavOpen;
 </script>
