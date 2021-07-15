@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/adapter-netlify': 1.0.0-next.22
+  '@sveltejs/adapter-netlify': 1.0.0-next.23
   '@sveltejs/adapter-node': 1.0.0-next.33
   '@sveltejs/adapter-static': 1.0.0-next.13
   '@sveltejs/adapter-vercel': 1.0.0-next.24
@@ -27,11 +27,11 @@ dependencies:
   sanitize-html: 2.4.0
 
 devDependencies:
-  '@sveltejs/adapter-netlify': 1.0.0-next.22
+  '@sveltejs/adapter-netlify': 1.0.0-next.23
   '@sveltejs/adapter-node': 1.0.0-next.33
   '@sveltejs/adapter-static': 1.0.0-next.13
   '@sveltejs/adapter-vercel': 1.0.0-next.24
-  '@sveltejs/kit': 1.0.0-next.128_svelte@3.38.3
+  '@sveltejs/kit': 1.0.0-next.130_svelte@3.38.3
   carbon-components-svelte: 0.40.1
   carbon-icons-svelte: 10.35.0
   carbon-preprocess-svelte: 0.6.0_svelte@3.38.3
@@ -116,8 +116,8 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.22:
-    resolution: {integrity: sha512-YN4qCT3rQQl+KLJjUHeQ30YBhfeIGDx1KwStVg+el9ii+owwiBj006A3qgumq7lldtm6ORnBO2BtBvua6MWYJg==}
+  /@sveltejs/adapter-netlify/1.0.0-next.23:
+    resolution: {integrity: sha512-BM54dDmyJfbjUFrmx2zo9exZ1SxmKSzS1aqu+UJ7g+xosd6JLMqQKYYTPyiE7tq/c9BSxBzYExnf+nf/D7CDeQ==}
     dependencies:
       '@iarna/toml': 2.2.5
       esbuild: 0.12.15
@@ -140,8 +140,8 @@ packages:
       esbuild: 0.12.15
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.128_svelte@3.38.3:
-    resolution: {integrity: sha512-qOJbKxulwFnkhkOPFxijhA1MLmpDJtL2Ze/M6ohMa1NFnB8cfWkif/H2tJ1APybFcAFag8w2MJ3OBJ0sXVotVQ==}
+  /@sveltejs/kit/1.0.0-next.130_svelte@3.38.3:
+    resolution: {integrity: sha512-8pnCj9qC1KEEuBKBOmquGtjzkyylo3zneKmZlp5N38Gqh0JGOL5eWJFozAqFrOmV7u7bnki3lQjjhbqn+nDXYg==}
     engines: {node: ^12.20 || >=14.13}
     hasBin: true
     peerDependencies:
