@@ -64,3 +64,7 @@ SveltePress wouldn't exist without the following:
 - [SvelteKit](https://kit.svelte.dev/)
 - [VuePress](https://vuepress.vuejs.org/)
 - [Carbon Design System](https://www.carbondesignsystem.com/)
+
+# Video (YouTube)
+
+[![YouTube Video](https://img.youtube.com/vi/P23AeugwIFo/mqdefault.jpg)](https://www.youtube.com/watch?v=P23AeugwIFo&list=PLahj1xcdBwiHRLLS3ZPUoPLVNz6Fh3SnH)

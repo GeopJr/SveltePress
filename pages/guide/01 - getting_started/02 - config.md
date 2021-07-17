@@ -22,3 +22,7 @@ export default {
 	title: 'SveltePress'
 };
 ```
+
+# Video (YouTube)
+
+[![YouTube Video](https://img.youtube.com/vi/OhVTF6IxOAY/mqdefault.jpg)](https://www.youtube.com/watch?v=OhVTF6IxOAY&list=PLahj1xcdBwiHRLLS3ZPUoPLVNz6Fh3SnH&index=2)

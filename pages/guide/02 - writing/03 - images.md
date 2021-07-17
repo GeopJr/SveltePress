@@ -13,3 +13,7 @@ Then I'll be able to access it on markdown like so:
 ```md
 ![cool logo](/assets/logo.png)
 ```
+
+# Video (YouTube)
+
+[![YouTube Video](https://img.youtube.com/vi/mzZETq1VvtY/mqdefault.jpg)](https://www.youtube.com/watch?v=mzZETq1VvtY&list=PLahj1xcdBwiHRLLS3ZPUoPLVNz6Fh3SnH&index=3)

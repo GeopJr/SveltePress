@@ -71,6 +71,14 @@ pnpm install
 
 #
 
+## Video Docs
+
+<a href="https://www.youtube.com/watch?v=P23AeugwIFo&list=PLahj1xcdBwiHRLLS3ZPUoPLVNz6Fh3SnH">
+  <img width="512" alt="youtube video" src="https://img.youtube.com/vi/P23AeugwIFo/maxresdefault.jpg" />
+</a>
+
+#
+
 ## Contributing
 
 1. Read the [Code of Conduct](https://github.com/GeopJr/SveltePress/blob/main/CODE_OF_CONDUCT.md)
