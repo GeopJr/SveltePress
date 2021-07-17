@@ -29,7 +29,7 @@ Let's now display them at the top, by creating a Svelte loop that will display e
 
 ```svelte
 <Content pagination={post.pagination} meta={post.meta}>
-	{#each post.meta.tags as tag}
+	{#each post.meta.tags || [] as tag}
 		<span style="margin-right: 5px; padding: 2px; background-color: green">{tag}</span>
 	{/each}
 	{@html post.body}
