@@ -2,6 +2,7 @@ import { readdirSync, statSync, readFileSync, writeFileSync } from 'fs';
 import md2fm from '../MD2FM.js';
 import path from 'path';
 import Jsesc from 'jsesc';
+import Config from '../sveltePress.config.js';
 
 export default function createPressData(
 	source = 'pages/',
@@ -17,9 +18,18 @@ export default function createPressData(
 
 	let index = new Map();
 
-	const pages = readdirSync(source, { withFileTypes: true })
-		.filter((x) => x.name.toLowerCase().endsWith('.md') || x.isDirectory())
-		.sort((a, b) => a.name.normalize().localeCompare(b.name.normalize()));
+	let pages = readdirSync(source, { withFileTypes: true }).filter(
+		(x) => x.name.toLowerCase().endsWith('.md') || x.isDirectory()
+	);
+	if (Config.sorting.type.toLowerCase() === 'modified') {
+		pages.map((x) => (x.date = statSync(path.join(source, x.name)).mtime));
+		pages = pages.sort((a, b) => b.date - a.date);
+	} else {
+		pages = pages.sort((a, b) => a.name.normalize().localeCompare(b.name.normalize()));
+	}
+	if (Config.sorting.reverse) {
+		pages = pages.reverse();
+	}
 
 	pages.forEach((item) => {
 		const relativePath = path.relative('pages/', source + '/' + item.name);
@@ -45,7 +55,7 @@ export default function createPressData(
 				folder.get('default').set('name', item.name);
 			}
 		} else if (item.isFile()) {
-			const date = statSync(path.join(source, item.name)).mtime.toGMTString();
+			const date = item.date?.toGMTString() ?? statSync(path.join(source, item.name)).mtime.toGMTString();
 			const noCase = item.name.replace(/\.[^/.]+$/, '');
 			const fm = md2fm(readFileSync(`${source}/${noCase}.md`).toString());
 			const body = new Map([

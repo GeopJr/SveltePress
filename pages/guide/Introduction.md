@@ -30,7 +30,7 @@ will generate the following sidebar:
   - Spaghetti
 ```
 
-As shown above, the sidebar is sorted alphabetically and categorized based on the folder structure. However, both category and post names do not only depend on the filename. This allows you to eg. have the following file names:
+As shown above, the sidebar is sorted alphabetically (or last modified) and categorized based on the folder structure. However, both category and post names do not only depend on the filename. This allows you to eg. have the following file names:
 
 ```md
 01 - cream.md

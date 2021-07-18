@@ -10,5 +10,13 @@ export default {
 	// for the main button. It's a href.
 	default: '/guide',
 	// Used in title meta tag
-	title: 'SveltePress'
+	title: 'SveltePress',
+	// Sorting method
+	// Types: alphabetically, modified
+	// alphabetically => A-Z (reverse: Z-A) [default]
+	// modified => last modified (reverse: first modified)
+	sorting: {
+		type: "alphabetically",
+		reverse: false
+	}
 };
