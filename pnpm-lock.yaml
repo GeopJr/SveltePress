@@ -6,7 +6,7 @@ specifiers:
   '@sveltejs/adapter-static': 1.0.0-next.13
   '@sveltejs/adapter-vercel': 1.0.0-next.24
   '@sveltejs/kit': next
-  carbon-components-svelte: 0.40.1
+  carbon-components-svelte: 0.41.0
   carbon-icons-svelte: 10.35.0
   carbon-preprocess-svelte: 0.6.0
   eslint: 7.31.0
@@ -32,7 +32,7 @@ devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.13
   '@sveltejs/adapter-vercel': 1.0.0-next.24
   '@sveltejs/kit': 1.0.0-next.131_svelte@3.38.3
-  carbon-components-svelte: 0.40.1
+  carbon-components-svelte: 0.41.0
   carbon-icons-svelte: 10.35.0
   carbon-preprocess-svelte: 0.6.0_svelte@3.38.3
   eslint: 7.31.0
@@ -274,8 +274,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /carbon-components-svelte/0.40.1:
-    resolution: {integrity: sha512-Q6JA/lipov1FkLKn93Vnnws4SGGjhKT+TppHSyvaCJS343js6H197Te8mtuUoebV7AaKb23ujeAVFkaaHmueaQ==}
+  /carbon-components-svelte/0.41.0:
+    resolution: {integrity: sha512-cfj3Vla2ovR5ed2kO1qEYEm5D46I9o4GmFJkPO7A4800w8qY3ETGDpL1d6R9gGhGStmqYPHza/uvUjxN9pcczA==}
     dependencies:
       carbon-icons-svelte: 10.35.0
       flatpickr: 4.6.9
