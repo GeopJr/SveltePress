@@ -4,7 +4,7 @@ specifiers:
   '@sveltejs/adapter-netlify': 1.0.0-next.24
   '@sveltejs/adapter-node': 1.0.0-next.35
   '@sveltejs/adapter-static': 1.0.0-next.13
-  '@sveltejs/adapter-vercel': 1.0.0-next.25
+  '@sveltejs/adapter-vercel': 1.0.0-next.26
   '@sveltejs/kit': next
   carbon-components-svelte: 0.41.0
   carbon-icons-svelte: 10.35.0
@@ -30,7 +30,7 @@ devDependencies:
   '@sveltejs/adapter-netlify': 1.0.0-next.24
   '@sveltejs/adapter-node': 1.0.0-next.35
   '@sveltejs/adapter-static': 1.0.0-next.13
-  '@sveltejs/adapter-vercel': 1.0.0-next.25
+  '@sveltejs/adapter-vercel': 1.0.0-next.26
   '@sveltejs/kit': 1.0.0-next.132_svelte@3.38.3
   carbon-components-svelte: 0.41.0
   carbon-icons-svelte: 10.35.0
@@ -134,8 +134,8 @@ packages:
     resolution: {integrity: sha512-zaXJlWK9JfrjrE6nG5etB8kf4DSkbE3H8Ql6gmCk3WjdvpY85a60TMYBU9OK2iunkqpHnPYiMUGEnOGYmWlLYA==}
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.25:
-    resolution: {integrity: sha512-CsD/Pzf9W+H/2frLn1bVEFzYBEh29lhLwG1Aeugj3tRtO/o5JSnWdV7+9Ylo++jcmYvVReTRA9KPbsAbHsj+FA==}
+  /@sveltejs/adapter-vercel/1.0.0-next.26:
+    resolution: {integrity: sha512-t1/Gl9GF62HV99VOmI0clguuSHdJvGD2t8/y7tv9N55tLAHWk4yRV/UOilBQhX+KKjCkPn40Oln2jTXPhlr/lA==}
     dependencies:
       esbuild: 0.12.15
     dev: true
