@@ -62,6 +62,10 @@
 		margin: 1.2rem 0;
 		padding: 1rem;
 	}
+	:global(:root[theme='g10']) :global(pre),
+	:global(:root[theme='white']) :global(pre) {
+		background-color: var(--cds-ui-03);
+	}
 	:global(pre),
 	:global(code) {
 		white-space: pre-wrap;
