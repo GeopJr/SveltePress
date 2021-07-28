@@ -11,7 +11,7 @@
 
 <script>
 	import { dev } from '$app/env';
-	import { page, session } from '$app/stores';
+	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
 	import Search from '$lib/SveltePress/theme/search.svelte';
 	import sidebar from '$lib/SveltePress/db/sveltePressSidebar';

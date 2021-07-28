@@ -8,6 +8,12 @@
 	import { Button, Tile, Grid, Row, Column } from 'carbon-components-svelte';
 	import ArrowRight32 from 'carbon-icons-svelte/lib/ArrowRight32';
 
+	import { session } from '$app/stores';
+
+	$: nav = Config.nav.overwrite
+		? Config.nav.items || []
+		: $session.get('navbar').concat(Config.nav.items || []);
+
 	let currentYear = new Date().getFullYear();
 
 	// Might be used for more in the future
@@ -79,8 +85,11 @@
 						{' '}
 					</Typewriter>
 				</h2>
-				<Button icon={ArrowRight32} size="lg" href={Config.default} style="margin-top: 3rem"
-					>Let's get started</Button
+				<Button
+					icon={ArrowRight32}
+					size="lg"
+					href={nav.length > 0 ? nav[0].link : $session.get('navbar')[0]?.link}
+					style="margin-top: 3rem">Let's get started</Button
 				>
 			</Column>
 		</Row>

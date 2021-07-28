@@ -4,10 +4,10 @@
 
 		// if theres a slug but not a group, redirect to the first
 		// slugs' item (in this case the slug is the group)
-		if (session.has(slug) && (!group || group?.length === 0)) {
+		if (session.get('sidebar').has(slug) && (!group || group?.length === 0)) {
 			let defaultFile;
 
-			for (const [, value] of session.get(slug)) {
+			for (const [, value] of session.get('sidebar').get(slug)) {
 				for (const [keyC] of value.files) {
 					defaultFile = keyC;
 					break;

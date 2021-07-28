@@ -1,6 +1,9 @@
-import { getSide } from '$lib/SveltePress/SveltePressData';
+import { getSide, getNav } from '$lib/SveltePress/SveltePressData';
 
-// Sidebar gets saved in session
+// Sidebar & navbar gets saved in session
 export function getSession() {
-	return getSide();
+	return new Map([
+		['sidebar', getSide()],
+		['navbar', getNav()]
+	]);
 }

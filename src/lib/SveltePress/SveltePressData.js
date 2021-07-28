@@ -1,5 +1,6 @@
 import createPressData from '$lib/SveltePress/functions/dataGenerator';
 import createSidebar from '$lib/SveltePress/functions/sidebarGenerator';
+import navData from '$lib/SveltePress/functions/navGenerator';
 import pressData from '$lib/SveltePress/db/sveltePressData';
 import sidebar from '$lib/SveltePress/db/sveltePressSidebar';
 import index from '$lib/SveltePress/db/sveltePressIndex';
@@ -20,4 +21,8 @@ export function getData() {
 
 export function getContent() {
 	return dev ? false : index;
+}
+
+export function getNav() {
+	return navData(getSide());
 }

@@ -4,7 +4,7 @@
 	import Sidebar from '$lib/SveltePress/theme/sidebar.svelte';
 
 	const parent = $page.params.group?.split('/');
-	const guide = parent ? $session.get(parent[0]) : null;
+	const guide = parent ? $session.get('sidebar').get(parent[0]) : null;
 
 	$: groupMap = guide ? [...guide] : [];
 

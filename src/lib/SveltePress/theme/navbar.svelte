@@ -1,4 +1,5 @@
 <script>
+	import { page } from '$app/stores';
 	import {
 		Header,
 		HeaderNav,
@@ -44,12 +45,18 @@
 		theme.set(themes[themeType][contrastType]);
 	}
 
+	function isExternal(link) {
+		const host = 'https://' + $page.host;
+		return new URL(link, host).origin !== host;
+	}
+
 	$: contrastIcon = hasContrast($theme) ? RadioButton20 : Contrast20;
 	$: themeIcon = isDark($theme) ? Sun20 : Moon20;
 
 	let isOpen = false;
 
 	export let isSideNavOpen;
+	export let nav;
 </script>
 
 <Header company="Svelte" platformName="Press" href="/" bind:isSideNavOpen>
@@ -58,15 +65,25 @@
 	</div>
 
 	<HeaderNav>
-		{#if Config.nav.length > 5}
+		{#if nav.length > 5}
 			<HeaderNavMenu text="Pages">
-				{#each Config.nav as navItem}
-					<HeaderNavItem href={navItem.link} text={navItem.name} />
+				{#each nav as navItem}
+					<HeaderNavItem
+						href={navItem.link}
+						text={navItem.name}
+						target={isExternal(navItem.link) ? '_blank' : undefined}
+						rel={isExternal(navItem.link) ? 'noopener' : undefined}
+					/>
 				{/each}
 			</HeaderNavMenu>
 		{:else}
-			{#each Config.nav as navItem}
-				<HeaderNavItem href={navItem.link} text={navItem.name} />
+			{#each nav as navItem}
+				<HeaderNavItem
+					href={navItem.link}
+					text={navItem.name}
+					target={isExternal(navItem.link) ? '_blank' : undefined}
+					rel={isExternal(navItem.link) ? 'noopener' : undefined}
+				/>
 			{/each}
 		{/if}
 	</HeaderNav>
@@ -90,8 +107,13 @@
 		<div class="sp--app-menu">
 			<HeaderAction bind:isOpen>
 				<HeaderPanelLinks>
-					{#each Config.nav as navItem}
-						<HeaderPanelLink href={navItem.link}>{navItem.name}</HeaderPanelLink>
+					{#each nav as navItem}
+						<HeaderPanelLink
+							href={navItem.link}
+							target={isExternal(navItem.link) ? '_blank' : undefined}
+							rel={isExternal(navItem.link) ? 'noopener' : undefined}
+							>{navItem.name}</HeaderPanelLink
+						>
 					{/each}
 					<HeaderPanelDivider />
 					<HeaderPanelLink on:click={() => setTheme(false)}>Toggle Contrast</HeaderPanelLink>
