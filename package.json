@@ -4,7 +4,7 @@
 	"scripts": {
 		"dev": "node generateProdData.js && svelte-kit dev",
 		"build": "node generateProdData.js && svelte-kit build",
-		"preview": "node generateProdData.js && svelte-kit preview",
+		"preview": "svelte-kit preview",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
