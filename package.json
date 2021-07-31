@@ -20,7 +20,7 @@
 		"eslint": "7.32.0",
 		"eslint-config-prettier": "8.3.0",
 		"eslint-plugin-svelte3": "3.2.0",
-		"flexsearch": "0.7.2",
+		"flexsearch": "0.7.21",
 		"front-matter": "4.0.2",
 		"highlight.js": "11.1.0",
 		"jsesc": "3.0.2",

@@ -12,7 +12,7 @@ specifiers:
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
   eslint-plugin-svelte3: 3.2.0
-  flexsearch: 0.7.2
+  flexsearch: 0.7.21
   front-matter: 4.0.2
   highlight.js: 11.1.0
   jsesc: 3.0.2
@@ -38,7 +38,7 @@ devDependencies:
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-plugin-svelte3: 3.2.0_eslint@7.32.0+svelte@3.41.0
-  flexsearch: 0.7.2
+  flexsearch: 0.7.21
   front-matter: 4.0.2
   highlight.js: 11.1.0
   jsesc: 3.0.2
@@ -643,8 +643,8 @@ packages:
     resolution: {integrity: sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==}
     dev: true
 
-  /flexsearch/0.7.2:
-    resolution: {integrity: sha512-Giy6ye2pPL2ZZT/36+TNsmYHqpzmuWF9Gwv5cHZwjiqhcIjvic1LcUpIAEJSFSc7va0bUHj1YfjXmFuDSreWrQ==}
+  /flexsearch/0.7.21:
+    resolution: {integrity: sha512-W7cHV7Hrwjid6lWmy0IhsWDFQboWSng25U3VVywpHOTJnnAZNPScog67G+cVpeX9f7yDD21ih0WDrMMT+JoaYg==}
     dev: true
 
   /front-matter/4.0.2:
