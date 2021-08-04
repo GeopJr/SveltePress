@@ -27,7 +27,7 @@
 		"marked": "2.1.3",
 		"prettier": "2.3.2",
 		"prettier-plugin-svelte": "2.3.1",
-		"svelte": "3.42.0",
+		"svelte": "3.42.1",
 		"svelte-typewriter": "2.4.5"
 	},
 	"type": "module",
