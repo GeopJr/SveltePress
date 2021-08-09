@@ -22,7 +22,6 @@ if (config.kit?.adapter?.name === '@sveltejs/adapter-static') {
 	config.kit.prerender = {
 		crawl: true,
 		enabled: true,
-		force: true,
 		pages: generatePrerenderRoutes()
 	};
 }
