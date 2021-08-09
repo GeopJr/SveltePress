@@ -31,31 +31,46 @@ export default function createPressData(
 		pages = pages.reverse();
 	}
 
-	pages.forEach((item) => {
+	// Loop through all files
+	for (const item of pages) {
 		const relativePath = path.relative('pages/', source + '/' + item.name);
 		if (item.isDirectory()) {
+			// Recursively get all sub-folders and files
 			const nestedFolder = createPressData(
 				path.join(source, item.name),
 				generateIndex,
 				generateSearchIndex,
 				true
 			);
+			// If folder is draft, continue
+			// This includes all sub-folders and their files inside the folder
+			if (nestedFolder[0].get('default').size > 0 && nestedFolder[0].get('default').get('draft'))
+				continue;
+
+			// Add them to the data map
 			data.get('folders').set(item.name, nestedFolder[0]);
-			index = new Map([...index, ...nestedFolder[1]]);
 			const folder = data.get('folders').get(item.name);
+			// If there was no readme, set defaults
 			if (folder.get('default').size === 0) {
 				folder.set(
 					'default',
 					new Map([
 						['name', item.name],
-						['relativePath', relativePath]
+						['relativePath', relativePath],
+						['draft', false]
 					])
 				);
 			} else if (!folder.get('default').get('name')) {
+				// If the readme has no custom name, set it as the filename
 				folder.get('default').set('name', item.name);
 			}
+
+			// Add to search index
+			index = new Map([...index, ...nestedFolder[1]]);
 		} else if (item.isFile()) {
-			const date = item.date?.toGMTString() ?? statSync(path.join(source, item.name)).mtime.toGMTString();
+			// Set date as last modified unless it was set in the sorting section
+			const date =
+				item.date?.toGMTString() ?? statSync(path.join(source, item.name)).mtime.toGMTString();
 			const noCase = item.name.replace(/\.[^/.]+$/, '');
 			const fm = md2fm(readFileSync(`${source}/${noCase}.md`).toString());
 			const body = new Map([
@@ -66,16 +81,20 @@ export default function createPressData(
 			]);
 
 			if (item.name.toLowerCase() === 'readme.md') {
+				body.set('draft', fm.attributes.draft || false);
 				body.set('name', fm.attributes.groupName || undefined);
 				data.set('default', body);
 			} else {
+				// Continue if file is a draft
+				if (fm.attributes.draft) continue;
+
 				data.get('files').set(item.name, body);
 				if (generateSearchIndex) {
 					index.set(relativePath, fm.body);
 				}
 			}
 		}
-	});
+	}
 	if (generateIndex && !recursive) {
 		writeFileSync(
 			'./src/lib/SveltePress/db/sveltePressData.js',
