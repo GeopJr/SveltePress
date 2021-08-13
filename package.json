@@ -10,7 +10,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-netlify": "1.0.0-next.27",
-		"@sveltejs/adapter-node": "1.0.0-next.39",
+		"@sveltejs/adapter-node": "1.0.0-next.40",
 		"@sveltejs/adapter-static": "1.0.0-next.16",
 		"@sveltejs/adapter-vercel": "1.0.0-next.27",
 		"@sveltejs/kit": "next",
