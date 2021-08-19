@@ -9,7 +9,7 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-netlify": "1.0.0-next.28",
+		"@sveltejs/adapter-netlify": "1.0.0-next.29",
 		"@sveltejs/adapter-node": "1.0.0-next.42",
 		"@sveltejs/adapter-static": "1.0.0-next.16",
 		"@sveltejs/adapter-vercel": "1.0.0-next.27",
