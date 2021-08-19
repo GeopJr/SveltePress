@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@sveltejs/adapter-netlify': 1.0.0-next.29
-  '@sveltejs/adapter-node': 1.0.0-next.42
+  '@sveltejs/adapter-node': 1.0.0-next.43
   '@sveltejs/adapter-static': 1.0.0-next.16
   '@sveltejs/adapter-vercel': 1.0.0-next.27
   '@sveltejs/kit': next
@@ -28,7 +28,7 @@ dependencies:
 
 devDependencies:
   '@sveltejs/adapter-netlify': 1.0.0-next.29
-  '@sveltejs/adapter-node': 1.0.0-next.42
+  '@sveltejs/adapter-node': 1.0.0-next.43
   '@sveltejs/adapter-static': 1.0.0-next.16
   '@sveltejs/adapter-vercel': 1.0.0-next.27
   '@sveltejs/kit': 1.0.0-next.154_svelte@3.42.1
@@ -121,10 +121,10 @@ packages:
       esbuild: 0.12.15
     dev: true
 
-  /@sveltejs/adapter-node/1.0.0-next.42:
-    resolution: {integrity: sha512-v7wd07I1iN6D9tY6GK5bMKxrCZKyTUr6/fKfODGMYFg9MAE6L19dqseuPmvbxFakxLEn5x3smmwTv/d5NYQkJg==}
+  /@sveltejs/adapter-node/1.0.0-next.43:
+    resolution: {integrity: sha512-SRKpI67XKcUTzUIhjLDqnuxx7SC3cPazqOAXhLsCTcrgJggqA9Wr7Mpdc05vU6hZYcaLpA+wxOKep2kCmXKfsQ==}
     dependencies:
-      esbuild: 0.12.15
+      esbuild: 0.12.21
       tiny-glob: 0.2.9
     dev: true
 
