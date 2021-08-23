@@ -5,5 +5,16 @@ node_modules
 /.vercel_build_output
 /.svelte
 /build
+.pnpm-debug.log*
+*.log
+npm-debug.log*
+.AppleDouble
+.LSOverride
+.idea
+.cloud
+.project
+tmp/
+typings/
 
+# DB
 /src/lib/SveltePress/db/*.js
