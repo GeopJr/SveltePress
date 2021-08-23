@@ -24,16 +24,12 @@ if (argv.hasOwnProperty('add') && typeof argv.add === 'string') {
 	for (const arg of Object.keys(args)) {
 		if (argv.hasOwnProperty(arg) && argv[arg] === true) enabledArgs.push(args[arg]);
 	}
-	if (enabledArgs.length > 1) {
-		console.log('Too many args. Exited.');
-	} else {
-		const arg = enabledArgs[0] ?? ""
-		const path = argv._.length > 0 ? argv._[0] : './';
-		clone('GeopJr/SveltePress' + arg, path);
-	}
+
+	const path = argv._.length > 0 ? argv._[0] : './';
+	clone('GeopJr/SveltePress', path, enabledArgs);
 }
 
-function clone(repo, path) {
+function clone(repo, path, enabledArgs = [], basePath = path) {
 	const emitter = degit(repo, {
 		cache: false,
 		force: false
@@ -44,7 +40,12 @@ function clone(repo, path) {
 	});
 
 	emitter.clone(path).then(() => {
-		process.exit(0);
+		if (enabledArgs.length > 0) {
+			const currentArg = enabledArgs.shift();
+			clone('GeopJr/SveltePress' + currentArg, basePath + currentArg, enabledArgs, basePath);
+		} else {
+			process.exit(0);
+		}
 	});
 }
 
