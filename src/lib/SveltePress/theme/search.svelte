@@ -1,6 +1,4 @@
 <script>
-	import { goto } from '$app/navigation';
-
 	import { HeaderSearch } from 'carbon-components-svelte';
 
 	export let value;

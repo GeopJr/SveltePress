@@ -1,5 +1,5 @@
 import { readdirSync, statSync, readFileSync, writeFileSync } from 'fs';
-import md2fm from '../MD2FM.js';
+import md2fm from '../markdown/MD2FM.js';
 import path from 'path';
 import Jsesc from 'jsesc';
 import Config from '../sveltePress.config.js';

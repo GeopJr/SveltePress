@@ -1,4 +1,4 @@
-import { md2html } from '$lib/SveltePress/MD2HTML';
+import { md2html } from '$lib/SveltePress/markdown/MD2HTML';
 import { getData } from '$lib/SveltePress/SveltePressData';
 
 // Gets current folder from spData used to get the file

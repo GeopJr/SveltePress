@@ -1,44 +1,9 @@
-import marked from 'marked';
-import sanitizeHtml from 'sanitize-html';
-import hljs from 'highlight.js';
-import md2fm from '$lib/SveltePress/MD2FM';
+import md2fm from '$lib/SveltePress/markdown/MD2FM';
+import { mdConverter } from '$lib/SveltePress/markdown/MDConverter';
 import { getContent } from '$lib/SveltePress/SveltePressData';
 
 import { readFileSync, existsSync } from 'fs';
 import path from 'path';
-
-// sanitize-html options
-const sanitizeOptions = {
-	allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img']),
-	allowedClasses: {
-		code: ['language-*', 'lang-*'],
-		span: ['hljs-*']
-	},
-	selfClosing: []
-};
-
-// Marked options
-marked.setOptions({
-	renderer: new marked.Renderer(),
-	highlight: function (code, lang) {
-		const language = hljs.getLanguage(lang) ? lang : 'plaintext';
-		return hljs.highlight(code, { language }).value;
-	},
-	pedantic: false,
-	gfm: true,
-	breaks: false,
-	sanitize: false,
-	smartLists: true,
-	smartypants: false,
-	xhtml: false
-});
-
-// Here you can change the default markdown converter
-function mdConverter(content) {
-	const html = marked(content);
-	// Sanitize it
-	return sanitizeHtml(html, sanitizeOptions);
-}
 
 export function md2html(post) {
 	try {
