@@ -4,7 +4,7 @@ specifiers:
   '@carbon/themes': 10.40.0
   '@sveltejs/adapter-netlify': 1.0.0-next.29
   '@sveltejs/adapter-node': 1.0.0-next.43
-  '@sveltejs/adapter-static': 1.0.0-next.16
+  '@sveltejs/adapter-static': 1.0.0-next.17
   '@sveltejs/adapter-vercel': 1.0.0-next.27
   '@sveltejs/kit': next
   carbon-components: 10.41.0
@@ -34,7 +34,7 @@ devDependencies:
   '@carbon/themes': 10.40.0
   '@sveltejs/adapter-netlify': 1.0.0-next.29
   '@sveltejs/adapter-node': 1.0.0-next.43
-  '@sveltejs/adapter-static': 1.0.0-next.16
+  '@sveltejs/adapter-static': 1.0.0-next.17
   '@sveltejs/adapter-vercel': 1.0.0-next.27
   '@sveltejs/kit': 1.0.0-next.156_svelte@3.42.2
   carbon-components: 10.41.0
@@ -302,8 +302,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/adapter-static/1.0.0-next.16:
-    resolution: {integrity: sha512-xGFcg+GHF0BL1fyWx2vCzlYj4S4R+Od9cF00soo1TVp/scGOi1G9grSYYW4x5H+iDn1sscoJ65OGBGWIcOgrXg==}
+  /@sveltejs/adapter-static/1.0.0-next.17:
+    resolution: {integrity: sha512-RKYNkQxtsMgt0wD8PhfXR1hGT1Tmq1E5eZeTr1KxIerczITRnWVT8LElfu/9Kusv44yYlyQtNc1mLoYqgloOQw==}
     dev: true
 
   /@sveltejs/adapter-vercel/1.0.0-next.27:
