@@ -15,14 +15,14 @@
     "node-gtk": "^0.9.0"
   },
   "devDependencies": {
-    "clean-webpack-plugin": "^4.0.0-alpha.0",
-    "file-loader": "^6.2.0",
-    "handlebars": "^4.7.7",
-    "nodemon": "^2.0.12",
-    "raw-loader": "^4.0.2",
-    "webpack": "^5.51.1",
-    "webpack-cli": "^4.8.0",
-    "webpack-node-externals": "^3.0.0"
+    "clean-webpack-plugin": "4.0.0-alpha.0",
+    "file-loader": "6.2.0",
+    "handlebars": "4.7.7",
+    "nodemon": "2.0.12",
+    "raw-loader": "4.0.2",
+    "webpack": "5.51.1",
+    "webpack-cli": "4.8.0",
+    "webpack-node-externals": "3.0.0"
   },
 	"license": "Unlicense"
 }
