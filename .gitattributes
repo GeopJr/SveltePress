@@ -4,25 +4,37 @@
 # to is so they are getting igno-
 # red from the language stats.
 
-gui/**/*.cc linguist-vendored
-gui/**/*.h linguist-vendored
-gui/**/*.cpp linguist-vendored
-gui/**/*.xml linguist-vendored
-gui/**/*.glade linguist-vendored
-gui/**/*.xcworkspacedata linguist-vendored
-gui/**/*.entitlements linguist-vendored
-gui/**/*.xib linguist-vendored
-gui/**/*.xcscheme linguist-vendored
-gui/**/*.storyboard linguist-vendored
-gui/**/*.xcsettings linguist-vendored
-gui/**/*.manifest linguist-vendored
-gui/**/*.xbs linguist-vendored
-gui/**/*.js linguist-vendored
-gui/**/CMakeLists.txt linguist-vendored
-gui/**/*.cmake linguist-vendored
-gui/*/test/* linguist-vendored
-gui/*/tests/* linguist-vendored
-# Don't js in ignore top-lever or
-# in src/
-gui/*/*.js -linguist-vendored
-gui/*/src/*.js -linguist-vendored
+# gui/**/*.cc linguist-vendored
+# gui/**/*.h linguist-vendored
+# gui/**/*.cpp linguist-vendored
+# gui/**/*.xml linguist-vendored
+# gui/**/*.glade linguist-vendored
+# gui/**/*.xcworkspacedata linguist-vendored
+# gui/**/*.entitlements linguist-vendored
+# gui/**/*.xib linguist-vendored
+# gui/**/*.xcscheme linguist-vendored
+# gui/**/*.storyboard linguist-vendored
+# gui/**/*.xcsettings linguist-vendored
+# gui/**/*.manifest linguist-vendored
+# gui/**/*.xbs linguist-vendored
+# gui/**/*.js linguist-vendored
+# gui/**/CMakeLists.txt linguist-vendored
+# gui/**/*.cmake linguist-vendored
+# gui/*/test/* linguist-vendored
+# gui/*/tests/* linguist-vendored
+# # Don't js in ignore top-lever or
+# # in src/
+# gui/*/*.js -linguist-vendored
+# gui/*/src/*.js -linguist-vendored
+
+# Change of plans: don't count
+# gui at all except sample fi-
+# es to show that it uses that
+# language too
+
+gui/** linguist-vendored
+gui/**/lib/*.dart -linguist-vendored
+
+src/*.html linguist-vendored
+src/*.css linguist-vendored
+src/*.scss linguist-vendored
