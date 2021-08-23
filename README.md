@@ -65,6 +65,12 @@ pnpm install
 
 #
 
+## GUI
+
+SveltePress can create native GUIs for Android, iOS, Linux, macOS & Windows automatically! Visit the [/gui folder](https://github.com/GeopJr/SveltePress/tree/main/gui) for more info!
+
+#
+
 <p align="center">
     <img alt="diagram of filesystem and the coresponding sidebar" src="https://i.imgur.com/nD87FA2.png">
 </p>
