@@ -3,9 +3,8 @@
 
 	import Sidebar from '$lib/SveltePress/theme/sidebar.svelte';
 
-	const parent = $page.params.group?.split('/');
-	const guide = parent ? $session.get('sidebar').get(parent[0]) : null;
-
+	$: parent = $page.params.group?.split('/');
+	$: guide = parent ? $session.get('sidebar').get(parent[0]) : null;
 	$: groupMap = guide ? [...guide] : [];
 
 	export let isSideNavOpen;
