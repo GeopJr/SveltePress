@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=SP__CUSTOM__NAME
+Exec=run.sh %F
+Icon=default
+Comment=A GTK based GUI from SveltePress
+Terminal=true
+Categories=Utility;
