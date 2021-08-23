@@ -9,11 +9,13 @@
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
+		"@carbon/themes": "^10.40.0",
 		"@sveltejs/adapter-netlify": "1.0.0-next.29",
 		"@sveltejs/adapter-node": "1.0.0-next.43",
 		"@sveltejs/adapter-static": "1.0.0-next.16",
 		"@sveltejs/adapter-vercel": "1.0.0-next.27",
 		"@sveltejs/kit": "next",
+		"carbon-components": "^10.41.0",
 		"carbon-components-svelte": "0.42.2",
 		"carbon-icons-svelte": "10.36.0",
 		"carbon-preprocess-svelte": "0.6.0",
@@ -27,11 +29,14 @@
 		"marked": "3.0.0",
 		"prettier": "2.3.2",
 		"prettier-plugin-svelte": "2.3.1",
+		"sass": "~1.32.6",
 		"svelte": "3.42.1",
+		"svelte-preprocess": "^4.8.0",
 		"svelte-typewriter": "2.4.5"
 	},
 	"type": "module",
 	"dependencies": {
 		"sanitize-html": "2.4.0"
-	}
+	},
+	"license": "Unlicense"
 }
