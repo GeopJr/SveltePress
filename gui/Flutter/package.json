@@ -1,0 +1,32 @@
+{
+	"name": "sveltepress-flutter",
+	"version": "0.0.1",
+	"description": "A Flutter based GUI from SveltePress",
+	"type": "module",
+	"scripts": {
+		"start": "flutter run",
+		"start:linux": "pnpm run start -- -d linux",
+		"start:macos": "pnpm run start -- -d macos",
+		"start:web": "pnpm run start -- -d chrome",
+		"start:web:html": "pnpm run start -- -d chrome --web-renderer html",
+		"start:web:canvaskit": "pnpm run start -- -d chrome --web-renderer canvaskit",
+		"start:windows": "pnpm run start -- -d windows",
+		"prepare": "node prepareParents.js && node prepareTitle.js",
+		"reanme": "node renamePackage.js",
+		"icongen": "flutter pub run flutter_launcher_icons:main",
+		"build": "flutter build",
+		"build:aab": "pnpm run build -- appbundle",
+		"build:apk": "pnpm run build -- apk --split-per-abi",
+		"build:ipa": "pnpm run build -- ipa --release",
+		"build:app": "pnpm run build -- macos --release",
+		"build:linux": "pnpm run build -- linux --release",
+		"build:windows": "pnpm run build -- windows --release",
+		"build:web:html": "pnpm run build -- web --web-renderer html",
+		"build:web:canvaskit": "pnpm run build -- web --web-renderer canvaskit"
+	},
+	"license": "Unlicense",
+	"devDependencies": {
+		"handlebars": "^4.7.7",
+		"uuid": "^8.3.2"
+	}
+}
