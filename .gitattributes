@@ -35,6 +35,6 @@
 gui/** linguist-vendored
 gui/**/lib/*.dart -linguist-vendored
 
-src/*.html linguist-vendored
-src/*.css linguist-vendored
-src/*.scss linguist-vendored
+src/**/*.html linguist-vendored
+src/**/*.css linguist-vendored
+src/**/*.scss linguist-vendored
