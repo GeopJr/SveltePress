@@ -147,7 +147,7 @@
 		</Row>
 	</Grid>
 	<footer>
-		&copy;⃠ 2021{currentYear === 2021 ? '' : ' - ' + currentYear} -
+		<span class="pd" /> 2021{currentYear === 2021 ? '' : ' - ' + currentYear} -
 		<a class="sp--link" href="https://geopjr.dev/">GeopJr</a>
 	</footer>
 </div>
@@ -165,6 +165,28 @@
 
 	:global(.sp--tile) {
 		height: 100%;
+	}
+
+	.pd {
+		display: inline-flex;
+		width: 18px;
+		height: 18px;
+		vertical-align: middle;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.pd::after {
+		content: '🚫';
+		display: block;
+		position: absolute;
+		font-size: 100%;
+	}
+	.pd::before {
+		content: '\00a9';
+		display: block;
+		position: absolute;
+		font-size: 100%;
 	}
 
 	.sp--imagePromo {
