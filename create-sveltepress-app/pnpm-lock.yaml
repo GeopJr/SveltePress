@@ -2,9 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   degit: 2.8.4
+  minimist: ^1.2.5
 
 dependencies:
   degit: 2.8.4
+  minimist: 1.2.5
 
 packages:
 
@@ -12,4 +14,8 @@ packages:
     resolution: {integrity: sha512-vqYuzmSA5I50J882jd+AbAhQtgK6bdKUJIex1JNfEUPENCgYsxugzKVZlFyMwV4i06MmnV47/Iqi5Io86zf3Ng==}
     engines: {node: '>=8.0.0'}
     hasBin: true
+    dev: false
+
+  /minimist/1.2.5:
+    resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
     dev: false

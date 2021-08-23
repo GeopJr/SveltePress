@@ -14,6 +14,7 @@
 ## What is create-sveltepress-app?
 
 create-sveltepress-app is a wrapper around degit for easier installation of [SveltePress](https://github.com/GeopJr/SveltePress).
+It also has some adders, check them out on the help page!
 
 #
 
@@ -29,6 +30,11 @@ cd my-sveltepress-project
 # Install dependencies
 # PNPM is recommended but both YARN and NPM will do
 pnpm install
+```
+
+```bash
+# All available commands
+npx create-sveltepress-app -h
 ```
 
 > For more info on how SveltePress works, how to set it up & more, visit [https://sveltepress.geopjr.dev/](https://sveltepress.geopjr.dev/)
