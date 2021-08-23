@@ -1,0 +1,7 @@
+deploy/**/assets
+deploy/*/build
+dist
+**/default.png
+
+deploy/**/Contents/Info.plist
+deploy/**/default.desktop
