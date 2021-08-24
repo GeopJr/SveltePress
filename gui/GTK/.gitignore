@@ -2,3 +2,6 @@
 build/
 dist/
 src/ui.glade
+
+# Symlinks
+/assets

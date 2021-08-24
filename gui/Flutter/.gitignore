@@ -49,3 +49,6 @@ lib/title.dart
 *.png
 index.json
 web/manifest.json
+
+# Symlinks
+/assets

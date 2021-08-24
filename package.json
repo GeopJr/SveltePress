@@ -5,6 +5,7 @@
 		"dev": "node generateProdData.js && svelte-kit dev",
 		"build": "node generateProdData.js && svelte-kit build",
 		"preview": "svelte-kit preview",
+		"prepare":"node generateSymlinks.js",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
