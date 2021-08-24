@@ -29,7 +29,7 @@
 		"marked": "3.0.1",
 		"prettier": "2.3.2",
 		"prettier-plugin-svelte": "2.3.1",
-		"sass": "1.32.13",
+		"sass": "1.38.1",
 		"svelte": "3.42.2",
 		"svelte-preprocess": "4.8.0",
 		"svelte-typewriter": "2.4.5"
