@@ -10,7 +10,8 @@
     "dev": "webpack && qode ./dist/index.js",
     "debug": "webpack && qode --inspect ./dist/index.js",
     "dev:watch": "nodemon -e js,ts,tsx,svg --ignore dist/ --ignore node_modules/ --exec pnpm start",
-    "pack": "pnpm run build && pnpm run prepare && node prepareAssets.js && npx nodegui-packer --pack ./dist"
+    "pack": "pnpm run build && pnpm run prepare && node prepareAssets.js && npx nodegui-packer --pack ./dist",
+		"preinstall": "node ../generateSymlinks.mjs"
   },
   "dependencies": {
     "@nodegui/nodegui": "0.36.0"

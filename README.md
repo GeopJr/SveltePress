@@ -59,7 +59,11 @@ cd my-sveltepress-project
 # Install dependencies
 # PNPM is recommended but both YARN and NPM will do
 pnpm install
+
+# A post-install script will now create some symlinks
 ```
+
+#### On Windows (non-WSL), creating symlinks requires Admin Privileges, the script will ask you to re-run it in an Admin terminal.
 
 > For more info on how SveltePress works, how to set it up & more, visit [https://sveltepress.geopjr.dev/](https://sveltepress.geopjr.dev/)
 

@@ -8,8 +8,9 @@
     "build": "webpack --mode production",
     "dev": "webpack && node ./dist/index.cjs",
     "dev:watch": "nodemon -e js,ts,tsx,svg,glade --ignore node_modules/ --exec pnpm start",
-    "glade": "node prepareGlade.js",
-    "start": "node dist/index.cjs"
+    "prepare": "node prepareGlade.js",
+    "start": "node dist/index.cjs",
+		"preinstall": "node ../generateSymlinks.mjs"
   },
   "dependencies": {
     "node-gtk": "^0.9.0"

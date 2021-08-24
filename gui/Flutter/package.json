@@ -22,7 +22,8 @@
 		"build:linux": "pnpm run build -- linux --release",
 		"build:windows": "pnpm run build -- windows --release",
 		"build:web:html": "pnpm run build -- web --web-renderer html",
-		"build:web:canvaskit": "pnpm run build -- web --web-renderer canvaskit"
+		"build:web:canvaskit": "pnpm run build -- web --web-renderer canvaskit",
+		"preinstall": "node ../generateSymlinks.mjs"
 	},
 	"license": "Unlicense",
 	"devDependencies": {

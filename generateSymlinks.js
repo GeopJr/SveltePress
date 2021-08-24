@@ -1,21 +1,26 @@
 import { symlinkSync, existsSync } from 'fs';
-// import { execSync } from 'child_process';
+import { resolve, join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
-const isWin = process.platform === 'win32';
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const paths = {
-	'./sveltePress.config.js': './src/lib/SveltePress/sveltePress.config.js',
-	'./gui/Flutter/assets': '../../static/',
-	'./gui/QT/assets': '../../static/',
-	'./gui/GTK/assets': '../../static/'
+	'sveltePress.config.js': './src/lib/SveltePress/sveltePress.config.js',
+	'gui/Flutter/assets': '../../static/',
+	'gui/QT/assets': '../../static/',
+	'gui/GTK/assets': '../../static/'
 };
 
-function createSymLinks(win = isWin) {
+export function createSymLinks(win = process.platform === 'win32') {
+	Object.keys(paths).forEach((key) => {
+		paths[resolve(join(__dirname, key))] = paths[key];
+		delete paths[key];
+	});
 	for (const dest of Object.keys(paths)) {
 		const target = paths[dest];
 		const isFolder = target.endsWith('/');
-		// Skip if paths dont exist
-		if (!existsSync(isFolder ? dest.split('/').slice(0, -1).join('/') : target)) continue;
+		if (isFolder && !existsSync(dest.split('/').slice(0, -1).join('/'))) continue;
+
 		try {
 			symlinkSync(target, dest, isFolder ? 'dir' : 'file');
 		} catch (e) {
@@ -23,7 +28,7 @@ function createSymLinks(win = isWin) {
 				console.log('\x1b[31m%s\x1b[0m', `Windows requires Admin to make symlinks`);
 				console.log(
 					'\x1b[31m%s\x1b[0m',
-					`Please run 'node generateSymlinks.js' on an terminal with Admin Privileges`
+					`Please run 'node generateSymlinks.js' on an terminal with Admin Privileges from SveltePress root`
 				);
 
 				// Removed because admin requires a password (blank doesnt work)
@@ -39,4 +44,4 @@ function createSymLinks(win = isWin) {
 	}
 }
 
-createSymLinks(isWin);
+createSymLinks();

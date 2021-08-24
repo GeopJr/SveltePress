@@ -83,7 +83,7 @@ NPM Scripts:
 | `dev`       | Dev build                                                                                        |
 | `dev:watch` | Dev build wrapped watched by nodemon                                                             |
 | `build`     | Prod build                                                                                       |
-| `glade`     | Runs prepareGlade [Run every time posts get modified or the title in SveltePress config changes] |
+| `prepare`   | Runs prepareGlade [Run every time posts get modified or the title in SveltePress config changes] |
 | `start`     | Starts the prod build                                                                            |
 
 > Run using `pnpm run {Script Name}`
