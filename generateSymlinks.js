@@ -1,5 +1,5 @@
 import { symlinkSync, existsSync } from 'fs';
-import { resolve, join, dirname } from 'path';
+import { resolve, join, dirname, sep } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -19,7 +19,7 @@ export function createSymLinks(win = process.platform === 'win32') {
 	for (const dest of Object.keys(paths)) {
 		const target = paths[dest];
 		const isFolder = target.endsWith('/');
-		if (isFolder && !existsSync(dest.split('/').slice(0, -1).join('/'))) continue;
+		if (isFolder && !existsSync(dest.split(sep).slice(0, -1).join(sep))) continue;
 
 		try {
 			symlinkSync(target, dest, isFolder ? 'dir' : 'file');
@@ -28,7 +28,7 @@ export function createSymLinks(win = process.platform === 'win32') {
 				console.log('\x1b[31m%s\x1b[0m', `Windows requires Admin to make symlinks`);
 				console.log(
 					'\x1b[31m%s\x1b[0m',
-					`Please run 'node generateSymlinks.js' on an terminal with Admin Privileges from SveltePress root`
+					`Please run 'node generateSymlinks.js' on a terminal with Admin Privileges from your SveltePress project root`
 				);
 
 				// Removed because admin requires a password (blank doesnt work)
