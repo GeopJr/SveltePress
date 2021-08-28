@@ -31,7 +31,7 @@
 		"prettier": "2.3.2",
 		"prettier-plugin-svelte": "2.4.0",
 		"sass": "1.38.2",
-		"svelte": "3.42.3",
+		"svelte": "3.42.4",
 		"svelte-preprocess": "4.8.0",
 		"svelte-typewriter": "2.4.5"
 	},
