@@ -14,7 +14,7 @@
 		"preinstall": "node ../generateSymlinks.mjs"
   },
   "dependencies": {
-    "@nodegui/nodegui": "0.36.0"
+    "@nodegui/nodegui": "0.37.0"
   },
   "devDependencies": {
     "@nodegui/packer": "1.4.1",
