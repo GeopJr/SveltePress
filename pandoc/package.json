@@ -1,0 +1,14 @@
+{
+  "name": "sveltepress-pandoc",
+  "version": "1.0.0",
+  "description": "Script that prepares posts to be handled by pandoc",
+  "type": "module",
+  "scripts": {
+    "prepare": "node preparePosts.js",
+    "pandoc": "node runPandoc.js"
+  },
+  "license": "Unlicense",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}

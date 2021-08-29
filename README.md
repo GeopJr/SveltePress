@@ -75,6 +75,12 @@ SveltePress can create native GUIs for Android, iOS, Linux, macOS & Windows auto
 
 #
 
+## Pandoc
+
+SveltePress can export to epub, pdf, docx [and a whole lot more formats using Pandoc](https://pandoc.org/). Visit the [/pandoc folder](https://github.com/GeopJr/SveltePress/tree/main/pandoc) for more info!
+
+#
+
 <p align="center">
     <img alt="diagram of filesystem and the coresponding sidebar" src="https://i.imgur.com/nD87FA2.png">
 </p>

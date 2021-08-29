@@ -1,6 +1,6 @@
 {
 	"name": "create-sveltepress-app",
-	"version": "1.1.1",
+	"version": "1.2.0",
 	"description": "Documentation for humans.",
 	"bin": {
 		"create-sveltepress-app": "createSveltepressApp.js"

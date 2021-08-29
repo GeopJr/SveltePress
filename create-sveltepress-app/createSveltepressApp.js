@@ -3,13 +3,17 @@ const argv = require('minimist')(process.argv.slice(2));
 const degit = require('degit');
 
 const args = {
-	gui: '/gui'
+	gui: '/gui',
+	pandoc: '/pandoc'
 };
 
 if (argv.hasOwnProperty('add') && typeof argv.add === 'string') {
 	switch (argv.add) {
 		case 'gui':
 			clone('GeopJr/SveltePress/gui', './gui');
+			break;
+		case 'pandoc':
+			clone('GeopJr/SveltePress/pandoc', './pandoc');
 			break;
 		default:
 			console.log('Unknown adder. Exited.');
@@ -56,13 +60,15 @@ function printHelp() {
 
 	Options
 	  --gui Includes the gui folder if project init
+	  --pandoc Includes the pandoc folder if project init
 	  --add=ADDER Adds adder to the current project
 
 	Adders
 	  --add=gui Adds the gui folder
+	  --add=pandoc Adds the pandoc folder
 
 	Examples
-	  create-sveltepress-app
+	  create-sveltepress-app --pandoc
 	  create-sveltepress-app my-sveltepress-project
 	  create-sveltepress-app my-sveltepress-project --gui
 	  create-sveltepress-app --add=gui
