@@ -17,7 +17,7 @@ specifiers:
   prettier: 2.3.2
   prettier-plugin-svelte: 2.4.0
   sanitize-html: 2.4.0
-  sass: 1.38.2
+  sass: 1.39.0
   svelte: 3.42.4
   svelte-preprocess: 4.8.0
 
@@ -40,9 +40,9 @@ devDependencies:
   marked: 3.0.2
   prettier: 2.3.2
   prettier-plugin-svelte: 2.4.0_prettier@2.3.2+svelte@3.42.4
-  sass: 1.38.2
+  sass: 1.39.0
   svelte: 3.42.4
-  svelte-preprocess: 4.8.0_sass@1.38.2+svelte@3.42.4
+  svelte-preprocess: 4.8.0_sass@1.39.0+svelte@3.42.4
 
 packages:
 
@@ -1068,8 +1068,8 @@ packages:
       postcss: 8.3.6
     dev: false
 
-  /sass/1.38.2:
-    resolution: {integrity: sha512-Bz1fG6qiyF0FX6m/I+VxtdVKz1Dfmg/e9kfDy2PhWOkq3T384q2KxwIfP0fXpeI+EyyETdOauH+cRHQDFASllA==}
+  /sass/1.39.0:
+    resolution: {integrity: sha512-F4o+RhJkNOIG0b6QudYU8c78ZADKZjKDk5cyrf8XTKWfrgbtyVVXImFstJrc+1pkQDCggyidIOytq6gS4gCCZg==}
     engines: {node: '>=8.9.0'}
     hasBin: true
     dependencies:
@@ -1167,7 +1167,7 @@ packages:
       svelte: 3.42.4
     dev: true
 
-  /svelte-preprocess/4.8.0_sass@1.38.2+svelte@3.42.4:
+  /svelte-preprocess/4.8.0_sass@1.39.0+svelte@3.42.4:
     resolution: {integrity: sha512-i9Z17cwGlp+kuSSv3kJWdAdAP2L26A5yMzHHdDj8YL+86sN64Yz5/gfjQp3Xb6fiaToo4sB+wTpid/23Gz0yvw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
@@ -1211,7 +1211,7 @@ packages:
       '@types/pug': 2.0.5
       '@types/sass': 1.16.1
       detect-indent: 6.1.0
-      sass: 1.38.2
+      sass: 1.39.0
       strip-indent: 3.0.0
       svelte: 3.42.4
     dev: true
