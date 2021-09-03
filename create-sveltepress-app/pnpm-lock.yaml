@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  chalk: ^4.1.2
+  chalk: 4.1.2
   degit: 2.8.4
   minimist: 1.2.5
 
