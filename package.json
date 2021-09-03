@@ -8,7 +8,7 @@
     "postinstall": "node generateSymlinks.js",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. .",
-    "preinstall": "node prepareTheme.js && npx -p yarpm@1.1.1 yarpm-pnpm i --ignore-scripts"
+    "preinstall": "node prepareTheme.js && npx -p yarpm@1.1.1 yarpm-pnpm install --ignore-scripts"
   },
   "devDependencies": {
     "@sveltejs/adapter-netlify": "1.0.0-next.29",
