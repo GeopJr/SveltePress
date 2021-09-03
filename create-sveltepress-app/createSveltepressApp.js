@@ -138,7 +138,6 @@ ${chalk.yellowBright('Args')}
 
 ${chalk.yellowBright('Themes')}
   --theme=author/repo Takes anything degit accepts
-  --add-theme=author/repo Takes anything degit accepts
 
 ${chalk.yellowBright('Examples')}
   create-sveltepress-app create --pandoc
