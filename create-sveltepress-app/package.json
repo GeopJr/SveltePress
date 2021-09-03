@@ -1,6 +1,6 @@
 {
 	"name": "create-sveltepress-app",
-	"version": "1.2.0",
+	"version": "2.0.0",
 	"description": "Documentation for humans.",
 	"bin": {
 		"create-sveltepress-app": "createSveltepressApp.js"
@@ -22,6 +22,7 @@
 	},
 	"homepage": "https://github.com/GeopJr/SveltePress#readme",
 	"dependencies": {
+		"chalk": "^4.1.2",
 		"degit": "2.8.4",
 		"minimist": "1.2.5"
 	}

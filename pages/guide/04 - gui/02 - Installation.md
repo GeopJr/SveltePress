@@ -12,12 +12,12 @@ Using create-sveltepress-app:
 
 ```bash
 # If you have SveltePress installed already
-npx create-sveltepress-app --add=gui
+npx create-sveltepress-app add --gui
 
 # If you don't have SveltePress installed you
 # can include this by adding the `--gui` flag
 # eg.
-npx create-sveltepress-app my-sveltepress-project --gui
+npx create-sveltepress-app create my-sveltepress-project --gui
 ```
 
 Using degit:

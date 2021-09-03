@@ -22,7 +22,7 @@ It also has some adders, check them out on the help page!
 
 ```bash
 # Replace `my-sveltepress-project` with the name you desire
-npx create-sveltepress-app my-sveltepress-project
+npx create-sveltepress-app create my-sveltepress-project
 
 # Change directory to the folder from the previous step
 cd my-sveltepress-project

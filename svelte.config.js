@@ -1,6 +1,6 @@
-import { optimizeImports } from 'carbon-preprocess-svelte';
 import sveltePreprocess from 'svelte-preprocess';
 import generatePrerenderRoutes from './generatePrerenderRoutes.js';
+import { config as themeConfig } from './src/lib/SveltePress/theme/meta/svelte.config.js';
 // Pick one of the adapters listed below
 // or install and use others
 import node from '@sveltejs/adapter-node';
@@ -10,25 +10,8 @@ import staticAdptr from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: [
-		optimizeImports(),
-		sveltePreprocess({
-			scss: true,
-			sass: true,
-			replace: [
-				[
-					'carbon-components-svelte/css/all.css',
-					process.env.NODE_ENV === 'production'
-						? '$lib/SveltePress/theme/styles/global.scss'
-						: 'carbon-components-svelte/css/all.css'
-				]
-			]
-		})
-	],
 	kit: {
 		// Use your desired adapter
-		// static is not currently supported
-		// by SveltePress due to the slug
 		adapter: vercel(),
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#SveltePress',
@@ -37,11 +20,19 @@ const config = {
 			// plugins: [process.env.NODE_ENV === 'production' && optimizeCss()],
 			server: {
 				watch: {
-					ignored: ['./gui/', './create-sveltepress-app']
+					ignored: ['./gui/', './create-sveltepress-app', './pandoc/']
 				}
-			}
+			},
+			...themeConfig.kit?.vite?.()
 		})
-	}
+	},
+	preprocess: [
+		sveltePreprocess({
+			scss: true,
+			sass: true
+		}),
+		...themeConfig.preprocess
+	],
 };
 
 if (config.kit?.adapter?.name === '@sveltejs/adapter-static') {

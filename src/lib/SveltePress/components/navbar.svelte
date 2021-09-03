@@ -1,5 +1,5 @@
 <script>
-	import Navbar from '$lib/SveltePress/theme/navbar.svelte';
+	import Navbar from '$lib/SveltePress/theme/components/navbar.svelte';
 	import ConfigSP from '$lib/SveltePress/sveltePress.config';
 	import { session } from '$app/stores';
 
@@ -8,6 +8,7 @@
 		: $session.get('navbar').concat(ConfigSP.nav.items || []);
 
 	export let isSideNavOpen;
+	export let sidebar;
 </script>
 
-<Navbar bind:isSideNavOpen {nav} />
+<Navbar {sidebar} bind:isSideNavOpen {nav} />

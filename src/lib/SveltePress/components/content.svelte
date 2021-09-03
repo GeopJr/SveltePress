@@ -1,5 +1,5 @@
 <script>
-	import Content from '$lib/SveltePress/theme/content.svelte';
+	import Content from '$lib/SveltePress/theme/components/content.svelte';
 
 	export let pagination = {};
 	export let meta = {};

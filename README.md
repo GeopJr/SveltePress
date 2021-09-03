@@ -51,7 +51,7 @@ The best way to install SveltePress is by using [degit](https://github.com/Rich-
 # Replace `my-sveltepress-project` with the name you desire
 npx degit GeopJr/SveltePress my-sveltepress-project
 # or by using create-sveltepress-app (which wraps the above)
-npx create-sveltepress-app my-sveltepress-project
+npx create-sveltepress-app create my-sveltepress-project
 
 # Change directory to the folder from the previous step
 cd my-sveltepress-project
@@ -66,6 +66,28 @@ pnpm install
 #### On Windows (non-WSL), creating symlinks requires Admin Privileges, the script will ask you to re-run it in an Admin terminal.
 
 > For more info on how SveltePress works, how to set it up & more, visit [https://sveltepress.geopjr.dev/](https://sveltepress.geopjr.dev/)
+
+#
+
+## Themes
+
+There's not a curated theme gallery, but any repo will do.
+Themes are being handled by `create-sveltepress-app`:
+
+```bash
+# Create a new SveltePress with the cakepop theme
+create-sveltepress-app create my-sveltepress-project --theme=GeopJr/cakepop
+
+# Or replace your current theme with cakepop (assumes you are at the root of your Sveltepress project)
+create-sveltepress-app add --theme=GeopJr/cakepop
+
+# Or restore to the default theme
+create-sveltepress-app add --theme=GeopJr/SveltePress/src/lib/SveltePress/theme/
+```
+
+The `--theme` argument accepts anything degit handles (including branches, folders, tags etc.).
+
+[cakepop](https://github.com/GeopJr/cakepop) is an 'official' theme using Windi CSS.
 
 #
 

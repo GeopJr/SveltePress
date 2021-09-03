@@ -14,8 +14,7 @@
 		HeaderPanelLink
 	} from 'carbon-components-svelte';
 	import Search from '$lib/SveltePress/components/search.svelte';
-	import { theme } from '../../../stores';
-	import Config from '$lib/SveltePress/sveltePress.config';
+	import { theme } from '../../../../stores';
 
 	import RadioButton20 from 'carbon-icons-svelte/lib/RadioButton20';
 	import Contrast20 from 'carbon-icons-svelte/lib/Contrast20';
@@ -73,6 +72,7 @@
 						text={navItem.name}
 						target={isExternal(navItem.link) ? '_blank' : undefined}
 						rel={isExternal(navItem.link) ? 'noopener' : undefined}
+						sveltekit:prefetch={!isExternal(navItem.link) ? true : null}
 					/>
 				{/each}
 			</HeaderNavMenu>
@@ -83,6 +83,7 @@
 					text={navItem.name}
 					target={isExternal(navItem.link) ? '_blank' : undefined}
 					rel={isExternal(navItem.link) ? 'noopener' : undefined}
+					sveltekit:prefetch={!isExternal(navItem.link) ? true : null}
 				/>
 			{/each}
 		{/if}
@@ -112,6 +113,7 @@
 							href={navItem.link}
 							target={isExternal(navItem.link) ? '_blank' : undefined}
 							rel={isExternal(navItem.link) ? 'noopener' : undefined}
+							sveltekit:prefetch={!isExternal(navItem.link) ? true : null}
 							>{navItem.name}</HeaderPanelLink
 						>
 					{/each}
@@ -124,19 +126,16 @@
 	</HeaderUtilities>
 </Header>
 
-<style>
+<style lang="scss">
 	.sp--theme-switcher-button {
 		display: none;
+		@media only screen and (min-width: 1056px) {
+			display: inline-flex;
+		}
 	}
 	.sp--app-menu {
 		display: inline-flex;
-	}
-
-	@media only screen and (min-width: 1056px) {
-		.sp--theme-switcher-button {
-			display: inline-flex;
-		}
-		.sp--app-menu {
+		@media only screen and (min-width: 1056px) {
 			display: none;
 		}
 	}

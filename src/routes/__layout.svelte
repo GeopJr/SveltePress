@@ -1,7 +1,8 @@
 <script>
 	import { page } from '$app/stores';
-	import 'carbon-components-svelte/css/all.css';
-	import '$lib/SveltePress/theme/styles/patches.css';
+
+	import '$lib/SveltePress/theme/styles/global.scss';
+
 	import 'highlight.js/styles/hybrid.css';
 
 	import Theme from '$lib/SveltePress/Theme.svelte';
@@ -17,7 +18,7 @@
 
 <Theme />
 
-<Navbar bind:isSideNavOpen />
+<Navbar {sidebar} bind:isSideNavOpen />
 
 {#if sidebar}
 	<Sidebar bind:isSideNavOpen />

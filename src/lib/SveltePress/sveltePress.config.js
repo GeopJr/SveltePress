@@ -13,6 +13,10 @@ export default {
 		overwrite: false,
 		items: [
 			{
+				link: 'https://cakepop.vercel.app/',
+				name: 'cakepop'
+			},
+			{
 				link: 'https://github.com/GeopJr/SveltePress',
 				name: 'GitHub'
 			}
