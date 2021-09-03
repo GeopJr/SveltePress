@@ -76,13 +76,13 @@ Themes are being handled by `create-sveltepress-app`:
 
 ```bash
 # Create a new SveltePress with the cakepop theme
-create-sveltepress-app create my-sveltepress-project --theme=GeopJr/cakepop
+npx create-sveltepress-app create my-sveltepress-project --theme=GeopJr/cakepop
 
 # Or replace your current theme with cakepop (assumes you are at the root of your Sveltepress project)
-create-sveltepress-app add --theme=GeopJr/cakepop
+npx create-sveltepress-app add --theme=GeopJr/cakepop
 
 # Or restore to the default theme
-create-sveltepress-app add --theme=GeopJr/SveltePress/src/lib/SveltePress/theme/
+npx create-sveltepress-app add --theme=GeopJr/SveltePress/src/lib/SveltePress/theme/
 ```
 
 The `--theme` argument accepts anything degit handles (including branches, folders, tags etc.).

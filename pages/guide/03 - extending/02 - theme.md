@@ -12,11 +12,11 @@ Here's some examples (CSA also provides examples on its help menu):
 
 ```bash
 # Create a new SveltePress with the cakepop theme
-create-sveltepress-app create my-sveltepress-project --theme=GeopJr/cakepop
+npx create-sveltepress-app create my-sveltepress-project --theme=GeopJr/cakepop
 # Replace your current theme with cakepop and add pandoc (assumes you are at the root of your Sveltepress project)
-create-sveltepress-app add --theme=GeopJr/cakepop --pandoc
+npx create-sveltepress-app add --theme=GeopJr/cakepop --pandoc
 # Restore to the default theme
-create-sveltepress-app add --theme=GeopJr/SveltePress/src/lib/SveltePress/theme/
+npx create-sveltepress-app add --theme=GeopJr/SveltePress/src/lib/SveltePress/theme/
 ```
 
 As you might have noticed from that last example, the `--theme` arg takes anything degit accepts.
