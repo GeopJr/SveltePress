@@ -206,7 +206,7 @@
 	}
 
 	:global(.sp--grid) {
-		margin-bottom: 2rem;
+		margin-bottom: 1rem !important;
 	}
 
 	:global(.sp--features) {

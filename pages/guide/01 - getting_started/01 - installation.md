@@ -10,7 +10,7 @@ The best way to install SveltePress is by using [degit](https://github.com/Rich-
 # Replace `my-sveltepress-project` with the name you desire
 npx degit GeopJr/SveltePress my-sveltepress-project
 # or by using create-sveltepress-app (which wraps the above)
-npx create-sveltepress-app my-sveltepress-project
+npx create-sveltepress-app create my-sveltepress-project
 
 # Change directory to the folder from the previous step
 cd my-sveltepress-project

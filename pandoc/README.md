@@ -32,12 +32,12 @@ Using create-sveltepress-app:
 
 ```bash
 # If you have SveltePress installed already
-npx create-sveltepress-app --add=pandoc
+npx create-sveltepress-app add --pandoc
 
 # If you don't have SveltePress installed you
 # can include this by adding the `--pandoc` flag
 # eg.
-npx create-sveltepress-app my-sveltepress-project --pandoc
+npx create-sveltepress-app create my-sveltepress-project --pandoc
 ```
 
 Using degit:
