@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/adapter-netlify': 1.0.0-next.29
+  '@sveltejs/adapter-netlify': 1.0.0-next.30
   '@sveltejs/adapter-node': 1.0.0-next.43
   '@sveltejs/adapter-static': 1.0.0-next.17
   '@sveltejs/adapter-vercel': 1.0.0-next.27
@@ -25,7 +25,7 @@ dependencies:
   sanitize-html: 2.4.0
 
 devDependencies:
-  '@sveltejs/adapter-netlify': 1.0.0-next.29
+  '@sveltejs/adapter-netlify': 1.0.0-next.30
   '@sveltejs/adapter-node': 1.0.0-next.43
   '@sveltejs/adapter-static': 1.0.0-next.17
   '@sveltejs/adapter-vercel': 1.0.0-next.27
@@ -110,8 +110,8 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.29:
-    resolution: {integrity: sha512-CJAdDv7p1brGKQfMPmsgDeBPygstmuN9VYO+x+nV3DfMTPg7WYwDuZ8OwSjCHE4tvsWARHKZGvsSLe1lz0T5ug==}
+  /@sveltejs/adapter-netlify/1.0.0-next.30:
+    resolution: {integrity: sha512-pGSd/jiDGW/cSC5L69Jhp9oR9GQpNgjA3OUzDVgouYu1rQnN5AloQCcx0wOFNUl6BQVG1JERqOBHpczLP9NPGA==}
     dependencies:
       '@iarna/toml': 2.2.5
       esbuild: 0.12.25
