@@ -15,6 +15,7 @@ npm-debug.log*
 .project
 tmp/
 typings/
+/.gitkeep
 
 # DB
 /src/lib/SveltePress/db/*.js

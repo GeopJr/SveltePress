@@ -21,6 +21,8 @@
 		if (!isThemeAvailable($theme)) return;
 
 		document.documentElement.setAttribute('theme', $theme);
+		// Some themes use this attribute
+		document.documentElement.setAttribute('data-theme', $theme);
 		localStorage.setItem(key, $theme);
 	});
 </script>

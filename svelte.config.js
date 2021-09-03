@@ -22,16 +22,17 @@ const config = {
 				watch: {
 					ignored: ['./gui/', './create-sveltepress-app', './pandoc/']
 				}
-			}
+			},
+			...themeConfig.kit?.vite?.()
 		})
 	},
 	preprocess: [
 		sveltePreprocess({
 			scss: true,
 			sass: true
-		})
+		}),
+		...themeConfig.preprocess
 	],
-	...themeConfig
 };
 
 if (config.kit?.adapter?.name === '@sveltejs/adapter-static') {

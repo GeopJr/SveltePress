@@ -4,9 +4,6 @@
 	import ArrowLeft32 from 'carbon-icons-svelte/lib/ArrowLeft32';
 
 	export let pagination = {};
-
-	// Unused, but its all front matter metadata
-	// export let meta = {};
 </script>
 
 <Content>
@@ -42,15 +39,12 @@
 	{/if}
 </div>
 
-<style>
+<style lang="scss">
 	.pagination {
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
-	}
-
-	@media only screen and (min-width: 1056px) {
-		.pagination {
+		@media only screen and (min-width: 1056px) {
 			margin-left: 16rem;
 		}
 	}

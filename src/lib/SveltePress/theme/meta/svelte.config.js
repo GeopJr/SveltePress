@@ -10,10 +10,10 @@ export const config = {
 			sass: true,
 			replace: [
 				[
-					'carbon-components-svelte/css/all.css',
+					'import \'$lib/SveltePress/theme/styles/global.scss\'',
 					process.env.NODE_ENV === 'production'
-						? '$lib/SveltePress/theme/styles/global.scss'
-						: 'carbon-components-svelte/css/all.css'
+						? 'import \'$lib/SveltePress/theme/styles/global.scss\''
+						: 'import \'carbon-components-svelte/css/all.css\';import \'$lib/SveltePress/theme/styles/patches.scss\''
 				]
 			]
 		})

@@ -13,7 +13,7 @@
 	import { dev } from '$app/env';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
-	import Search from '$lib/SveltePress/theme/search.svelte';
+	import Search from '$lib/SveltePress/theme/components/search.svelte';
 	import sidebar from '$lib/SveltePress/db/sveltePressSidebar';
 
 	const parent = $page.params?.group?.split('/')[0];
@@ -50,9 +50,14 @@
 	let value = '';
 	let selectedHref = '';
 
+	export let isOpen;
+
 	$: results = search(value);
 
-	$: if (selectedHref && selectedHref.length > 0) goto(selectedHref);
+	$: if (selectedHref && selectedHref.length > 0) {
+		goto(selectedHref);
+		isOpen = false;
+	}
 </script>
 
-<Search bind:value {results} bind:selectedHref />
+<Search bind:value bind:isOpen {results} bind:selectedHref />
