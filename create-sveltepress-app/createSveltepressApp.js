@@ -4,7 +4,7 @@ const degit = require('degit');
 const fs = require('fs');
 const chalk = require('chalk');
 
-const base = 'GeopJr/SveltePress#theming';
+const base = 'GeopJr/SveltePress';
 
 const adders = {
 	gui: '/gui',
@@ -78,14 +78,17 @@ async function handleCreate() {
 async function themeCheck() {
 	if (!argv.theme.includes('/')) {
 		console.error(`${chalk.redBright('Theme not in repo format. Exited.')}`);
+		return;
 	}
 	const themePath = `${spLocation}/src/lib/SveltePress/theme/`;
-	if (!fs.existsSync(themePath))
+	if (!fs.existsSync(themePath)) {
 		console.error(
 			`${chalk.redBright('Theme folder is missing')} ${chalk.yellow(
 				'(' + themePath + ')'
 			)}. ${chalk.redBright('Exited.')}`
 		);
+		return;
+	}
 	console.log(
 		`${chalk.redBright('Theme folder')} ${chalk.yellow('(' + themePath + ')')} ${chalk.redBright(
 			'will now be deleted. To revert to the default theme run'
