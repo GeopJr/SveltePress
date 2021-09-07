@@ -28,7 +28,7 @@
     "prettier-plugin-svelte": "2.4.0",
     "sass": "1.39.0",
     "svelte": "3.42.4",
-    "svelte-preprocess": "4.9.1"
+    "svelte-preprocess": "4.9.2"
   },
   "type": "module",
   "dependencies": {
