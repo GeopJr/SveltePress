@@ -16,13 +16,13 @@ specifiers:
   marked: 3.0.3
   prettier: 2.3.2
   prettier-plugin-svelte: 2.4.0
-  sanitize-html: 2.4.0
+  sanitize-html: 2.5.0
   sass: 1.39.0
   svelte: 3.42.4
   svelte-preprocess: 4.9.2
 
 dependencies:
-  sanitize-html: 2.4.0
+  sanitize-html: 2.5.0
 
 devDependencies:
   '@sveltejs/adapter-netlify': 1.0.0-next.30
@@ -1095,8 +1095,8 @@ packages:
       rimraf: 2.7.1
     dev: true
 
-  /sanitize-html/2.4.0:
-    resolution: {integrity: sha512-Y1OgkUiTPMqwZNRLPERSEi39iOebn2XJLbeiGOBhaJD/yLqtLGu6GE5w7evx177LeGgSE+4p4e107LMiydOf6A==}
+  /sanitize-html/2.5.0:
+    resolution: {integrity: sha512-smU67ODza8E0rJF7oY37qQqMF5srxwEkqsgV17PFfdYAtIxnicH8LIyDEGINJIso8bPaxRZS7zGhCjg6BeDoqQ==}
     dependencies:
       deepmerge: 4.2.2
       escape-string-regexp: 4.0.0
