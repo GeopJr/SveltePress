@@ -19,7 +19,7 @@ specifiers:
   sanitize-html: 2.4.0
   sass: 1.39.0
   svelte: 3.42.4
-  svelte-preprocess: 4.9.2
+  svelte-preprocess: 4.9.4
 
 dependencies:
   sanitize-html: 2.4.0
@@ -42,7 +42,7 @@ devDependencies:
   prettier-plugin-svelte: 2.4.0_prettier@2.3.2+svelte@3.42.4
   sass: 1.39.0
   svelte: 3.42.4
-  svelte-preprocess: 4.9.2_sass@1.39.0+svelte@3.42.4
+  svelte-preprocess: 4.9.4_sass@1.39.0+svelte@3.42.4
 
 packages:
 
@@ -1216,8 +1216,8 @@ packages:
       svelte: 3.42.4
     dev: true
 
-  /svelte-preprocess/4.9.2_sass@1.39.0+svelte@3.42.4:
-    resolution: {integrity: sha512-Eu/09bEpcBD8a9pGxcILEAZssXifnWoi5ad5GgUAgoT4alblNikOIpKrWDFkepMqjgioXciWbIZOROoTX3ZLdA==}
+  /svelte-preprocess/4.9.4_sass@1.39.0+svelte@3.42.4:
+    resolution: {integrity: sha512-Z0mUQBGtE+ZZSv/HerRSHe7ukJokxjiPeHe7iPOIXseEoRw51H3K/Vh6OMIMstetzZ11vWO9rCsXSD/uUUArmA==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:
