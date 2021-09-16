@@ -4,7 +4,7 @@ specifiers:
   '@sveltejs/adapter-netlify': 1.0.0-next.31
   '@sveltejs/adapter-node': 1.0.0-next.48
   '@sveltejs/adapter-static': 1.0.0-next.19
-  '@sveltejs/adapter-vercel': 1.0.0-next.28
+  '@sveltejs/adapter-vercel': 1.0.0-next.29
   '@sveltejs/kit': next
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0
@@ -28,7 +28,7 @@ devDependencies:
   '@sveltejs/adapter-netlify': 1.0.0-next.31
   '@sveltejs/adapter-node': 1.0.0-next.48
   '@sveltejs/adapter-static': 1.0.0-next.19
-  '@sveltejs/adapter-vercel': 1.0.0-next.28
+  '@sveltejs/adapter-vercel': 1.0.0-next.29
   '@sveltejs/kit': 1.0.0-next.168_svelte@3.42.5
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
@@ -128,8 +128,8 @@ packages:
     resolution: {integrity: sha512-uZNJNVGCdiLo1XnMbezlAUsNSzB36oqtXvaUiDmy+Lv0jKU7ZukDQnJ0zWAatdqXl9ETlG4YyTWI/i7E8nmLpQ==}
     dev: true
 
-  /@sveltejs/adapter-vercel/1.0.0-next.28:
-    resolution: {integrity: sha512-a2n4UCuTu5LhUoS5KiI5xasgvIXW8qKnSSKOnTTLYlZhpJ5VnSKWyT9hUOoVsAEGkeZw+2SYxxI3Vckw6ZhSng==}
+  /@sveltejs/adapter-vercel/1.0.0-next.29:
+    resolution: {integrity: sha512-2DMz4qCm5+v+/8npdbyT/uQVMr3elSOH5ZJ24k3VLug60n6/sS4RyU++RO8gjiVQqxyGvdfRFJXAX6xV4K6hzg==}
     dependencies:
       esbuild: 0.12.25
     dev: true
