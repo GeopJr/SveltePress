@@ -19,7 +19,7 @@
     "clean-webpack-plugin": "4.0.0",
     "file-loader": "6.2.0",
     "handlebars": "4.7.7",
-    "nodemon": "2.0.12",
+    "nodemon": "2.0.13",
     "raw-loader": "4.0.2",
     "webpack": "5.53.0",
     "webpack-cli": "4.8.0",
