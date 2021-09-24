@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@nodegui/nodegui': 0.39.0
+  '@nodegui/nodegui': 0.39.1
   '@nodegui/packer': 1.4.1
   '@types/node': 16.7.1
   clean-webpack-plugin: 4.0.0
@@ -16,10 +16,10 @@ specifiers:
   webpack-cli: 4.8.0
 
 dependencies:
-  '@nodegui/nodegui': 0.39.0
+  '@nodegui/nodegui': 0.39.1
 
 devDependencies:
-  '@nodegui/packer': 1.4.1_@nodegui+nodegui@0.39.0
+  '@nodegui/packer': 1.4.1_@nodegui+nodegui@0.39.1
   '@types/node': 16.7.1
   clean-webpack-plugin: 4.0.0_webpack@5.53.0
   file-loader: 6.2.0_webpack@5.53.0
@@ -56,8 +56,8 @@ packages:
       node-fetch: 2.6.1
       progress: 2.0.3
 
-  /@nodegui/nodegui/0.39.0:
-    resolution: {integrity: sha512-5+Jn58NAlGQ1LfgBjCJgTGNx+e9Vg7RFK6tU4WJMfC88RBN4YOf5YdkEV22bFC2FaKNr3rHqclD8BwxrEYsfXg==}
+  /@nodegui/nodegui/0.39.1:
+    resolution: {integrity: sha512-qId/7lf978QvztNzd6klGYnFFuS+/NZ3LhcNNsGb/7HXpjWfXQ/ZZsmsw6efJjAu74pvVY375snX3joHCxRfcQ==}
     engines: {node: '>=14.x.x'}
     hasBin: true
     requiresBuild: true
@@ -76,7 +76,7 @@ packages:
       - supports-color
     dev: false
 
-  /@nodegui/packer/1.4.1_@nodegui+nodegui@0.39.0:
+  /@nodegui/packer/1.4.1_@nodegui+nodegui@0.39.1:
     resolution: {integrity: sha512-jmw2uuaiXZIW+Vxx4WpNFxkjzcqKRAT/VBf7jKbK4IIr1OW+G0ufYA4K5bGGlGG/4iE1oOLCLHbIRmSTYkfslw==}
     hasBin: true
     requiresBuild: true
@@ -84,7 +84,7 @@ packages:
       '@nodegui/nodegui': '>=0.15.0'
     dependencies:
       '@nodegui/artifact-installer': 1.1.0
-      '@nodegui/nodegui': 0.39.0
+      '@nodegui/nodegui': 0.39.1
       commander: 4.1.1
       fs-extra: 8.1.0
       plist: 3.0.3
