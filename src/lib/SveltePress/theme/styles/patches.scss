@@ -36,7 +36,6 @@ p {
 
 pre {
 	background-color: var(--cds-ui-background);
-	margin: 1.2rem 0;
 	padding: 1rem;
 }
 
@@ -95,5 +94,41 @@ a.bx--header__menu-item,
 .bx--side-nav.bx--side-nav--expanded ~ .bx--content {
 	@media only screen and (max-width: 1056px) {
 		margin-left: 0rem;
+	}
+}
+
+#main-content .bx--col {
+	span,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	blockquote,
+	pre,
+	img,
+	dl,
+	form,
+	table,
+	canvas,
+	embed,
+	figure,
+	audio,
+	video {
+		margin: 1.5rem 0;
+	}
+
+	ol,
+	ul {
+		margin: 1rem 0;
+	}
+
+	h1:first-child {
+		margin-top: 0;
+	}
+
+	code {
+		line-height: var(--cds-code-01-line-height, 1.34);
 	}
 }

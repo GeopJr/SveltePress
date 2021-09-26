@@ -1,7 +1,7 @@
 # SveltePress is a Svelte project
 # The following extensions do not
-# represent code related driectly
-# to is so they are getting igno-
+# represent code related directly
+# to it so they are getting igno-
 # red from the language stats.
 
 # gui/**/*.cc linguist-vendored
