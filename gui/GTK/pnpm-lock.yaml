@@ -4,7 +4,7 @@ specifiers:
   clean-webpack-plugin: 4.0.0
   file-loader: 6.2.0
   handlebars: 4.7.7
-  node-gtk: ^0.9.0
+  node-gtk: ^0.10.0
   nodemon: 2.0.13
   raw-loader: 4.0.2
   webpack: 5.54.0
@@ -12,7 +12,7 @@ specifiers:
   webpack-node-externals: 3.0.0
 
 dependencies:
-  node-gtk: 0.9.0
+  node-gtk: 0.10.0
 
 devDependencies:
   clean-webpack-plugin: 4.0.0_webpack@5.54.0
@@ -1419,8 +1419,8 @@ packages:
     engines: {node: 4.x || >=6.0.0}
     dev: false
 
-  /node-gtk/0.9.0:
-    resolution: {integrity: sha512-vGgcYXwmBMoG/yX2x9xPB19/1SNP0igyj+GLNazBg8i8hRB1X6T9QzcHaAo0yEmTO2kzwxo+bg1GgoqonnLusA==}
+  /node-gtk/0.10.0:
+    resolution: {integrity: sha512-BHZCHgM3X7INLWuj3gUT99mm03bTJjkYDtzMLbrNBWgnyb0HTCeWqsENczD4Vy9rAY2yoVrjv/KTNq2dJ9zg+A==}
     requiresBuild: true
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.5

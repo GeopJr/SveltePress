@@ -13,7 +13,7 @@
 		"preinstall": "node ../generateSymlinks.mjs"
   },
   "dependencies": {
-    "node-gtk": "^0.9.0"
+    "node-gtk": "^0.10.0"
   },
   "devDependencies": {
     "clean-webpack-plugin": "4.0.0",
