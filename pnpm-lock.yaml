@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@sveltejs/adapter-netlify': 1.0.0-next.31
+  '@sveltejs/adapter-netlify': 1.0.0-next.32
   '@sveltejs/adapter-node': 1.0.0-next.51
   '@sveltejs/adapter-static': 1.0.0-next.20
   '@sveltejs/adapter-vercel': 1.0.0-next.30
@@ -25,11 +25,11 @@ dependencies:
   sanitize-html: 2.5.1
 
 devDependencies:
-  '@sveltejs/adapter-netlify': 1.0.0-next.31
+  '@sveltejs/adapter-netlify': 1.0.0-next.32
   '@sveltejs/adapter-node': 1.0.0-next.51
   '@sveltejs/adapter-static': 1.0.0-next.20
   '@sveltejs/adapter-vercel': 1.0.0-next.30
-  '@sveltejs/kit': 1.0.0-next.177_sass@1.42.1+svelte@3.43.0
+  '@sveltejs/kit': 1.0.0-next.178_sass@1.42.1+svelte@3.43.0
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-plugin-svelte3: 3.2.1_eslint@7.32.0+svelte@3.43.0
@@ -110,11 +110,11 @@ packages:
       picomatch: 2.3.0
     dev: true
 
-  /@sveltejs/adapter-netlify/1.0.0-next.31:
-    resolution: {integrity: sha512-MmN8OLXVLmc51MpoSXJyd4M+MSO3z2nI+rmMy0UklQ4iwYrKXBj2fz53KVpJkdY+36B0NrQipNHYT8yW7u/4EA==}
+  /@sveltejs/adapter-netlify/1.0.0-next.32:
+    resolution: {integrity: sha512-nJIn806J1p5+YwwYN6EzSslAENfEuSuoNcRJZZsoI/PRJDjgpUJm3Y58iL0ZbaLEMS6iGyMFz2jjXAAUefpGHQ==}
     dependencies:
       '@iarna/toml': 2.2.5
-      esbuild: 0.12.25
+      esbuild: 0.13.3
     dev: true
 
   /@sveltejs/adapter-node/1.0.0-next.51:
@@ -134,8 +134,8 @@ packages:
       esbuild: 0.13.3
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.177_sass@1.42.1+svelte@3.43.0:
-    resolution: {integrity: sha512-VPDeXAqAhBhpKaBpnaCYDQKrPg/B84LViA62GWGRnq0HUJ0sCex9fyWsdJCNHUes/pDEV9q8T6LgGU14XJ6qyQ==}
+  /@sveltejs/kit/1.0.0-next.178_sass@1.42.1+svelte@3.43.0:
+    resolution: {integrity: sha512-Hai7bqZkn4JQMQwh8gUMJEbyBeRPIx1oQUhGZjHlH4yIqVf2Oz9Nf4FkGcQAa5eGF907qRhE/gghPpsZk6KkeQ==}
     engines: {node: ^12.20 || >=14.13}
     hasBin: true
     peerDependencies:
@@ -579,12 +579,6 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
-
-  /esbuild/0.12.25:
-    resolution: {integrity: sha512-woie0PosbRSoN8gQytrdCzUbS2ByKgO8nD1xCZkEup3D9q92miCze4PqEI9TZDYAuwn6CruEnQpJxgTRWdooAg==}
-    hasBin: true
-    requiresBuild: true
-    dev: true
 
   /esbuild/0.12.28:
     resolution: {integrity: sha512-pZ0FrWZXlvQOATlp14lRSk1N9GkeJ3vLIwOcUoo3ICQn9WNR4rWoNi81pbn6sC1iYUy7QPqNzI3+AEzokwyVcA==}
