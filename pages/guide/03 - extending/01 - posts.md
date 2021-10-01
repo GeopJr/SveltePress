@@ -10,7 +10,7 @@ SveltePress directly makes them available alongside the post. So let's add some 
 
 ## Tags
 
-Let's say we want to add tags on a post, first of all we need to add it to the markdown metadata:
+Let's say we want to add tags on a post, we firstly need to add it to the markdown metadata:
 
 ```md
 ---
@@ -42,7 +42,7 @@ This will instantly have the following outcome:
 
 ## Date
 
-Similarly, we can also do the same for the date the file was modified or made. SveltePress already passes the last modified date in metadata, however this can get overwritten if eg. this is an old blog post.
+Similarly, we can also do the same for the date the file was modified or made. SveltePress already passes the last modified date in metadata. However, this can get overwritten if eg. this is an old blog post.
 
 ```svelte
 <Content pagination={post.pagination} meta={post.meta}>
