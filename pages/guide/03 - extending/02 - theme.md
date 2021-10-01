@@ -27,6 +27,7 @@ That means that you can point it at branches, subfolders, tags, handle `degit.js
 For starters there are two 'official' themes that you can use as examples or base your own theme on:
 
 `sveltepress-carbon`: The default one. Uses Carbon Design System. (It's on the main repo).
+
 `cakepop`: Uses Tailwind (well... Windi) & daisyUI. ([https://github.com/GeopJr/cakepop](https://github.com/GeopJr/cakepop))
 
 #### Structure
@@ -61,9 +62,9 @@ Let's start from the top:
 The required ones are `content`, `navbar`, `search`, `sidebar`. Those interact with the wrappers located at `lib/SveltePress/components`.
 They **MUST** exist. However, as you can see in the cakepop example, those can have sub-components (in this case, `modal`).
 
-The wrappers pass the required info to them, you don't have to consume everything. Feel free to log/debug them to handle them correctly.
+The wrappers pass the required info to them; you don't have to consume everything. Feel free to log/debug them to handle them correctly.
 
-Another important piece of info is that eg. navbar is always in view and in the case of cakepop, I was able to pass `import "virtual:windi.css";` in it.
+Another important piece of info is, that eg. navbar is always in view and in the case of cakepop, I was able to pass `import "virtual:windi.css";` in it.
 
 ##### Theme modes
 
@@ -75,7 +76,7 @@ Navbar is responsible for toggling the current theme in store. To enforce a simi
 `g100`: Dark, no contrast
 
 These are being set at root `theme="g100" data-theme="g100"` so you can target them in (s)css using `:root[theme='g100']`.
-To read more on how theme mode works, take a look at the [internal docs](https://sveltepress.geopjr.dev/internals/01%20-%20SveltePress/07%20-%20Theme), but in summary, initially it uses the `prefers-color-scheme` media and sets it in localstorage (and the store).
+To read more on how theme mode works, take a look at the [internal docs](https://sveltepress.geopjr.dev/internals/01%20-%20SveltePress/07%20-%20Theme). In summary, it intitially uses the `prefers-color-scheme` media and sets it in localstorage (and the store).
 
 ##### degit.json
 
@@ -83,11 +84,11 @@ Since the themes are getting installed using degit, you can configure it to dele
 
 ##### index.svelte
 
-Well, thats the index.svelte which will **REPLACE** the one at `src/routes/` folder of the project.
+This is the index.svelte which will **REPLACE** the one at `src/routes/` folder of the project.
 
 ##### meta/package.json
 
-Include your dependencies here. SveltePress only needs the `devDependencies` and/or `dependencies` keys, feel free to fill the rest with anything you'd like (eg. author, name, version etc.). Any scripts won't be ran by SveltePress.
+Include your dependencies here. SveltePress only needs the `devDependencies` and/or `dependencies` keys; feel free to fill the rest with anything you'd like (eg. author, name, version etc.). Any scripts won't be run by SveltePress.
 
 The dependencies will be added to the package.json at root.
 
@@ -99,7 +100,7 @@ Anything in this folder will be copied to the root BUT it **WON'T OVERWRITE** an
 
 `svelte.config.js` is **REQUIRED**.
 To avoid themes overriding user options and the default ones, only the `config.kit.vite` and `config.preprocess` keys are being used by SveltePress.
-However don't let this restrict you, you can do a whole lot of things with vite! For example, `sveltepress-carbon` rewrites the imported style when in dev mode to a precompiled one, so you don't waste time compiling the theme over and over again!
+However, don't let this restrict you. You can do a whole lot of things with vite! For example, `sveltepress-carbon` rewrites the imported style when in dev mode to a precompiled one, so you don't waste time compiling the theme over and over again!
 
 > Note: the keys get combined with the ones already in config. So eg. you don't need to use svelte preprocess if you don't want to extend it, as it's already been used by default.
 
