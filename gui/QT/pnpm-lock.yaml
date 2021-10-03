@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@nodegui/nodegui': 0.39.1
-  '@nodegui/packer': 1.4.1
+  '@nodegui/packer': 1.5.0
   '@types/node': 16.7.1
   clean-webpack-plugin: 4.0.0
   file-loader: 6.2.0
@@ -19,7 +19,7 @@ dependencies:
   '@nodegui/nodegui': 0.39.1
 
 devDependencies:
-  '@nodegui/packer': 1.4.1_@nodegui+nodegui@0.39.1
+  '@nodegui/packer': 1.5.0_@nodegui+nodegui@0.39.1
   '@types/node': 16.7.1
   clean-webpack-plugin: 4.0.0_webpack@5.56.0
   file-loader: 6.2.0_webpack@5.56.0
@@ -76,8 +76,8 @@ packages:
       - supports-color
     dev: false
 
-  /@nodegui/packer/1.4.1_@nodegui+nodegui@0.39.1:
-    resolution: {integrity: sha512-jmw2uuaiXZIW+Vxx4WpNFxkjzcqKRAT/VBf7jKbK4IIr1OW+G0ufYA4K5bGGlGG/4iE1oOLCLHbIRmSTYkfslw==}
+  /@nodegui/packer/1.5.0_@nodegui+nodegui@0.39.1:
+    resolution: {integrity: sha512-+b11OBiHbKIgrS9416gA4GZk0R/42MuCCH5BEx8NmENCd6UnhcLIrcbFis6OzFvww6GP/oQcFkteTZtCHCPqYA==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
@@ -86,8 +86,8 @@ packages:
       '@nodegui/artifact-installer': 1.1.0
       '@nodegui/nodegui': 0.39.1
       commander: 4.1.1
-      fs-extra: 8.1.0
-      plist: 3.0.3
+      fs-extra: 10.0.0
+      plist: 3.0.4
     dev: true
 
   /@nodegui/qode/16.4.0:
@@ -984,15 +984,6 @@ packages:
       universalify: 0.1.2
     dev: false
 
-  /fs-extra/8.1.0:
-    resolution: {integrity: sha512-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY+Zia0mtdHsOo9y/hP+CxMN0TU9QxoOtG4g==}
-    engines: {node: '>=6 <7 || >=8'}
-    dependencies:
-      graceful-fs: 4.2.8
-      jsonfile: 4.0.0
-      universalify: 0.1.2
-    dev: true
-
   /fs-minipass/1.2.7:
     resolution: {integrity: sha512-GWSSJGFy4e9GUeCcbIkED+bgAoFyj7XF1mV8rma3QW4NIqX9Kyx79N/PF61H5udOV3aY1IaMLs6pGbH71nlCTA==}
     dependencies:
@@ -1392,6 +1383,7 @@ packages:
     resolution: {integrity: sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=}
     optionalDependencies:
       graceful-fs: 4.2.8
+    dev: false
 
   /jsonfile/6.1.0:
     resolution: {integrity: sha512-5dgndWOriYSm5cnYaJNhalLNDKOqFwyDB/rr1E9ZsGciGvKPs8R2xYGCacuf3z6K1YKDz182fd+fY3cn3pMqXQ==}
@@ -1805,13 +1797,12 @@ packages:
       find-up: 4.1.0
     dev: true
 
-  /plist/3.0.3:
-    resolution: {integrity: sha512-ghdOKN99hh1oEmAlwBmPYo4L+tSQ7O3jRpkhWqOrMz86CWotpVzMevvQ+czo7oPDpOZyA6K06Ci7QVHpoh9gaA==}
+  /plist/3.0.4:
+    resolution: {integrity: sha512-ksrr8y9+nXOxQB2osVNqrgvX/XQPOXaU4BQMKjYq8PvaY1U18mo+fKgBSwzK+luSyinOuPae956lSVcBwxlAMg==}
     engines: {node: '>=6'}
     dependencies:
       base64-js: 1.5.1
       xmlbuilder: 9.0.7
-      xmldom: 0.6.0
     dev: true
 
   /postcss-nodegui-autoprefixer/0.0.7:
@@ -2294,6 +2285,7 @@ packages:
   /universalify/0.1.2:
     resolution: {integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==}
     engines: {node: '>= 4.0.0'}
+    dev: false
 
   /universalify/2.0.0:
     resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
@@ -2525,11 +2517,6 @@ packages:
   /xmlbuilder/9.0.7:
     resolution: {integrity: sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0=}
     engines: {node: '>=4.0'}
-    dev: true
-
-  /xmldom/0.6.0:
-    resolution: {integrity: sha512-iAcin401y58LckRZ0TkI4k0VSM1Qg0KGSc3i8rU+xrxe19A/BN1zHyVSJY7uoutVlaTSzYyk/v5AmkewAP7jtg==}
-    engines: {node: '>=10.0.0'}
     dev: true
 
   /y18n/3.2.2:
