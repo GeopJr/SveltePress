@@ -17,7 +17,7 @@
     "@nodegui/nodegui": "0.39.1"
   },
   "devDependencies": {
-    "@nodegui/packer": "1.4.1",
+    "@nodegui/packer": "1.5.0",
     "@types/node": "16.7.1",
     "clean-webpack-plugin": "4.0.0",
     "file-loader": "6.2.0",
