@@ -13,7 +13,7 @@ specifiers:
   front-matter: 4.0.2
   highlight.js: 11.2.0
   jsesc: 3.0.2
-  marked: 3.0.5
+  marked: 3.0.6
   prettier: 2.4.1
   prettier-plugin-svelte: 2.4.0
   sanitize-html: 2.5.1
@@ -37,7 +37,7 @@ devDependencies:
   front-matter: 4.0.2
   highlight.js: 11.2.0
   jsesc: 3.0.2
-  marked: 3.0.5
+  marked: 3.0.6
   prettier: 2.4.1
   prettier-plugin-svelte: 2.4.0_prettier@2.4.1+svelte@3.43.1
   sass: 1.42.1
@@ -1036,8 +1036,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /marked/3.0.5:
-    resolution: {integrity: sha512-6sXDj79pTjEiu9HfOH7LcqggjUtLHXEG3wxzhSI3zr0uwxIjyDy2rpRWDDLmIeWvUIHNkpalsIcW5JjPAVikaA==}
+  /marked/3.0.6:
+    resolution: {integrity: sha512-a1hY8eqdP9JgmsaO0MYYhO9Li2nfY/5pAj+gWU5r41Lze6AV4Xty1cseLWDcOYimJnaVfQAomaA6NK+z2IyR+w==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
