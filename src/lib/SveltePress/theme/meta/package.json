@@ -5,7 +5,7 @@
 	"devDependencies": {
 		"@carbon/themes": "10.44.0",
 		"carbon-components": "10.45.0",
-		"carbon-components-svelte": "0.44.5",
+		"carbon-components-svelte": "0.44.6",
 		"carbon-icons-svelte": "10.38.0",
 		"carbon-preprocess-svelte": "0.6.0",
 		"svelte-typewriter": "2.4.5"
