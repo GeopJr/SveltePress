@@ -32,7 +32,7 @@
   },
   "type": "module",
   "dependencies": {
-    "sanitize-html": "2.5.1"
+    "sanitize-html": "2.5.2"
   },
   "license": "Unlicense"
 }
