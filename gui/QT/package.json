@@ -22,7 +22,6 @@
 		"esbuild": "^0.13.8",
 		"fs-extra": "10.0.0",
 		"handlebars": "^4.7.7",
-		"nodemon": "2.0.13",
-		"rimraf": "^3.0.2"
+		"nodemon": "2.0.13"
 	}
 }

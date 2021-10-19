@@ -1,4 +1,4 @@
-const rimraf = require('rimraf');
+const fs = require('fs-extra');
 
 /** @type {import('esbuild').Plugin} */
 const nativeNodeModulesPlugin = {
@@ -52,7 +52,7 @@ const options = {
 	plugins: [nativeNodeModulesPlugin]
 };
 
-rimraf.sync(`${options.outdir}/*`);
+fs.emptyDirSync(options.outdir);
 
 require('esbuild')
 	.build(options)
