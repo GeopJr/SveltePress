@@ -1,33 +1,27 @@
 {
-  "name": "sveltepress-qt",
+	"name": "sveltepress-qt",
 	"version": "0.0.1",
 	"description": "A QT based GUI from SveltePress",
 	"license": "Unlicense",
-  "private": true,
-  "scripts": {
-    "build": "webpack --mode production",
-    "prepare": "node prepareMeta.mjs",
-    "dev": "webpack && qode ./dist/index.js",
-    "debug": "webpack && qode --inspect ./dist/index.js",
-    "dev:watch": "nodemon -e js,ts,tsx,svg --ignore dist/ --ignore node_modules/ --exec pnpm start",
-    "pack": "pnpm run build && pnpm run prepare && node prepareAssets.js && npx nodegui-packer --pack ./dist",
+	"private": true,
+	"scripts": {
+		"build": "node ./esbuild.js --prod",
+		"build:dev": "node ./esbuild.js",
+		"prepare": "node prepareMeta.mjs",
+		"dev": "pnpm build:dev && cd dist && qode ./index.js",
+		"debug": "pnpm build:dev && cd dist && qode --inspect ./index.js",
+		"dev:watch": "nodemon -e js,ts,tsx,svg --ignore dist/ --ignore node_modules/ --exec pnpm start",
+		"pack": "pnpm run build && pnpm run prepare && node prepareAssets.js && npx nodegui-packer --pack ./dist",
 		"preinstall": "node ../generateSymlinks.mjs"
-  },
-  "dependencies": {
-    "@nodegui/nodegui": "0.40.1"
-  },
-  "devDependencies": {
-    "@nodegui/packer": "1.5.0",
-    "@types/node": "16.7.1",
-    "clean-webpack-plugin": "4.0.0",
-    "file-loader": "6.2.0",
-    "fs-extra": "10.0.0",
-    "handlebars": "4.7.7",
-    "native-addon-loader": "2.0.1",
-    "nodemon": "2.0.13",
-    "ts-loader": "9.2.6",
-    "typescript": "4.4.4",
-    "webpack": "5.58.2",
-    "webpack-cli": "4.9.1"
-  }
+	},
+	"dependencies": {
+		"@nodegui/nodegui": "0.40.1"
+	},
+	"devDependencies": {
+		"@nodegui/packer": "1.5.0",
+		"esbuild": "^0.13.8",
+		"fs-extra": "10.0.0",
+		"handlebars": "^4.7.7",
+		"nodemon": "2.0.13"
+	}
 }
