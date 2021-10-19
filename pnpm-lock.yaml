@@ -11,7 +11,7 @@ specifiers:
   eslint-plugin-svelte3: 3.2.1
   flexsearch: 0.7.21
   front-matter: 4.0.2
-  highlight.js: 11.2.0
+  highlight.js: 11.3.1
   jsesc: 3.0.2
   marked: 3.0.7
   prettier: 2.4.1
@@ -35,7 +35,7 @@ devDependencies:
   eslint-plugin-svelte3: 3.2.1_eslint@8.0.1+svelte@3.44.0
   flexsearch: 0.7.21
   front-matter: 4.0.2
-  highlight.js: 11.2.0
+  highlight.js: 11.3.1
   jsesc: 3.0.2
   marked: 3.0.7
   prettier: 2.4.1
@@ -805,8 +805,8 @@ packages:
       function-bind: 1.1.1
     dev: true
 
-  /highlight.js/11.2.0:
-    resolution: {integrity: sha512-JOySjtOEcyG8s4MLR2MNbLUyaXqUunmSnL2kdV/KuGJOmHZuAR5xC54Ko7goAXBWNhf09Vy3B+U7vR62UZ/0iw==}
+  /highlight.js/11.3.1:
+    resolution: {integrity: sha512-PUhCRnPjLtiLHZAQ5A/Dt5F8cWZeMyj9KRsACsWT+OD6OP0x6dp5OmT5jdx0JgEyPxPZZIPQpRN2TciUT7occw==}
     engines: {node: '>=12.0.0'}
     dev: true
 
