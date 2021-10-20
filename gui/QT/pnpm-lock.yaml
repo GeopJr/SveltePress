@@ -6,7 +6,7 @@ specifiers:
   esbuild: ^0.13.8
   fs-extra: 10.0.0
   handlebars: ^4.7.7
-  nodemon: 2.0.13
+  nodemon: 2.0.14
 
 dependencies:
   '@nodegui/nodegui': 0.40.1
@@ -16,7 +16,7 @@ devDependencies:
   esbuild: 0.13.8
   fs-extra: 10.0.0
   handlebars: 4.7.7
-  nodemon: 2.0.13
+  nodemon: 2.0.14
 
 packages:
 
@@ -1151,8 +1151,8 @@ packages:
     resolution: {integrity: sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==}
     engines: {node: 4.x || >=6.0.0}
 
-  /nodemon/2.0.13:
-    resolution: {integrity: sha512-UMXMpsZsv1UXUttCn6gv8eQPhn6DR4BW+txnL3IN5IHqrCwcrT/yWHfL35UsClGXknTH79r5xbu+6J1zNHuSyA==}
+  /nodemon/2.0.14:
+    resolution: {integrity: sha512-frcpDx+PviKEQRSYzwhckuO2zoHcBYLHI754RE9z5h1RGtrngerc04mLpQQCPWBkH/2ObrX7We9YiwVSYZpFJQ==}
     engines: {node: '>=8.10.0'}
     hasBin: true
     requiresBuild: true
