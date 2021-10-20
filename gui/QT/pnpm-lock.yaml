@@ -3,9 +3,9 @@ lockfileVersion: 5.3
 specifiers:
   '@nodegui/nodegui': 0.40.1
   '@nodegui/packer': 1.5.0
-  esbuild: ^0.13.8
+  esbuild: 0.13.8
   fs-extra: 10.0.0
-  handlebars: ^4.7.7
+  handlebars: 4.7.7
   nodemon: 2.0.14
 
 dependencies:
