@@ -13,7 +13,7 @@ specifiers:
   front-matter: 4.0.2
   highlight.js: 11.3.1
   jsesc: 3.0.2
-  marked: 3.0.7
+  marked: 3.0.8
   prettier: 2.4.1
   prettier-plugin-svelte: 2.4.0
   sanitize-html: 2.5.2
@@ -29,7 +29,7 @@ devDependencies:
   '@sveltejs/adapter-node': 1.0.0-next.55
   '@sveltejs/adapter-static': 1.0.0-next.21
   '@sveltejs/adapter-vercel': 1.0.0-next.31
-  '@sveltejs/kit': 1.0.0-next.188_sass@1.43.3+svelte@3.44.0
+  '@sveltejs/kit': 1.0.0-next.189_sass@1.43.3+svelte@3.44.0
   eslint: 8.1.0
   eslint-config-prettier: 8.3.0_eslint@8.1.0
   eslint-plugin-svelte3: 3.2.1_eslint@8.1.0+svelte@3.44.0
@@ -37,7 +37,7 @@ devDependencies:
   front-matter: 4.0.2
   highlight.js: 11.3.1
   jsesc: 3.0.2
-  marked: 3.0.7
+  marked: 3.0.8
   prettier: 2.4.1
   prettier-plugin-svelte: 2.4.0_prettier@2.4.1+svelte@3.44.0
   sass: 1.43.3
@@ -114,8 +114,8 @@ packages:
       esbuild: 0.13.4
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.188_sass@1.43.3+svelte@3.44.0:
-    resolution: {integrity: sha512-eDssOlwcAmkUR3SGh3PK4LHBfV3mMY9vhsMohMUPV7oJO3fydOgvDykqzxK9wc1NgNB/TIBCm+1sps2vetePHw==}
+  /@sveltejs/kit/1.0.0-next.189_sass@1.43.3+svelte@3.44.0:
+    resolution: {integrity: sha512-Vmd6Oq/fI5M7LEJjXd+AOoTy7ICNT7+4rAMJttyeMjqmRhQ0i5h+NgBoVOQE1L3fwUNZtdW2ucUm+MMa9ZPTpw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -951,8 +951,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /marked/3.0.7:
-    resolution: {integrity: sha512-ctKqbnLuNbsHbI26cfMyOlKgXGfl1orOv1AvWWDX7AkgfMOwCWvmuYc+mVLeWhQ9W6hdWVBynOs96VkcscKo0Q==}
+  /marked/3.0.8:
+    resolution: {integrity: sha512-0gVrAjo5m0VZSJb4rpL59K1unJAMb/hm8HRXqasD8VeC8m91ytDPMritgFSlKonfdt+rRYYpP/JfLxgIX8yoSw==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
