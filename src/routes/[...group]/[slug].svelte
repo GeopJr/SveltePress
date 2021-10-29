@@ -15,17 +15,15 @@
 				if (defaultFile) break;
 			}
 
-			if (!defaultFile) {
-				return {
+			return !defaultFile
+				? {
 					status: 400,
-					error: 'No posts available'
-				};
-			}
-
-			return {
-				status: 307,
-				redirect: defaultFile.replace(/\.[^/.]+$/, '')
-			};
+					error: 'No posts available
+				}
+				: {
+					status: 307,
+					redirect: defaultFile.replace(/\.[^/.]+$/, '')
+				}
 		}
 
 		// needs to be post so slug and group are passed
