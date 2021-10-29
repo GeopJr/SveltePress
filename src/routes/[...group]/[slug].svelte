@@ -18,7 +18,7 @@
 			return !defaultFile
 				? {
 					status: 400,
-					error: 'No posts available
+					error: 'No posts available'
 				}
 				: {
 					status: 307,
