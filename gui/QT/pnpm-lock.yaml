@@ -6,7 +6,7 @@ specifiers:
   esbuild: 0.13.13
   fs-extra: 10.0.0
   handlebars: 4.7.7
-  nodemon: 2.0.14
+  nodemon: 2.0.15
 
 dependencies:
   '@nodegui/nodegui': 0.40.1
@@ -16,7 +16,7 @@ devDependencies:
   esbuild: 0.13.13
   fs-extra: 10.0.0
   handlebars: 4.7.7
-  nodemon: 2.0.14
+  nodemon: 2.0.15
 
 packages:
 
@@ -421,12 +421,6 @@ packages:
   /cuid/2.1.8:
     resolution: {integrity: sha512-xiEMER6E7TlTPnDxrM4eRiC6TRgjNX9xzEZ5U/Se2YJKr7Mq4pJn/2XEHjl3STcSh96GmkHPcBXLES8M29wyyg==}
     dev: false
-
-  /debug/2.6.9:
-    resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
-    dependencies:
-      ms: 2.0.0
-    dev: true
 
   /debug/3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
@@ -1132,10 +1126,6 @@ packages:
     hasBin: true
     dev: false
 
-  /ms/2.0.0:
-    resolution: {integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=}
-    dev: true
-
   /ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
 
@@ -1151,8 +1141,8 @@ packages:
     resolution: {integrity: sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==}
     engines: {node: 4.x || >=6.0.0}
 
-  /nodemon/2.0.14:
-    resolution: {integrity: sha512-frcpDx+PviKEQRSYzwhckuO2zoHcBYLHI754RE9z5h1RGtrngerc04mLpQQCPWBkH/2ObrX7We9YiwVSYZpFJQ==}
+  /nodemon/2.0.15:
+    resolution: {integrity: sha512-gdHMNx47Gw7b3kWxJV64NI+Q5nfl0y5DgDbiVtShiwa7Z0IZ07Ll4RLFo6AjrhzMtoEZn5PDE3/c2AbVsiCkpA==}
     engines: {node: '>=8.10.0'}
     hasBin: true
     requiresBuild: true
@@ -1165,7 +1155,7 @@ packages:
       semver: 5.7.1
       supports-color: 5.5.0
       touch: 3.1.0
-      undefsafe: 2.0.3
+      undefsafe: 2.0.5
       update-notifier: 5.1.0
     dev: true
 
@@ -1583,10 +1573,8 @@ packages:
     dev: true
     optional: true
 
-  /undefsafe/2.0.3:
-    resolution: {integrity: sha512-nrXZwwXrD/T/JXeygJqdCO6NZZ1L66HrxM/Z7mIq2oPanoN0F1nLx3lwJMu6AwJY69hdixaFQOuoYsMjE5/C2A==}
-    dependencies:
-      debug: 2.6.9
+  /undefsafe/2.0.5:
+    resolution: {integrity: sha512-WxONCrssBM8TSPRqN5EmsjVrsv4A8X12J4ArBiiayv3DyyG3ZlIg6yysuuSYdZsVz3TKcTg2fd//Ujd4CHV1iA==}
     dev: true
 
   /unique-string/2.0.0:
