@@ -5,7 +5,7 @@ specifiers:
   file-loader: 6.2.0
   handlebars: 4.7.7
   node-gtk: ^0.10.0
-  nodemon: 2.0.14
+  nodemon: 2.0.15
   raw-loader: 4.0.2
   webpack: 5.62.2
   webpack-cli: 4.9.1
@@ -18,7 +18,7 @@ devDependencies:
   clean-webpack-plugin: 4.0.0_webpack@5.62.2
   file-loader: 6.2.0_webpack@5.62.2
   handlebars: 4.7.7
-  nodemon: 2.0.14
+  nodemon: 2.0.15
   raw-loader: 4.0.2_webpack@5.62.2
   webpack: 5.62.2_webpack-cli@4.9.1
   webpack-cli: 4.9.1_webpack@5.62.2
@@ -603,12 +603,6 @@ packages:
     dependencies:
       assert-plus: 1.0.0
     dev: false
-
-  /debug/2.6.9:
-    resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
-    dependencies:
-      ms: 2.0.0
-    dev: true
 
   /debug/3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
@@ -1403,10 +1397,6 @@ packages:
     hasBin: true
     dev: false
 
-  /ms/2.0.0:
-    resolution: {integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=}
-    dev: true
-
   /ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
 
@@ -1460,8 +1450,8 @@ packages:
     resolution: {integrity: sha512-Qe5OUajvqrqDSy6wrWFmMwfJ0jVgwiw4T3KqmbTcZ62qW0gQkheXYhcFM1+lOVcGUoRxcEcfyvFMAnDgaF1VWw==}
     dev: true
 
-  /nodemon/2.0.14:
-    resolution: {integrity: sha512-frcpDx+PviKEQRSYzwhckuO2zoHcBYLHI754RE9z5h1RGtrngerc04mLpQQCPWBkH/2ObrX7We9YiwVSYZpFJQ==}
+  /nodemon/2.0.15:
+    resolution: {integrity: sha512-gdHMNx47Gw7b3kWxJV64NI+Q5nfl0y5DgDbiVtShiwa7Z0IZ07Ll4RLFo6AjrhzMtoEZn5PDE3/c2AbVsiCkpA==}
     engines: {node: '>=8.10.0'}
     hasBin: true
     requiresBuild: true
@@ -1474,7 +1464,7 @@ packages:
       semver: 5.7.1
       supports-color: 5.5.0
       touch: 3.1.0
-      undefsafe: 2.0.3
+      undefsafe: 2.0.5
       update-notifier: 5.1.0
     dev: true
 
@@ -2118,10 +2108,8 @@ packages:
     dev: true
     optional: true
 
-  /undefsafe/2.0.3:
-    resolution: {integrity: sha512-nrXZwwXrD/T/JXeygJqdCO6NZZ1L66HrxM/Z7mIq2oPanoN0F1nLx3lwJMu6AwJY69hdixaFQOuoYsMjE5/C2A==}
-    dependencies:
-      debug: 2.6.9
+  /undefsafe/2.0.5:
+    resolution: {integrity: sha512-WxONCrssBM8TSPRqN5EmsjVrsv4A8X12J4ArBiiayv3DyyG3ZlIg6yysuuSYdZsVz3TKcTg2fd//Ujd4CHV1iA==}
     dev: true
 
   /unindent/2.0.0:
