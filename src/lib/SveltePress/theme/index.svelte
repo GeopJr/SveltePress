@@ -175,7 +175,7 @@
 					><h2 class="tile--title">Compile to native</h2>
 					<h4>
 						Desktop, Mobile, e-books & more. With the power of Flutter, GTK, QT & Pandoc you can
-						target Web, Linux, MacOS, Windows, Andoird, iOS, .epub, .pdf, .docx & a whole lot more
+						target Web, Linux, MacOS, Windows, Android, iOS, .epub, .pdf, .docx & a whole lot more
 						from one codebase.
 					</h4></Tile
 				></Column
