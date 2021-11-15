@@ -15,7 +15,7 @@ specifiers:
   jsesc: 3.0.2
   marked: 3.0.8
   prettier: 2.4.1
-  prettier-plugin-svelte: 2.4.0
+  prettier-plugin-svelte: 2.5.0
   sanitize-html: 2.5.3
   sass: 1.43.4
   svelte: 3.44.1
@@ -29,7 +29,7 @@ devDependencies:
   '@sveltejs/adapter-node': 1.0.0-next.55
   '@sveltejs/adapter-static': 1.0.0-next.21
   '@sveltejs/adapter-vercel': 1.0.0-next.31
-  '@sveltejs/kit': 1.0.0-next.194_sass@1.43.4+svelte@3.44.1
+  '@sveltejs/kit': 1.0.0-next.196_sass@1.43.4+svelte@3.44.1
   eslint: 8.2.0
   eslint-config-prettier: 8.3.0_eslint@8.2.0
   eslint-plugin-svelte3: 3.2.1_eslint@8.2.0+svelte@3.44.1
@@ -39,7 +39,7 @@ devDependencies:
   jsesc: 3.0.2
   marked: 3.0.8
   prettier: 2.4.1
-  prettier-plugin-svelte: 2.4.0_prettier@2.4.1+svelte@3.44.1
+  prettier-plugin-svelte: 2.5.0_prettier@2.4.1+svelte@3.44.1
   sass: 1.43.4
   svelte: 3.44.1
   svelte-preprocess: 4.9.8_sass@1.43.4+svelte@3.44.1
@@ -114,8 +114,8 @@ packages:
       esbuild: 0.13.4
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.194_sass@1.43.4+svelte@3.44.1:
-    resolution: {integrity: sha512-xM6BKLZkfYUEy0JXwglhCqBF58S8K4Lt7K7TdLMirrO4gtnZlhg8yhMsG+dYM257Fq0ucS7d/72QgXJfnfURZA==}
+  /@sveltejs/kit/1.0.0-next.196_sass@1.43.4+svelte@3.44.1:
+    resolution: {integrity: sha512-z7sA/2/3Il5biibjPXCYXJC11TyFhgCvMaJvvbtMnu2l3EmOmJBMS+r2djGptzfFsugSVNwGQFn8+ldWQWq3jA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1061,8 +1061,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.4.0_prettier@2.4.1+svelte@3.44.1:
-    resolution: {integrity: sha512-JwJ9bOz4XHLQtiLnX4mTSSDUdhu12WH8sTwy/XTDCSyPlah6IcV7NWeYBZscPEcceu2YnW8Y9sJCP40Z2UH9GA==}
+  /prettier-plugin-svelte/2.5.0_prettier@2.4.1+svelte@3.44.1:
+    resolution: {integrity: sha512-+iHY2uGChOngrgKielJUnqo74gIL/EO5oeWm8MftFWjEi213lq9QYTOwm1pv4lI1nA61tdgf80CF2i5zMcu1kw==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
