@@ -16,20 +16,20 @@ specifiers:
   marked: 3.0.8
   prettier: 2.4.1
   prettier-plugin-svelte: 2.5.0
-  sanitize-html: 2.5.3
+  sanitize-html: 2.6.0
   sass: 1.43.4
   svelte: 3.44.2
   svelte-preprocess: 4.9.8
 
 dependencies:
-  sanitize-html: 2.5.3
+  sanitize-html: 2.6.0
 
 devDependencies:
   '@sveltejs/adapter-netlify': 1.0.0-next.35
   '@sveltejs/adapter-node': 1.0.0-next.55
   '@sveltejs/adapter-static': 1.0.0-next.21
   '@sveltejs/adapter-vercel': 1.0.0-next.31
-  '@sveltejs/kit': 1.0.0-next.196_sass@1.43.4+svelte@3.44.2
+  '@sveltejs/kit': 1.0.0-next.198_sass@1.43.4+svelte@3.44.2
   eslint: 8.3.0
   eslint-config-prettier: 8.3.0_eslint@8.3.0
   eslint-plugin-svelte3: 3.2.1_eslint@8.3.0+svelte@3.44.2
@@ -114,8 +114,8 @@ packages:
       esbuild: 0.13.4
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.196_sass@1.43.4+svelte@3.44.2:
-    resolution: {integrity: sha512-z7sA/2/3Il5biibjPXCYXJC11TyFhgCvMaJvvbtMnu2l3EmOmJBMS+r2djGptzfFsugSVNwGQFn8+ldWQWq3jA==}
+  /@sveltejs/kit/1.0.0-next.198_sass@1.43.4+svelte@3.44.2:
+    resolution: {integrity: sha512-BgXVrCOn0sYNAvmSIXxfztntGzb4ZhaO3KSmJzkSeQQg20+aQGqyOJnhTQ+wDX+YhyKURxVOhjTWHjeO6d7gdw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1153,8 +1153,8 @@ packages:
       rimraf: 2.7.1
     dev: true
 
-  /sanitize-html/2.5.3:
-    resolution: {integrity: sha512-DGATXd1fs/Rm287/i5FBKVYSBBUL0iAaztOA1/RFhEs4yqo39/X52i/q/CwsfCUG5cilmXSBmnQmyWfnKhBlOg==}
+  /sanitize-html/2.6.0:
+    resolution: {integrity: sha512-qc+NqTeaOi/QVAVs5gOY9tqIVk4r1pcUbx1Q2N1a609Os3TNlm85zll2d8g8m/RM6RWg9llir0SpAcePQVIC1w==}
     dependencies:
       deepmerge: 4.2.2
       escape-string-regexp: 4.0.0
