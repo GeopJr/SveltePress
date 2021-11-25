@@ -26,7 +26,7 @@
     "marked": "3.0.8",
     "prettier": "2.5.0",
     "prettier-plugin-svelte": "2.5.0",
-    "sass": "1.43.4",
+    "sass": "1.43.5",
     "svelte": "3.44.2",
     "svelte-preprocess": "4.9.8"
   },
