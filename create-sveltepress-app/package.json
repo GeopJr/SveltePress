@@ -17,6 +17,7 @@
 	],
 	"author": "GeopJr",
 	"license": "Unlicense",
+	"type": "module",
 	"bugs": {
 		"url": "https://github.com/GeopJr/SveltePress/issues"
 	},

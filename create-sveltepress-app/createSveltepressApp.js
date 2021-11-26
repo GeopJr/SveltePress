@@ -1,8 +1,11 @@
 #! /usr/bin/env node
-const argv = require('minimist')(process.argv.slice(2));
-const degit = require('degit');
-const fs = require('fs');
-const chalk = require('chalk');
+import * as minimist from 'minimist';
+import * as degitCJS from 'degit';
+import chalk from 'chalk';
+import fs from "fs";
+
+const degit = degitCJS.default
+const argv = minimist.default(process.argv.slice(2));
 
 const base = 'GeopJr/SveltePress';
 
