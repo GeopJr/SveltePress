@@ -6,7 +6,7 @@
 		"@carbon/themes": "10.47.0",
 		"carbon-components": "10.48.0",
 		"carbon-components-svelte": "0.50.2",
-		"carbon-icons-svelte": "10.38.0",
+		"carbon-icons-svelte": "10.44.0",
 		"carbon-preprocess-svelte": "0.6.0",
 		"svelte-typewriter": "2.4.5"
 	}
