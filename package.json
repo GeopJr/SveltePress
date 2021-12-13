@@ -2,13 +2,13 @@
   "name": "sveltepress",
   "version": "1.0.0",
   "scripts": {
-    "dev": "node generateProdData.js && svelte-kit dev",
-    "build": "node generateProdData.js && svelte-kit build",
+    "dev": "node scripts/generateProdData.js && svelte-kit dev",
+    "build": "node scripts/generateProdData.js && svelte-kit build",
     "preview": "svelte-kit preview",
-    "postinstall": "npx -y @antfu/ni@0.12.0 svelte -D --ignore-scripts && node generateSymlinks.js",
+    "postinstall": "npx -y @antfu/ni@0.12.0 svelte -D --ignore-scripts && node scripts/generateSymlinks.js",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. .",
-    "preinstall": "node prepareTheme.js"
+    "preinstall": "node scripts/prepareTheme.js"
   },
   "devDependencies": {
     "@sveltejs/adapter-netlify": "1.0.0-next.35",

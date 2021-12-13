@@ -1,5 +1,5 @@
-import createPressData from './src/lib/SveltePress/functions/dataGenerator.js';
-import createSidebar from './src/lib/SveltePress/functions/sidebarGenerator.js';
+import createPressData from '../src/lib/SveltePress/functions/dataGenerator.js';
+import createSidebar from '../src/lib/SveltePress/functions/sidebarGenerator.js';
 
 // This function generated the following databases
 // - Index

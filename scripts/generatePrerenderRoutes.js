@@ -1,4 +1,4 @@
-import sidebar from './src/lib/SveltePress/db/sveltePressSidebar.js';
+import sidebar from '../src/lib/SveltePress/db/sveltePressSidebar.js';
 
 export default function generatePrerenderRoutes() {
 	const routes = [];

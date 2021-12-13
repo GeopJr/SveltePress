@@ -43,7 +43,4 @@ pandoc/** linguist-vendored
 
 create-sveltepress-app/** linguist-vendored
 
-generateSymlinks.js linguist-vendored
-generateProdData.js linguist-vendored
-generatePrerenderRoutes.js linguist-vendored
-prepareTheme.js linguist-vendored
+scripts/* linguist-vendored

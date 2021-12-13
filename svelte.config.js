@@ -1,5 +1,5 @@
 import sveltePreprocess from 'svelte-preprocess';
-import generatePrerenderRoutes from './generatePrerenderRoutes.js';
+import generatePrerenderRoutes from './scripts/generatePrerenderRoutes.js';
 import { config as themeConfig } from './src/lib/SveltePress/theme/meta/svelte.config.js';
 // Pick one of the adapters listed below
 // or install and use others
