@@ -16,6 +16,9 @@ npm-debug.log*
 tmp/
 typings/
 /.gitkeep
+/pnpm-lock.yaml
+/yarn.lock
+/package-lock.json
 
 # DB
 /src/lib/SveltePress/db/*.js
