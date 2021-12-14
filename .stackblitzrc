@@ -1,0 +1,4 @@
+{
+	"installDependencies": false,
+	"startCommand": "npm run preinstall && npm install && node scripts/generateSymlinks.js && npm run dev"
+}
