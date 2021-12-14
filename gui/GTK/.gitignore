@@ -2,6 +2,9 @@
 build/
 dist/
 src/ui.glade
+/pnpm-lock.yaml
+/yarn.lock
+/package-lock.json
 
 # Symlinks
 /assets

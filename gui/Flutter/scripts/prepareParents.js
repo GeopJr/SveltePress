@@ -1,8 +1,8 @@
 import { writeFileSync } from 'fs';
 import { v4 as uuidv4 } from 'uuid';
-import Sidebar from '../../src/lib/SveltePress/db/sveltePressSidebar.js';
-import Index from '../../src/lib/SveltePress/db/sveltePressIndex.js';
-import { mdConverter } from '../../src/lib/SveltePress/markdown/MDConverter.js';
+import Sidebar from '../../../src/lib/SveltePress/db/sveltePressSidebar.js';
+import Index from '../../../src/lib/SveltePress/db/sveltePressIndex.js';
+import { mdConverter } from '../../../src/lib/SveltePress/markdown/MDConverter.js';
 
 const finArr = [];
 

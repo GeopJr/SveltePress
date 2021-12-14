@@ -6,5 +6,9 @@ dist
 deploy/**/Contents/Info.plist
 deploy/**/default.desktop
 
+/pnpm-lock.yaml
+/yarn.lock
+/package-lock.json
+
 # Symlinks
 /assets

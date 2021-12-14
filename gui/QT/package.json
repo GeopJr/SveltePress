@@ -7,11 +7,11 @@
 	"scripts": {
 		"build": "node ./esbuild.js --prod",
 		"build:dev": "node ./esbuild.js",
-		"prepare": "node prepareMeta.mjs",
+		"prepare": "node scripts/prepareMeta.mjs",
 		"dev": "pnpm build:dev && cd dist && qode ./index.js",
 		"debug": "pnpm build:dev && cd dist && qode --inspect ./index.js",
-		"dev:watch": "nodemon -e js,ts,tsx,svg --ignore dist/ --ignore node_modules/ --exec pnpm start",
-		"pack": "pnpm run build && pnpm run prepare && node prepareAssets.js && npx nodegui-packer --pack ./dist",
+		"dev:watch": "nodemon -e js,ts,tsx,svg --ignore dist/ --ignore node_modules/ --exec pnpm dev",
+		"pack": "pnpm run build && pnpm run prepare && node scripts/prepareAssets.js && nodegui-packer --pack ./dist",
 		"preinstall": "node ../generateSymlinks.mjs"
 	},
 	"dependencies": {

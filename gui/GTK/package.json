@@ -1,29 +1,25 @@
 {
-  "name": "sveltepress-gtk",
+	"name": "sveltepress-gtk",
 	"version": "0.0.1",
 	"description": "A GTK based GUI from SveltePress",
-  "main": "src/index.js",
-  "type": "module",
-  "scripts": {
-    "build": "webpack --mode production",
-    "dev": "webpack && node ./dist/index.cjs",
-    "dev:watch": "nodemon -e js,ts,tsx,svg,glade --ignore node_modules/ --exec pnpm start",
-    "prepare": "node prepareGlade.js",
-    "start": "node dist/index.cjs",
+	"main": "src/index.js",
+	"type": "module",
+	"scripts": {
+		"build": "node ./esbuild.cjs --prod",
+		"dev": "node ./esbuild.cjs && node ./dist/index.cjs",
+		"dev:watch": "nodemon -e js,ts,tsx,svg,glade --ignore node_modules/ --exec pnpm start",
+		"prepare": "node scripts/prepareGlade.js",
+		"start": "node dist/index.cjs",
 		"preinstall": "node ../generateSymlinks.mjs"
-  },
-  "dependencies": {
-    "node-gtk": "^0.10.0"
-  },
-  "devDependencies": {
-    "clean-webpack-plugin": "4.0.0",
-    "file-loader": "6.2.0",
-    "handlebars": "4.7.7",
-    "nodemon": "2.0.15",
-    "raw-loader": "4.0.2",
-    "webpack": "5.65.0",
-    "webpack-cli": "4.9.1",
-    "webpack-node-externals": "3.0.0"
-  },
+	},
+	"dependencies": {
+		"node-gtk": "^0.10.0"
+	},
+	"devDependencies": {
+		"esbuild": "^0.14.5",
+		"fs-extra": "^10.0.0",
+		"handlebars": "4.7.7",
+		"nodemon": "2.0.15"
+	},
 	"license": "Unlicense"
 }

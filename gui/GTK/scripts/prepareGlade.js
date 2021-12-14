@@ -1,7 +1,7 @@
 import Handlebars from 'handlebars';
 import { readFileSync, writeFileSync } from 'fs';
-import Sidebar from '../../src/lib/SveltePress/db/sveltePressSidebar.js';
-import Config from '../../sveltePress.config.js';
+import Sidebar from '../../../src/lib/SveltePress/db/sveltePressSidebar.js';
+import Config from '../../../sveltePress.config.js';
 
 const title = Config.title;
 

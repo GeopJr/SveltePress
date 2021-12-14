@@ -50,5 +50,9 @@ lib/title.dart
 index.json
 web/manifest.json
 
+/pnpm-lock.yaml
+/yarn.lock
+/package-lock.json
+
 # Symlinks
 /assets

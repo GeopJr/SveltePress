@@ -7,7 +7,8 @@ import gladeFile from './ui.glade';
 
 const title = Config.title;
 
-gi.require('WebKit');
+const WebKit2 = gi.require('WebKit2');
+new WebKit2.WebView()
 
 gi.startLoop();
 Gtk.init();

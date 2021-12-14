@@ -1,6 +1,6 @@
 import Handlebars from 'handlebars';
 import { readFileSync, writeFileSync } from 'fs';
-import Config from '../../sveltePress.config.js';
+import Config from '../../../sveltePress.config.js';
 
 const title = Config.title;
 const safeTitle = title.replace(/[^a-z]/gi, '').toLowerCase();

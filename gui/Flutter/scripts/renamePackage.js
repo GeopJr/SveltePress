@@ -1,5 +1,5 @@
 import { execSync } from 'child_process';
-import Config from '../../sveltePress.config.js';
+import Config from '../../../sveltePress.config.js';
 
 execSync(
 	'flutter pub run change_app_package_name:main dev.geopjr.sveltepress.' +

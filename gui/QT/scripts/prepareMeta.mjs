@@ -1,7 +1,7 @@
 import fs from 'fs';
 import Handlebars from 'handlebars';
 import { readFileSync, writeFileSync } from 'fs';
-import Config from '../../sveltePress.config.js';
+import Config from '../../../sveltePress.config.js';
 
 const currentName = JSON.parse(readFileSync('./deploy/config.json', 'utf8')).appName;
 const title = Config.title;

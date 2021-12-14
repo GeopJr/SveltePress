@@ -1,4 +1,4 @@
-import Config from '../../sveltePress.config.js';
+import Config from '../../../sveltePress.config.js';
 import { writeFileSync } from 'fs';
 const name = Config.title.replace(/[^a-z0-9]/gi, '');
 const nameSafe = name.replace(/[^a-z]/gi, '').toLowerCase();
