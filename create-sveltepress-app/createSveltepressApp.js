@@ -2,9 +2,9 @@
 import * as minimist from 'minimist';
 import * as degitCJS from 'degit';
 import chalk from 'chalk';
-import fs from "fs";
+import { existsSync, rmSync, mkdirSync } from 'fs';
 
-const degit = degitCJS.default
+const degit = degitCJS.default;
 const argv = minimist.default(process.argv.slice(2));
 
 const base = 'GeopJr/SveltePress';
@@ -84,7 +84,7 @@ async function themeCheck() {
 		return;
 	}
 	const themePath = `${spLocation}/src/lib/SveltePress/theme/`;
-	if (!fs.existsSync(themePath)) {
+	if (!existsSync(themePath)) {
 		console.error(
 			`${chalk.redBright('Theme folder is missing')} ${chalk.yellow(
 				'(' + themePath + ')'
@@ -99,8 +99,8 @@ async function themeCheck() {
 			'create-sveltepress-app add --theme=' + base + '/src/lib/SveltePress/theme/'
 		)}.`
 	);
-	fs.rmSync(themePath, { recursive: true, force: true });
-	fs.mkdirSync(themePath);
+	rmSync(themePath, { recursive: true, force: true });
+	mkdirSync(themePath);
 	await clone(`${argv.theme}`, themePath);
 }
 
