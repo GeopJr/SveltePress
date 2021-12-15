@@ -101,7 +101,7 @@ NPM Scripts:
 | `build:web:html`      | Builds the web (with html renderer)                                                                                      |
 | `build:web:canvaskit` | Builds the web (with canvaskit (no external assets (CORS)))                                                              |
 | `prepare`             | Runs prepareParents and then prepareTitle [Run every time posts get modified or the title in SveltePress config changes] |
-| `reanme`              | Runs renamePackage [Run every time the title in SveltePress config changes]                                              |
+| `rename`              | Runs renamePackage [Run every time the title in SveltePress config changes]                                              |
 | `icongen`             | Generates icons using `flutter_launcher_icons`                                                                           |
 
 > Run using `pnpm run {Script Name}`

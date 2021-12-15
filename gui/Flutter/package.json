@@ -12,7 +12,7 @@
 		"start:web:canvaskit": "pnpm run start -- -d chrome --web-renderer canvaskit",
 		"start:windows": "pnpm run start -- -d windows",
 		"prepare": "node scripts/prepareParents.js && node scripts/prepareTitle.js",
-		"reanme": "node scripts/renamePackage.js",
+		"rename": "node scripts/renamePackage.js",
 		"icongen": "flutter pub run flutter_launcher_icons:main",
 		"build": "flutter build",
 		"build:aab": "pnpm run build -- appbundle",
