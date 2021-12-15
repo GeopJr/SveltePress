@@ -5,12 +5,13 @@
     "dev": "node scripts/generateProdData.js && svelte-kit dev",
     "build": "node scripts/generateProdData.js && svelte-kit build",
     "preview": "svelte-kit preview",
-    "postinstall": "npx -y @antfu/ni@0.12.0 svelte -D --ignore-scripts && node scripts/generateSymlinks.js",
+    "postinstall": "ni svelte -D --ignore-scripts && node scripts/generateSymlinks.js",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. .",
     "preinstall": "node scripts/prepareTheme.js"
   },
   "devDependencies": {
+    "@antfu/ni": "^0.12.0",
     "@sveltejs/adapter-netlify": "1.0.0-next.35",
     "@sveltejs/adapter-node": "1.0.0-next.55",
     "@sveltejs/adapter-static": "1.0.0-next.21",
