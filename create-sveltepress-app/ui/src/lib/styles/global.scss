@@ -1,0 +1,52 @@
+$feature-flags: (
+	enable-css-custom-properties: true,
+	grid-columns-16: true
+);
+
+@import '@carbon/themes/scss/themes';
+
+:root {
+	@include carbon--theme($carbon--theme--white, true);
+}
+
+:root[theme='g10'] {
+	@include carbon--theme($carbon--theme--g10, true);
+}
+
+:root[theme='g90'] {
+	@include carbon--theme($carbon--theme--g90, true);
+}
+
+:root[theme='g100'] {
+	@include carbon--theme($carbon--theme--g100, true);
+}
+
+$css--font-face: true;
+$css--helpers: true;
+$css--body: true;
+$css--use-layer: true;
+$css--reset: true;
+$css--default-type: true;
+$css--plex: true;
+
+@import 'carbon-components/scss/globals/scss/_css--reset.scss';
+@import 'carbon-components/scss/globals/scss/_css--font-face.scss';
+@import 'carbon-components/scss/globals/scss/_css--helpers.scss';
+@import 'carbon-components/scss/globals/scss/_css--body.scss';
+@import 'carbon-components/scss/globals/grid/_grid.scss';
+
+/* import individual components SCSS */
+@import 'carbon-components/scss/components/button/button';
+@import 'carbon-components/scss/components/ui-shell/ui-shell';
+@import 'carbon-components/scss/components/tile/tile';
+@import 'carbon-components/scss/components/modal/modal';
+@import 'carbon-components/scss/components/loading/loading';
+@import 'carbon-components/scss/components/overflow-menu/overflow-menu';
+@import 'carbon-components/scss/components/data-table/data-table';
+@import 'carbon-components/scss/components/select/select';
+@import 'carbon-components/scss/components/breadcrumb/breadcrumb';
+@import 'carbon-components/scss/components/code-snippet/code-snippet';
+@import 'carbon-components/scss/components/text-input/text-input';
+
+/* import patches */
+@import './patches.scss';
