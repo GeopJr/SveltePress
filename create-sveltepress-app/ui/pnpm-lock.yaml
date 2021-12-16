@@ -1,25 +1,25 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@carbon/themes': ^10.48.0
-  '@sveltejs/adapter-node': ^1.0.0-next.56
+  '@carbon/themes': 10.48.0
+  '@sveltejs/adapter-node': 1.0.0-next.56
   '@sveltejs/kit': next
-  carbon-components: ^10.50.0
-  carbon-components-svelte: ^0.42.3
-  carbon-icons-svelte: ^10.44.0
-  carbon-preprocess-svelte: ^0.6.0
-  cl-editor: ^2.3.0
-  eslint: ^7.32.0
-  eslint-config-prettier: ^8.3.0
-  eslint-plugin-svelte3: ^3.2.1
-  express: ^4.17.1
-  open: ^8.4.0
-  prettier: ~2.2.1
-  prettier-plugin-svelte: ^2.5.1
-  sass: ^1.45.0
-  svelte: ^3.44.3
-  svelte-preprocess: ^4.10.0
-  turndown: ^7.1.1
+  carbon-components: 10.50.0
+  carbon-components-svelte: 0.42.3
+  carbon-icons-svelte: 10.44.3
+  carbon-preprocess-svelte: 0.6.0
+  cl-editor: 2.3.0
+  eslint: 7.32.0
+  eslint-config-prettier: 8.3.0
+  eslint-plugin-svelte3: 3.2.1
+  express: 4.17.1
+  open: 8.4.0
+  prettier: 2.2.1
+  prettier-plugin-svelte: 2.5.1
+  sass: 1.45.0
+  svelte: 3.44.3
+  svelte-preprocess: 4.10.0
+  turndown: 7.1.1
 
 dependencies:
   express: 4.17.1
@@ -32,7 +32,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.202_sass@1.45.0+svelte@3.44.3
   carbon-components: 10.50.0
   carbon-components-svelte: 0.42.3
-  carbon-icons-svelte: 10.44.0
+  carbon-icons-svelte: 10.44.3
   carbon-preprocess-svelte: 0.6.0_sass@1.45.0+svelte@3.44.3
   cl-editor: 2.3.0
   eslint: 7.32.0
@@ -546,7 +546,7 @@ packages:
   /carbon-components-svelte/0.42.3:
     resolution: {integrity: sha512-1sYcF1Fc5xGvwLfuoS7MCZFZW+sz6rKunubvgaUj97clhJxK6r+j5aDjtgZWcCzEWWddJOuA/4a6NDCFZqSJAg==}
     dependencies:
-      carbon-icons-svelte: 10.44.0
+      carbon-icons-svelte: 10.44.3
       flatpickr: 4.6.9
     dev: true
 
@@ -563,8 +563,8 @@ packages:
       - supports-color
     dev: true
 
-  /carbon-icons-svelte/10.44.0:
-    resolution: {integrity: sha512-+CLBeDCORLk3FmIy27xheymkCQFfLk38gbdaT7+3Vxo23V48OJvKhfWJMdSTcSZwNJ5QSDU2iQo34hbxyf9i9g==}
+  /carbon-icons-svelte/10.44.3:
+    resolution: {integrity: sha512-vLBy3T5Dnv68vjTJEtwL7DKHX4VqXHeJ6DwPtiO9zTwoMOU3eLx/exzR6KTISuUMqfEPmrOy4dOwZc5sPWuxLA==}
     dev: true
 
   /carbon-preprocess-svelte/0.6.0_sass@1.45.0+svelte@3.44.3:
