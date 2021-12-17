@@ -38,7 +38,7 @@
 		"carbon-icons-svelte": "10.44.3",
 		"carbon-preprocess-svelte": "0.6.0",
 		"cl-editor": "2.3.0",
-		"eslint": "7.32.0",
+		"eslint": "8.5.0",
 		"eslint-config-prettier": "8.3.0",
 		"eslint-plugin-svelte3": "3.2.1",
 		"prettier": "2.2.1",
