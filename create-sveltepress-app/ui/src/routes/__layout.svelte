@@ -9,8 +9,8 @@
 	let isSideNavOpen = false;
 
 	const pages = ['/dashboard', '/features', '/create'];
-	$: hasSidebar = pages.includes($page.path.toLowerCase());
-	$: selectedPage = hasSidebar ? $page.path.toLowerCase() : undefined;
+	$: hasSidebar = pages.includes($page.url.pathname.toLowerCase());
+	$: selectedPage = hasSidebar ? $page.url.pathname.toLowerCase() : undefined;
 </script>
 
 <Theme />

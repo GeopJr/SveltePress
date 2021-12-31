@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
 import express from 'express';
-import { assetsMiddleware, prerenderedMiddleware, kitMiddleware } from '../build/middlewares.js';
+import { handler } from '../build/handler.js';
 import { readdirSync, existsSync, readFileSync, mkdirSync, writeFileSync, rmSync } from 'fs';
 import { resolve, parse, relative, join as pathJoin } from 'path';
 import { execSync } from 'child_process';
@@ -464,7 +464,7 @@ app.get('/api/dashboard', (req, res) => {
 	});
 });
 
-app.all('*', assetsMiddleware, prerenderedMiddleware, kitMiddleware);
+app.use(handler);
 
 app.listen('8080', () => {
 	console.log(`🚀 SveltePress UI running at: http://localhost:8080 🚀`);

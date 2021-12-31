@@ -11,7 +11,7 @@
 	import Sidebar from '$lib/SveltePress/components/sidebar.svelte';
 
 	// Whether to show the sidebar or not
-	$: sidebar = $page.path !== '/';
+	$: sidebar = $page.url.pathname !== '/';
 
 	let isSideNavOpen = false;
 </script>

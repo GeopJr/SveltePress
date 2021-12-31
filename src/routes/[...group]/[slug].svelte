@@ -1,6 +1,6 @@
 <script context="module">
-	export async function load({ page, fetch, session }) {
-		const { group, slug } = page.params;
+	export async function load({ params, fetch, session }) {
+		const { group, slug } = params;
 
 		// if theres a slug but not a group, redirect to the first
 		// slugs' item (in this case the slug is the group)
@@ -34,7 +34,7 @@
 				'Content-Type': 'application/json'
 			},
 			referrerPolicy: 'no-referrer',
-			body: JSON.stringify(page.params)
+			body: JSON.stringify(params)
 		}).then((r) => r.json());
 
 		if (post?.error) {
