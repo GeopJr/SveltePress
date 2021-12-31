@@ -34,7 +34,7 @@
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/kit": "next",
 		"carbon-components": "10.50.0",
-		"carbon-components-svelte": "0.50.3",
+		"carbon-components-svelte": "0.51.0",
 		"carbon-icons-svelte": "10.44.3",
 		"carbon-preprocess-svelte": "0.6.0",
 		"cl-editor": "2.3.0",
