@@ -132,3 +132,7 @@ a.bx--header__menu-item,
 		line-height: var(--cds-code-01-line-height, 1.34);
 	}
 }
+
+.bx--side-nav {
+	z-index: 50;
+}
