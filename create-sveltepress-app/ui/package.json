@@ -31,7 +31,7 @@
 	},
 	"devDependencies": {
 		"@carbon/themes": "10.48.0",
-		"@sveltejs/adapter-node": "1.0.0-next.59",
+		"@sveltejs/adapter-node": "1.0.0-next.60",
 		"@sveltejs/kit": "1.0.0-next.216",
 		"carbon-components": "10.50.0",
 		"carbon-components-svelte": "0.51.1",

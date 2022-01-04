@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@carbon/themes': 10.48.0
-  '@sveltejs/adapter-node': 1.0.0-next.59
+  '@sveltejs/adapter-node': 1.0.0-next.60
   '@sveltejs/kit': 1.0.0-next.216
   carbon-components: 10.50.0
   carbon-components-svelte: 0.51.1
@@ -28,7 +28,7 @@ dependencies:
 
 devDependencies:
   '@carbon/themes': 10.48.0
-  '@sveltejs/adapter-node': 1.0.0-next.59
+  '@sveltejs/adapter-node': 1.0.0-next.60
   '@sveltejs/kit': 1.0.0-next.216_sass@1.45.2+svelte@3.44.3
   carbon-components: 10.50.0
   carbon-components-svelte: 0.51.1
@@ -274,8 +274,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /@sveltejs/adapter-node/1.0.0-next.59:
-    resolution: {integrity: sha512-rkfsrXg6qAYg76fXPDSJaqhmmXDQMU2yGs0sG5pVxGFIEjxSaMqpj72pa5MJFpJbBDkOMOsrUt/FEJ6sJ0E82Q==}
+  /@sveltejs/adapter-node/1.0.0-next.60:
+    resolution: {integrity: sha512-aOX0WEoSoy9ANHDbyul83c0F9qxI+vl//kYEhTZURY4NNnRQ4B1+QECDIv70v3SjU/aAT+56ofpvcZA++sfQxw==}
     dependencies:
       tiny-glob: 0.2.9
     dev: true
