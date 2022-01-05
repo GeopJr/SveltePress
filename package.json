@@ -19,7 +19,7 @@
     "@sveltejs/kit": "1.0.0-next.216",
     "eslint": "8.6.0",
     "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-svelte3": "3.2.1",
+    "eslint-plugin-svelte3": "3.3.0",
     "flexsearch": "0.7.21",
     "front-matter": "4.0.2",
     "highlight.js": "11.3.1",
