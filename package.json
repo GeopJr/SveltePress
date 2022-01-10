@@ -14,7 +14,7 @@
     "@antfu/ni": "0.12.0",
     "@sveltejs/adapter-netlify": "1.0.0-next.38",
     "@sveltejs/adapter-node": "1.0.0-next.61",
-    "@sveltejs/adapter-static": "1.0.0-next.24",
+    "@sveltejs/adapter-static": "1.0.0-next.26",
     "@sveltejs/adapter-vercel": "1.0.0-next.36",
     "@sveltejs/kit": "1.0.0-next.216",
     "eslint": "8.6.0",
