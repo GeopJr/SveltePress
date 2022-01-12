@@ -44,7 +44,7 @@
 		"prettier": "2.2.1",
 		"prettier-plugin-svelte": "2.5.1",
 		"sass": "1.47.0",
-		"svelte": "3.45.0",
+		"svelte": "3.46.0",
 		"svelte-preprocess": "4.10.1"
 	},
 	"type": "module",
