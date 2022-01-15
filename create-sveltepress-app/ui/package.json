@@ -41,7 +41,7 @@
 		"eslint": "8.6.0",
 		"eslint-config-prettier": "8.3.0",
 		"eslint-plugin-svelte3": "3.4.0",
-		"prettier": "2.2.1",
+		"prettier": "2.5.1",
 		"prettier-plugin-svelte": "2.6.0",
 		"sass": "1.48.0",
 		"svelte": "3.46.2",
