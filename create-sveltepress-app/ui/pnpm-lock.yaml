@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@carbon/themes': 10.48.0
+  '@carbon/themes': 10.49.0
   '@sveltejs/adapter-node': 1.0.0-next.62
   '@sveltejs/kit': 1.0.0-next.232
   carbon-components: 10.50.0
@@ -27,7 +27,7 @@ dependencies:
   turndown: 7.1.1
 
 devDependencies:
-  '@carbon/themes': 10.48.0
+  '@carbon/themes': 10.49.0
   '@sveltejs/adapter-node': 1.0.0-next.62
   '@sveltejs/kit': 1.0.0-next.232_sass@1.48.0+svelte@3.46.2
   carbon-components: 10.50.0
@@ -154,16 +154,16 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@carbon/colors/10.34.0:
-    resolution: {integrity: sha512-Tq7ZF6zdlT1V2VliqjeSVKVOK6ixy3CknifZAd3oxq4BYJC/jwsYwRHJAbSM/KFJrZ2ZUvQCrOsves6f7hndLg==}
+  /@carbon/colors/10.35.0:
+    resolution: {integrity: sha512-V+nzHibjze9VqNdI2de7Fdb1IWgPzBvBwjalkAM6IMUTY9REcO2vNxPe9PyqC++sy6EIjRy3mRKRyIm9TrY35Q==}
     dev: true
 
   /@carbon/import-once/10.6.0:
     resolution: {integrity: sha512-vi0lnmZot9J5uW2p9chtyLBwe3nCTY4HrDWuglLOZVOHu7dbLQiRjD/r3uOjB4lr5qduRwk2hblBXKBhpVDBpg==}
     dev: true
 
-  /@carbon/layout/10.34.0:
-    resolution: {integrity: sha512-+PAQfV/bEXM9zRcjDWtuCjl/62mqdN6vpaal+6wnFi0FADr+uHYhNi+9W6QUpa29nbUqgIla+jlr59gAYidGLw==}
+  /@carbon/layout/10.35.0:
+    resolution: {integrity: sha512-UKMOVN+fNnvNbIOPpSg3BlO5/tT+rd4O+exEWrPAb416WehHP2y/kf9l+EI2bD784gF4TtXVqwbr+SV7GGLjtw==}
     dev: true
 
   /@carbon/telemetry/0.0.0-alpha.6:
@@ -184,20 +184,20 @@ packages:
       - supports-color
     dev: true
 
-  /@carbon/themes/10.48.0:
-    resolution: {integrity: sha512-g0dqvWQHPwWW1y+BSuu5JKzMyACw/oHwEu3gqO9X39Z0VyAWFU9ReuG2HK3eLdxd8uCX4YRnDrrWsEbcJuczuA==}
+  /@carbon/themes/10.49.0:
+    resolution: {integrity: sha512-+Oed5krJrj5WKSOysqeqxGFpLgK+EGhQLwSVYPlBcIPbJNSEfy/D3Ftsx/vYk0f7lsgye7keRa+xRpIJEDfXJg==}
     dependencies:
-      '@carbon/colors': 10.34.0
-      '@carbon/layout': 10.34.0
-      '@carbon/type': 10.39.0
+      '@carbon/colors': 10.35.0
+      '@carbon/layout': 10.35.0
+      '@carbon/type': 10.40.0
       color: 3.2.1
     dev: true
 
-  /@carbon/type/10.39.0:
-    resolution: {integrity: sha512-1Js2kJv79Y8zvpAs5qdkZUB0lE4j59+Mk73x19+L3Bla7n6TZ8IsafPyLg7aIDkqZSCYatGt7gw8bB8NOg/VQA==}
+  /@carbon/type/10.40.0:
+    resolution: {integrity: sha512-+ECJANAmAFmF3DmmH9iaCNtVZypBcE8vvhecjRYirSj7FS+9LeiqAZGhjzAqtHpsItH5QHqQs10PrAY2zSylYA==}
     dependencies:
       '@carbon/import-once': 10.6.0
-      '@carbon/layout': 10.34.0
+      '@carbon/layout': 10.35.0
     dev: true
 
   /@dabh/diagnostics/2.0.2:
