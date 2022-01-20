@@ -53,7 +53,8 @@ function getPagination(folder, slug) {
 }
 
 // Handle post request
-export function post({ params, body }) {
+export async function post({ params, request }) {
+	const body = await request.json();
 	// Get slug and group either from post body
 	// if avaliable, else from params (not always correct)
 	const { slug, group } = body ?? params;
