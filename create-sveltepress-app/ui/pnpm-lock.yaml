@@ -3,7 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@carbon/themes': 10.49.0
   '@sveltejs/adapter-node': 1.0.0-next.66
-  '@sveltejs/kit': 1.0.0-next.235
+  '@sveltejs/kit': 1.0.0-next.238
   carbon-components: 10.51.0
   carbon-components-svelte: 0.54.0
   carbon-icons-svelte: 10.44.3
@@ -29,7 +29,7 @@ dependencies:
 devDependencies:
   '@carbon/themes': 10.49.0
   '@sveltejs/adapter-node': 1.0.0-next.66
-  '@sveltejs/kit': 1.0.0-next.235_sass@1.49.0+svelte@3.46.2
+  '@sveltejs/kit': 1.0.0-next.238_sass@1.49.0+svelte@3.46.2
   carbon-components: 10.51.0
   carbon-components-svelte: 0.54.0
   carbon-icons-svelte: 10.44.3
@@ -280,8 +280,8 @@ packages:
       tiny-glob: 0.2.9
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.235_sass@1.49.0+svelte@3.46.2:
-    resolution: {integrity: sha512-VCat9bA8yUF7CP2RYzTTdk43ZjQybN7ZT53Sv870mUGtwUNwLEx4egtF4dSkfQuIya+1hNU8+doRNhpmsIrVTQ==}
+  /@sveltejs/kit/1.0.0-next.238_sass@1.49.0+svelte@3.46.2:
+    resolution: {integrity: sha512-XK4OMAcFFvJkLd8FzIsGg+OuI9ZVjio4Uw2aHd1D2kRJmUPSe9TjG2ThIJzcxj+k8uexXfUzNxh/DEbKb4ILYw==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
