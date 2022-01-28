@@ -16,7 +16,7 @@
     "@sveltejs/adapter-node": "1.0.0-next.67",
     "@sveltejs/adapter-static": "1.0.0-next.26",
     "@sveltejs/adapter-vercel": "1.0.0-next.39",
-    "@sveltejs/kit": "1.0.0-next.245",
+    "@sveltejs/kit": "1.0.0-next.247",
     "eslint": "8.7.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-svelte3": "3.4.0",
