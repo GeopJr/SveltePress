@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@carbon/themes': 10.49.0
+  '@carbon/themes': 10.50.0
   '@sveltejs/adapter-node': 1.0.0-next.67
   '@sveltejs/kit': 1.0.0-next.250
   carbon-components: 10.51.0
@@ -27,7 +27,7 @@ dependencies:
   turndown: 7.1.1
 
 devDependencies:
-  '@carbon/themes': 10.49.0
+  '@carbon/themes': 10.50.0
   '@sveltejs/adapter-node': 1.0.0-next.67
   '@sveltejs/kit': 1.0.0-next.250_sass@1.49.0+svelte@3.46.3
   carbon-components: 10.51.0
@@ -184,8 +184,8 @@ packages:
       - supports-color
     dev: true
 
-  /@carbon/themes/10.49.0:
-    resolution: {integrity: sha512-+Oed5krJrj5WKSOysqeqxGFpLgK+EGhQLwSVYPlBcIPbJNSEfy/D3Ftsx/vYk0f7lsgye7keRa+xRpIJEDfXJg==}
+  /@carbon/themes/10.50.0:
+    resolution: {integrity: sha512-+sz/l7b7lORgLNlauFF1UMchq4u0hoo0gXtGvBHXx04tivs9rK9rwRdZ0uJtakk6dNmN+me5femm1SM6kr9ziw==}
     dependencies:
       '@carbon/colors': 10.35.0
       '@carbon/layout': 10.35.0
