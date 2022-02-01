@@ -5,7 +5,7 @@ specifiers:
   '@sveltejs/adapter-node': 1.0.0-next.67
   '@sveltejs/kit': 1.0.0-next.252
   carbon-components: 10.52.0
-  carbon-components-svelte: 0.57.0
+  carbon-components-svelte: 0.57.1
   carbon-icons-svelte: 10.44.4
   carbon-preprocess-svelte: 0.6.0
   cl-editor: 2.3.0
@@ -31,7 +31,7 @@ devDependencies:
   '@sveltejs/adapter-node': 1.0.0-next.67
   '@sveltejs/kit': 1.0.0-next.252_sass@1.49.5+svelte@3.46.3
   carbon-components: 10.52.0
-  carbon-components-svelte: 0.57.0
+  carbon-components-svelte: 0.57.1
   carbon-icons-svelte: 10.44.4
   carbon-preprocess-svelte: 0.6.0_sass@1.49.5+svelte@3.46.3
   cl-editor: 2.3.0
@@ -514,8 +514,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /carbon-components-svelte/0.57.0:
-    resolution: {integrity: sha512-LflZJ/rMGzsE8ASmH/RUvSl/MCok0WsBT3wnykHTiQkHRyE4A0JXNl/vxPwQpB2Zr1MFJNuZbhW64doJFKpPVg==}
+  /carbon-components-svelte/0.57.1:
+    resolution: {integrity: sha512-R1KWCMlkpfykKsaaMqBAjI3gCUpjtYKaq5ZmXlwOIR/9Tr/NeNMEDisUewfexUlm6VxlKLN0Nkf0EFCqBg+myg==}
     dependencies:
       flatpickr: 4.6.9
     dev: true
