@@ -16,7 +16,7 @@
 		"node-gtk": "^0.10.0"
 	},
 	"devDependencies": {
-		"esbuild": "0.14.17",
+		"esbuild": "0.14.18",
 		"fs-extra": "10.0.0",
 		"handlebars": "4.7.7",
 		"nodemon": "2.0.15"
