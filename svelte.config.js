@@ -13,8 +13,6 @@ const config = {
 	kit: {
 		// Use your desired adapter
 		adapter: vercel(),
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#SveltePress',
 		vite: () => ({
 			// Purges too much, disabled for now
 			// plugins: [process.env.NODE_ENV === 'production' && optimizeCss()],
