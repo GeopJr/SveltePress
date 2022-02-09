@@ -18,7 +18,7 @@ specifiers:
   prettier-plugin-svelte: 2.6.0
   sass: 1.49.7
   svelte: 3.46.4
-  svelte-preprocess: 4.10.2
+  svelte-preprocess: 4.10.3
   turndown: 7.1.1
 
 dependencies:
@@ -42,7 +42,7 @@ devDependencies:
   prettier-plugin-svelte: 2.6.0_prettier@2.5.1+svelte@3.46.4
   sass: 1.49.7
   svelte: 3.46.4
-  svelte-preprocess: 4.10.2_sass@1.49.7+svelte@3.46.4
+  svelte-preprocess: 4.10.3_sass@1.49.7+svelte@3.46.4
 
 packages:
 
@@ -540,7 +540,7 @@ packages:
     resolution: {integrity: sha512-z/SOcB1jqrodshM87YPWdTcLdQzCKKLiWueM4RPfTIz9EIo7DgJSn0gbnVtEOk8Vy/xOZ0EnnAu5fY8ualzngQ==}
     dependencies:
       purgecss: 4.1.3
-      svelte-preprocess: 4.10.2_1b07cfa401b8a284ccfc6a1fd631bae3
+      svelte-preprocess: 4.10.3_1b07cfa401b8a284ccfc6a1fd631bae3
       typescript: 4.5.4
     transitivePeerDependencies:
       - '@babel/core'
@@ -2215,8 +2215,8 @@ packages:
       svelte: 3.46.4
     dev: true
 
-  /svelte-preprocess/4.10.2_1b07cfa401b8a284ccfc6a1fd631bae3:
-    resolution: {integrity: sha512-aPpkCreSo8EL/y8kJSa1trhiX0oyAtTjlNNM7BNjRAsMJ8Yy2LtqHt0zyd4pQPXt+D4PzbO3qTjjio3kwOxDlA==}
+  /svelte-preprocess/4.10.3_1b07cfa401b8a284ccfc6a1fd631bae3:
+    resolution: {integrity: sha512-ttw17lJfb/dx2ZJT9sesaXT5l7mPQ9Apx1H496Kli3Hkk7orIRGpOw6rCPkRNzr6ueVPqb4vzodS5x7sBFhKHw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:
@@ -2231,7 +2231,7 @@ packages:
       stylus: ^0.55.0
       sugarss: ^2.0.0
       svelte: ^3.23.0
-      typescript: ^4.5.2
+      typescript: ^3.9.5 || ^4.0.0
     peerDependenciesMeta:
       '@babel/core':
         optional: true
@@ -2267,8 +2267,8 @@ packages:
       typescript: 4.5.4
     dev: true
 
-  /svelte-preprocess/4.10.2_sass@1.49.7+svelte@3.46.4:
-    resolution: {integrity: sha512-aPpkCreSo8EL/y8kJSa1trhiX0oyAtTjlNNM7BNjRAsMJ8Yy2LtqHt0zyd4pQPXt+D4PzbO3qTjjio3kwOxDlA==}
+  /svelte-preprocess/4.10.3_sass@1.49.7+svelte@3.46.4:
+    resolution: {integrity: sha512-ttw17lJfb/dx2ZJT9sesaXT5l7mPQ9Apx1H496Kli3Hkk7orIRGpOw6rCPkRNzr6ueVPqb4vzodS5x7sBFhKHw==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:
@@ -2283,7 +2283,7 @@ packages:
       stylus: ^0.55.0
       sugarss: ^2.0.0
       svelte: ^3.23.0
-      typescript: ^4.5.2
+      typescript: ^3.9.5 || ^4.0.0
     peerDependenciesMeta:
       '@babel/core':
         optional: true
