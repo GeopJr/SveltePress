@@ -15,7 +15,7 @@
     "@sveltejs/adapter-netlify": "1.0.0-next.45",
     "@sveltejs/adapter-node": "1.0.0-next.68",
     "@sveltejs/adapter-static": "1.0.0-next.27",
-    "@sveltejs/adapter-vercel": "1.0.0-next.42",
+    "@sveltejs/adapter-vercel": "1.0.0-next.43",
     "@sveltejs/kit": "1.0.0-next.265",
     "eslint": "8.8.0",
     "eslint-config-prettier": "8.3.0",
