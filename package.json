@@ -13,7 +13,7 @@
   "devDependencies": {
     "@antfu/ni": "0.12.0",
     "@sveltejs/adapter-netlify": "1.0.0-next.45",
-    "@sveltejs/adapter-node": "1.0.0-next.67",
+    "@sveltejs/adapter-node": "1.0.0-next.68",
     "@sveltejs/adapter-static": "1.0.0-next.27",
     "@sveltejs/adapter-vercel": "1.0.0-next.41",
     "@sveltejs/kit": "1.0.0-next.262",
