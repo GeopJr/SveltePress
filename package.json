@@ -17,7 +17,7 @@
     "@sveltejs/adapter-static": "1.0.0-next.28",
     "@sveltejs/adapter-vercel": "1.0.0-next.43",
     "@sveltejs/kit": "1.0.0-next.266",
-    "eslint": "8.8.0",
+    "eslint": "8.9.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-svelte3": "3.4.0",
     "flexsearch": "0.7.21",
