@@ -4,7 +4,7 @@
 	"type": "module",
 	"devDependencies": {
 		"@carbon/themes": "10.50.0",
-		"carbon-components": "10.52.0",
+		"carbon-components": "10.53.0",
 		"carbon-components-svelte": "0.58.2",
 		"carbon-icons-svelte": "10.44.4",
 		"carbon-preprocess-svelte": "0.6.0",
