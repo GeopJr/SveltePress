@@ -1,5 +1,4 @@
 import sveltePreprocess from 'svelte-preprocess';
-import generatePrerenderRoutes from './scripts/generatePrerenderRoutes.js';
 import { config as themeConfig } from './src/lib/SveltePress/theme/meta/svelte.config.js';
 // Pick one of the adapters listed below
 // or install and use others
@@ -30,14 +29,13 @@ const config = {
 			sass: true
 		}),
 		...themeConfig.preprocess
-	],
+	]
 };
 
 if (config.kit?.adapter?.name === '@sveltejs/adapter-static') {
 	config.kit.prerender = {
 		crawl: true,
-		enabled: true,
-		pages: generatePrerenderRoutes()
+		enabled: true
 	};
 }
 
