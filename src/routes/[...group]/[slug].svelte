@@ -17,18 +17,18 @@
 
 			return !defaultFile
 				? {
-					status: 400,
-					error: 'No posts available'
-				}
+						status: 400,
+						error: 'No posts available'
+				  }
 				: {
-					status: 307,
-					redirect: defaultFile.replace(/\.[^/.]+$/, '')
-				}
+						status: 307,
+						redirect: defaultFile.replace(/\.[^/.]+$/, '')
+				  };
 		}
 
 		// needs to be post so slug and group are passed
 		// from here
-		const post = await fetch(`${slug}.json`, {
+		const post = await fetch(`/${group}/${slug}.json`, {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
