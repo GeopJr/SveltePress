@@ -11,7 +11,7 @@
     "preinstall": "node scripts/prepareTheme.js"
   },
   "devDependencies": {
-    "@antfu/ni": "0.13.1",
+    "@antfu/ni": "0.13.2",
     "@sveltejs/adapter-netlify": "1.0.0-next.46",
     "@sveltejs/adapter-node": "1.0.0-next.69",
     "@sveltejs/adapter-static": "1.0.0-next.28",
