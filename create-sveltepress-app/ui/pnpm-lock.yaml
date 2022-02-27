@@ -4,7 +4,7 @@ specifiers:
   '@carbon/themes': 10.52.0
   '@sveltejs/adapter-node': 1.0.0-next.69
   '@sveltejs/kit': 1.0.0-next.286
-  carbon-components: 10.53.0
+  carbon-components: 10.54.0
   carbon-components-svelte: 0.60.0
   carbon-icons-svelte: 10.44.4
   carbon-preprocess-svelte: 0.6.0
@@ -30,7 +30,7 @@ devDependencies:
   '@carbon/themes': 10.52.0
   '@sveltejs/adapter-node': 1.0.0-next.69
   '@sveltejs/kit': 1.0.0-next.286_sass@1.49.9+svelte@3.46.4
-  carbon-components: 10.53.0
+  carbon-components: 10.54.0
   carbon-components-svelte: 0.60.0
   carbon-icons-svelte: 10.44.4
   carbon-preprocess-svelte: 0.6.0_sass@1.49.9+svelte@3.46.4
@@ -527,8 +527,8 @@ packages:
       flatpickr: 4.6.9
     dev: true
 
-  /carbon-components/10.53.0:
-    resolution: {integrity: sha512-w1my4Jm//CYeraDM002TT/rMULxDSJ8wG0MCWPHGXFF/9OPHVGWo9idbLppM3lCS/PMfl/gpLvfpUVedFr7Yfw==}
+  /carbon-components/10.54.0:
+    resolution: {integrity: sha512-gl0b4wRG1E/ns02nG/M0FaNm4FCT91iTr1XFzqY+h1wFsjG1/2OOu7A6lth8Qtk0jsr//YZcB0MNjq8WFaFciw==}
     requiresBuild: true
     dependencies:
       '@carbon/telemetry': 0.0.0-alpha.6
