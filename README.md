@@ -125,3 +125,13 @@ SveltePress can export to epub, pdf, docx [and a whole lot more formats using Pa
 4. Commit your changes (git commit -am 'Add some feature')
 5. Push to the branch (git push origin my-new-feature)
 6. Create a new Pull Request
+
+#
+
+## Sponsors
+
+<p align="center">
+
+  [![GeopJr Sponsors](https://cdn.jsdelivr.net/gh/GeopJr/GeopJr@main/sponsors.svg)](https://github.com/sponsors/GeopJr)
+
+</p>
