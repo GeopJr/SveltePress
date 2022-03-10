@@ -1,19 +1,19 @@
 lockfileVersion: 5.3
 
 specifiers:
-  chalk: 5.0.0
+  chalk: 5.0.1
   degit: 2.8.4
   minimist: 1.2.5
 
 dependencies:
-  chalk: 5.0.0
+  chalk: 5.0.1
   degit: 2.8.4
   minimist: 1.2.5
 
 packages:
 
-  /chalk/5.0.0:
-    resolution: {integrity: sha512-/duVOqst+luxCQRKEo4bNxinsOQtMP80ZYm7mMqzuh5PociNL0PvmHFvREJ9ueYL2TxlHjBcmLCdmocx9Vg+IQ==}
+  /chalk/5.0.1:
+    resolution: {integrity: sha512-Fo07WOYGqMfCWHOzSXOt2CxDbC6skS/jO9ynEcmpANMoPrD+W1r1K6Vx7iNm+AQmETU1Xr2t+n8nzkV9t6xh3w==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
 
