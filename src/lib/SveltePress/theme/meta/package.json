@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"type": "module",
 	"devDependencies": {
-		"@carbon/themes": "10.52.0",
+		"@carbon/themes": "10.53.0",
 		"carbon-components": "10.54.0",
 		"carbon-components-svelte": "0.60.0",
 		"carbon-icons-svelte": "10.44.4",
