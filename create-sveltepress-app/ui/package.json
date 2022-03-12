@@ -35,7 +35,7 @@
 		"@sveltejs/kit": "1.0.0-next.295",
 		"carbon-components": "10.55.1",
 		"carbon-components-svelte": "0.60.0",
-		"carbon-icons-svelte": "10.44.4",
+		"carbon-icons-svelte": "10.45.0",
 		"carbon-preprocess-svelte": "0.6.0",
 		"cl-editor": "2.3.0",
 		"eslint": "8.11.0",
