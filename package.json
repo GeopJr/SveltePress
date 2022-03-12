@@ -22,7 +22,7 @@
     "eslint-plugin-svelte3": "3.4.1",
     "flexsearch": "0.7.21",
     "front-matter": "4.0.2",
-    "highlight.js": "11.4.0",
+    "highlight.js": "11.5.0",
     "jsesc": "3.0.2",
     "marked": "4.0.12",
     "prettier": "2.5.1",
