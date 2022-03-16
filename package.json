@@ -25,7 +25,7 @@
     "highlight.js": "11.5.0",
     "jsesc": "3.0.2",
     "marked": "4.0.12",
-    "prettier": "2.5.1",
+    "prettier": "2.6.0",
     "prettier-plugin-svelte": "2.6.0",
     "sass": "1.49.9",
     "svelte": "3.46.4",
