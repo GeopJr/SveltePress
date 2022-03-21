@@ -30,7 +30,7 @@
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. ."
 	},
 	"devDependencies": {
-		"@carbon/themes": "10.53.1",
+		"@carbon/themes": "10.53.2",
 		"@sveltejs/adapter-node": "1.0.0-next.73",
 		"@sveltejs/kit": "1.0.0-next.301",
 		"carbon-components": "10.55.1",
