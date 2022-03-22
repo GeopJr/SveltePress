@@ -3,12 +3,12 @@ lockfileVersion: 5.3
 specifiers:
   chalk: 5.0.1
   degit: 2.8.4
-  minimist: 1.2.5
+  minimist: 1.2.6
 
 dependencies:
   chalk: 5.0.1
   degit: 2.8.4
-  minimist: 1.2.5
+  minimist: 1.2.6
 
 packages:
 
@@ -23,6 +23,6 @@ packages:
     hasBin: true
     dev: false
 
-  /minimist/1.2.5:
-    resolution: {integrity: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==}
+  /minimist/1.2.6:
+    resolution: {integrity: sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==}
     dev: false

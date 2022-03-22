@@ -25,6 +25,6 @@
 	"dependencies": {
 		"chalk": "5.0.1",
 		"degit": "2.8.4",
-		"minimist": "1.2.5"
+		"minimist": "1.2.6"
 	}
 }
