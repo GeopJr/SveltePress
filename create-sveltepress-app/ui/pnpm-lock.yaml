@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@carbon/themes': 10.53.2
+  '@carbon/themes': 10.54.0
   '@sveltejs/adapter-node': 1.0.0-next.73
   '@sveltejs/kit': 1.0.0-next.303
   carbon-components: 10.55.2
@@ -27,7 +27,7 @@ dependencies:
   turndown: 7.1.1
 
 devDependencies:
-  '@carbon/themes': 10.53.2
+  '@carbon/themes': 10.54.0
   '@sveltejs/adapter-node': 1.0.0-next.73
   '@sveltejs/kit': 1.0.0-next.303_sass@1.49.9+svelte@3.46.4
   carbon-components: 10.55.2
@@ -191,17 +191,17 @@ packages:
       - supports-color
     dev: true
 
-  /@carbon/themes/10.53.2:
-    resolution: {integrity: sha512-qK41ai6WbbchoqQnL5mpwORQ6n7aEdSpRmcWYgUh+KP+gJcxIl3uuhQJ8uu89BK7x2Xc3epEF1SYRGkNIvycPA==}
+  /@carbon/themes/10.54.0:
+    resolution: {integrity: sha512-Q//XENDqFcgJbide0QbaAvAOKg/u3HIR3na0DsmoWtX4ZWrSz8zpUdvN8Yy9ybJBg1dT+IOfNCdjjhjbCVikKA==}
     dependencies:
       '@carbon/colors': 10.37.1
       '@carbon/layout': 10.37.1
-      '@carbon/type': 10.43.2
+      '@carbon/type': 10.44.0
       color: 3.2.1
     dev: true
 
-  /@carbon/type/10.43.2:
-    resolution: {integrity: sha512-8N5sf2Kl4UTvqCNbAblHx/DXXqj0C6kLnjha3M7avyqZof7kTsbPkuI41Jj/vrKGLf/Rou0yvhEyUcobsFGWMg==}
+  /@carbon/type/10.44.0:
+    resolution: {integrity: sha512-sLe4e9gu2QuM8k6PrXWc9xWpH6W9Q/FJ+/IHNFpx+8zBLkBsM6dbf4o76Zw9OcV2HuAA+8K3JOpZJ4r76fw8kg==}
     dependencies:
       '@carbon/grid': 10.43.1
       '@carbon/import-once': 10.7.0
