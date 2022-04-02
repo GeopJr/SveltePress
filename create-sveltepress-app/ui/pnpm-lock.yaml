@@ -4,7 +4,7 @@ specifiers:
   '@carbon/themes': 10.54.0
   '@sveltejs/adapter-node': 1.0.0-next.73
   '@sveltejs/kit': 1.0.0-next.304
-  carbon-components: 10.56.0
+  carbon-components: 11.0.0
   carbon-components-svelte: 0.62.3
   carbon-icons-svelte: 10.45.1
   carbon-preprocess-svelte: 0.7.0
@@ -30,7 +30,7 @@ devDependencies:
   '@carbon/themes': 10.54.0
   '@sveltejs/adapter-node': 1.0.0-next.73
   '@sveltejs/kit': 1.0.0-next.304_sass@1.49.11+svelte@3.46.6
-  carbon-components: 10.56.0
+  carbon-components: 11.0.0_sass@1.49.11
   carbon-components-svelte: 0.62.3
   carbon-icons-svelte: 10.45.1
   carbon-preprocess-svelte: 0.7.0_sass@1.49.11+svelte@3.46.6
@@ -50,11 +50,25 @@ packages:
     resolution: {integrity: sha512-Bst1o2RGB0Fpdd2p9y+2fl2oxtXuI0RiVhxKBChKOPZkeBJZTWj1jNgQuNK1ZALHWGX9rL75i7tJmhlXbukfmA==}
     dev: true
 
+  /@carbon/colors/11.0.0:
+    resolution: {integrity: sha512-12zcB3Hf6kgxzvrhMEnGEMs4m8ferwEOqkcmeKYmCTr7G3uTozcCdwYGc7vEFIjKPbmKNpQ3BJ+19k/+kMViDg==}
+    dev: true
+
+  /@carbon/feature-flags/0.7.0:
+    resolution: {integrity: sha512-nxVvnSMC6Ia/xn0j02FHPATfB/Iv6nnkZAQ6GrEdPLivSF1T2oaTvgawUsXBO8RBX7wQBq5l7uW8qH/0WfjIFw==}
+    dev: true
+
   /@carbon/grid/10.43.1:
     resolution: {integrity: sha512-gBfAEIfso5GjYPB1+BHjpNIfzDzBHb8xz9GRBhdrTlDVw9RJ4KH4MfYDeObiFQ/I7/6YCOE+LjjLv/BTm9iWBQ==}
     dependencies:
       '@carbon/import-once': 10.7.0
       '@carbon/layout': 10.37.1
+    dev: true
+
+  /@carbon/grid/11.0.0:
+    resolution: {integrity: sha512-GFP5M4nH8tDEkOMgfKCV9ZA7I9SnDVgmg+L7vwlDHW6Kq1TS2jBoiLC7BBdeNE8RJZPk/lgDXn/56RV8hjrWVw==}
+    dependencies:
+      '@carbon/layout': 11.0.0
     dev: true
 
   /@carbon/import-once/10.7.0:
@@ -63,6 +77,30 @@ packages:
 
   /@carbon/layout/10.37.1:
     resolution: {integrity: sha512-iX8rWc2CkFB7W7wi5NLa3pVRVb/jRI2KrVDna3FO3X3DgNz3zoRCgN+r2c+8FEhpJWeUwds5aDzTWUuTtlOT3w==}
+    dev: true
+
+  /@carbon/layout/11.0.0:
+    resolution: {integrity: sha512-F7Svd22CsvctkhgGksJf8sABdQWXmyOOH5EigrA6iq2fYRZFUryuiW95sQTOL7fhmc/VAA/vHneRtzJPHhPdow==}
+    dev: true
+
+  /@carbon/motion/11.0.0:
+    resolution: {integrity: sha512-3KYZJEALeYq99EF/LyIbfa8NvkWeZAeAjlqlYGmCCs8rDihaX97NQ4QgfMT9kwzjD/3sEjV5CTmvI2CJJw0RfA==}
+    dev: true
+
+  /@carbon/styles/1.0.0_sass@1.49.11:
+    resolution: {integrity: sha512-DA/LPGVPFfqwyKUYONgFpOUMyK+WGE6lOpvF3M2CPMllRDL+nHe9treA7zKDhAKT4X96x0r8OkadOFGcgV1isQ==}
+    peerDependencies:
+      sass: ^1.33.0
+    dependencies:
+      '@carbon/colors': 11.0.0
+      '@carbon/feature-flags': 0.7.0
+      '@carbon/grid': 11.0.0
+      '@carbon/layout': 11.0.0
+      '@carbon/motion': 11.0.0
+      '@carbon/themes': 11.0.0
+      '@carbon/type': 11.0.0
+      '@ibm/plex': 6.0.0-next.6
+      sass: 1.49.11
     dev: true
 
   /@carbon/telemetry/0.1.0:
@@ -79,11 +117,26 @@ packages:
       color: 3.2.1
     dev: true
 
+  /@carbon/themes/11.0.0:
+    resolution: {integrity: sha512-iq1GE3AgfFXwUwtsV9dpNzNgTNr6Wd8RcXr36VcILPw251CUrn9RB53GWYTK8uMWTHXmnhg3BJnBac2GOq5X2Q==}
+    dependencies:
+      '@carbon/colors': 11.0.0
+      '@carbon/layout': 11.0.0
+      '@carbon/type': 11.0.0
+      color: 3.2.1
+    dev: true
+
   /@carbon/type/10.44.0:
     resolution: {integrity: sha512-sLe4e9gu2QuM8k6PrXWc9xWpH6W9Q/FJ+/IHNFpx+8zBLkBsM6dbf4o76Zw9OcV2HuAA+8K3JOpZJ4r76fw8kg==}
     dependencies:
       '@carbon/grid': 10.43.1
       '@carbon/import-once': 10.7.0
+    dev: true
+
+  /@carbon/type/11.0.0:
+    resolution: {integrity: sha512-D3ww1hrvfzXy2bnEmZTJoFDVZpB+78T1D2sOqXDjFaB+7A2+E/PAmla37Qzcz8ZMxF8kAorpG8wOTYAp2dg2kw==}
+    dependencies:
+      '@carbon/grid': 11.0.0
     dev: true
 
   /@eslint/eslintrc/1.2.1:
@@ -116,6 +169,11 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@ibm/plex/6.0.0-next.6:
+    resolution: {integrity: sha512-B3uGruTn2rS5gweynLmfSe7yCawSRsJguJJQHVQiqf4rh2RNgJFu8YLE2Zd/JHV0ZXoVMOslcXP2k3hMkxKEyA==}
+    engines: {node: '>=14'}
     dev: true
 
   /@rollup/pluginutils/4.1.2:
@@ -306,14 +364,15 @@ packages:
       flatpickr: 4.6.9
     dev: true
 
-  /carbon-components/10.56.0:
-    resolution: {integrity: sha512-GPLqHiu2SWvMxcQOi/CcgA/XA3aX/5HiEPSQjLwzjKAJsnkpzq043Jf7QwgLOVbTBzGSjFbFkJnE2lc73I2WBw==}
+  /carbon-components/11.0.0_sass@1.49.11:
+    resolution: {integrity: sha512-ooBuwGSg4c3reLeyJOJrH/dxcDl+FRSru3ZAcm9GL34GrthzqHdNEHKDYa0lmFQsX0fiAk98rufDkN4QKZXTLQ==}
     requiresBuild: true
+    peerDependencies:
+      sass: ^1.33.0
     dependencies:
+      '@carbon/styles': 1.0.0_sass@1.49.11
       '@carbon/telemetry': 0.1.0
-      flatpickr: 4.6.1
-      lodash.debounce: 4.0.8
-      warning: 3.0.0
+      sass: 1.49.11
     dev: true
 
   /carbon-icons-svelte/10.45.1:
@@ -946,10 +1005,6 @@ packages:
       rimraf: 3.0.2
     dev: true
 
-  /flatpickr/4.6.1:
-    resolution: {integrity: sha512-3ULSxbXmcMIRzer/2jLNweoqHpwDvsjEawO2FUd9UFR8uPwLM+LruZcPDpuZStcEgbQKhuFOfXo4nYdGladSNw==}
-    dev: true
-
   /flatpickr/4.6.9:
     resolution: {integrity: sha512-F0azNNi8foVWKSF+8X+ZJzz8r9sE1G4hl06RyceIaLvyltKvDl6vqk9Lm/6AUUCi5HWaIjiUbk7UpeE/fOXOpw==}
     dev: true
@@ -1150,10 +1205,6 @@ packages:
     resolution: {integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=}
     dev: true
 
-  /js-tokens/4.0.0:
-    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-    dev: true
-
   /js-yaml/4.1.0:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
@@ -1182,19 +1233,8 @@ packages:
       type-check: 0.4.0
     dev: true
 
-  /lodash.debounce/4.0.8:
-    resolution: {integrity: sha1-gteb/zCmfEAF/9XiUVMArZyk168=}
-    dev: true
-
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
-    dev: true
-
-  /loose-envify/1.4.0:
-    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
-    hasBin: true
-    dependencies:
-      js-tokens: 4.0.0
     dev: true
 
   /magic-string/0.25.7:
@@ -1878,12 +1918,6 @@ packages:
       sass: 1.49.11
     optionalDependencies:
       fsevents: 2.3.2
-    dev: true
-
-  /warning/3.0.0:
-    resolution: {integrity: sha1-MuU3fLVy3kqwR1O9+IIcAe1gW3w=}
-    dependencies:
-      loose-envify: 1.4.0
     dev: true
 
   /which/2.0.2:
