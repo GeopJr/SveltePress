@@ -24,7 +24,7 @@
     "front-matter": "4.0.2",
     "highlight.js": "11.5.0",
     "jsesc": "3.0.2",
-    "marked": "4.0.13",
+    "marked": "4.0.14",
     "prettier": "2.6.2",
     "prettier-plugin-svelte": "2.7.0",
     "sass": "1.50.0",
