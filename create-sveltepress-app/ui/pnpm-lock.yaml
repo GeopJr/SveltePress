@@ -18,7 +18,7 @@ specifiers:
   prettier-plugin-svelte: 2.7.0
   sass: 1.50.0
   svelte: 3.47.0
-  svelte-preprocess: 4.10.5
+  svelte-preprocess: 4.10.6
   turndown: 7.1.1
 
 dependencies:
@@ -42,7 +42,7 @@ devDependencies:
   prettier-plugin-svelte: 2.7.0_prettier@2.6.2+svelte@3.47.0
   sass: 1.50.0
   svelte: 3.47.0
-  svelte-preprocess: 4.10.5_sass@1.50.0+svelte@3.47.0
+  svelte-preprocess: 4.10.6_sass@1.50.0+svelte@3.47.0
 
 packages:
 
@@ -324,7 +324,7 @@ packages:
     resolution: {integrity: sha512-dOy9pcC4prPCDYfznX8o403At5GQhEHn2nSpFEzLAWOqcw+h1ZAr5fvrkI6y8GrrQRjkti7Xs53/N/piyxo5Yw==}
     dependencies:
       purgecss: 4.1.3
-      svelte-preprocess: 4.10.5_1fa8b6b985acecaaef0b36203597c8d7
+      svelte-preprocess: 4.10.6_1fa8b6b985acecaaef0b36203597c8d7
       typescript: 4.6.3
     transitivePeerDependencies:
       - '@babel/core'
@@ -1648,8 +1648,8 @@ packages:
       svelte: 3.47.0
     dev: true
 
-  /svelte-preprocess/4.10.5_1fa8b6b985acecaaef0b36203597c8d7:
-    resolution: {integrity: sha512-VKXPRScCzAZqeBZOGq4LLwtNrAu++mVn7XvQox3eFDV7Ciq0Lg70Q8QWjH9iXF7J+pMlXhPsSFwpCb2E+hoeyA==}
+  /svelte-preprocess/4.10.6_1fa8b6b985acecaaef0b36203597c8d7:
+    resolution: {integrity: sha512-I2SV1w/AveMvgIQlUF/ZOO3PYVnhxfcpNyGt8pxpUVhPfyfL/CZBkkw/KPfuFix5FJ9TnnNYMhACK3DtSaYVVQ==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:
@@ -1700,8 +1700,8 @@ packages:
       typescript: 4.6.3
     dev: true
 
-  /svelte-preprocess/4.10.5_sass@1.50.0+svelte@3.47.0:
-    resolution: {integrity: sha512-VKXPRScCzAZqeBZOGq4LLwtNrAu++mVn7XvQox3eFDV7Ciq0Lg70Q8QWjH9iXF7J+pMlXhPsSFwpCb2E+hoeyA==}
+  /svelte-preprocess/4.10.6_sass@1.50.0+svelte@3.47.0:
+    resolution: {integrity: sha512-I2SV1w/AveMvgIQlUF/ZOO3PYVnhxfcpNyGt8pxpUVhPfyfL/CZBkkw/KPfuFix5FJ9TnnNYMhACK3DtSaYVVQ==}
     engines: {node: '>= 9.11.2'}
     requiresBuild: true
     peerDependencies:
