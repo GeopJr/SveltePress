@@ -1,3 +1,11 @@
+<h3 align="center">Looking for a better alternative? Check out <a href="https://github.com/svelteness/kit-docs">KitDocs</a>!</h3>
+
+#
+
+<h2 align="center"><a href="https://github.com/GeopJr/SveltePress/issues/533">Project is EOL</a></h2>
+
+#
+
 <p align="center">
   <img alt="SveltePress branding" src="https://i.imgur.com/k0MgzIl.png">
 </p>
