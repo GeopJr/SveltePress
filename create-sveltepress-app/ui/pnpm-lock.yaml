@@ -7,7 +7,7 @@ specifiers:
   carbon-components: 10.56.0
   carbon-components-svelte: 0.63.3
   carbon-icons-svelte: 11.0.1
-  carbon-preprocess-svelte: 0.8.2
+  carbon-preprocess-svelte: 0.9.0
   cl-editor: 2.3.0
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0
@@ -33,7 +33,7 @@ devDependencies:
   carbon-components: 10.56.0
   carbon-components-svelte: 0.63.3
   carbon-icons-svelte: 11.0.1
-  carbon-preprocess-svelte: 0.8.2_sass@1.51.0+svelte@3.47.0
+  carbon-preprocess-svelte: 0.9.0_sass@1.51.0+svelte@3.47.0
   cl-editor: 2.3.0
   eslint: 8.14.0
   eslint-config-prettier: 8.5.0_eslint@8.14.0
@@ -315,8 +315,8 @@ packages:
     resolution: {integrity: sha512-0CCJLmHW3yJ8T9DM2HNGQx304b2VLGY13Xeg6T1cJWeU2oTPIvBbTfveChIULBBI9FIFGLB9m8ZZgeYWEjAAew==}
     dev: true
 
-  /carbon-preprocess-svelte/0.8.2_sass@1.51.0+svelte@3.47.0:
-    resolution: {integrity: sha512-dOy9pcC4prPCDYfznX8o403At5GQhEHn2nSpFEzLAWOqcw+h1ZAr5fvrkI6y8GrrQRjkti7Xs53/N/piyxo5Yw==}
+  /carbon-preprocess-svelte/0.9.0_sass@1.51.0+svelte@3.47.0:
+    resolution: {integrity: sha512-b55nsx6/qu1C7bVaDeoJ5lzhp9cPx083nkt9D+ZpjnCB04rJtcEV1QyP8HHRaHiyAcsJtLrQ/u/3Qo09UYluwQ==}
     dependencies:
       purgecss: 4.1.3
       svelte-preprocess: 4.10.6_4d9381695a7edfbb1fb6bc002cd71e0a
