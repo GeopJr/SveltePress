@@ -6,7 +6,7 @@ specifiers:
   '@sveltejs/kit': 1.0.0-next.324
   carbon-components: 10.56.0
   carbon-components-svelte: 0.63.3
-  carbon-icons-svelte: 10.45.1
+  carbon-icons-svelte: 11.0.1
   carbon-preprocess-svelte: 0.8.2
   cl-editor: 2.3.0
   eslint: 8.14.0
@@ -32,7 +32,7 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.324_sass@1.51.0+svelte@3.47.0
   carbon-components: 10.56.0
   carbon-components-svelte: 0.63.3
-  carbon-icons-svelte: 10.45.1
+  carbon-icons-svelte: 11.0.1
   carbon-preprocess-svelte: 0.8.2_sass@1.51.0+svelte@3.47.0
   cl-editor: 2.3.0
   eslint: 8.14.0
@@ -311,8 +311,8 @@ packages:
       warning: 3.0.0
     dev: true
 
-  /carbon-icons-svelte/10.45.1:
-    resolution: {integrity: sha512-Uz3byPkSBzjpvLmjt/ZWYJkQG1omfqKh1vzF1FeFYOYqbGOCwc4sHbyF8oet2CseT2cECn1BbEyY4yWvlWYd/w==}
+  /carbon-icons-svelte/11.0.1:
+    resolution: {integrity: sha512-0CCJLmHW3yJ8T9DM2HNGQx304b2VLGY13Xeg6T1cJWeU2oTPIvBbTfveChIULBBI9FIFGLB9m8ZZgeYWEjAAew==}
     dev: true
 
   /carbon-preprocess-svelte/0.8.2_sass@1.51.0+svelte@3.47.0:
