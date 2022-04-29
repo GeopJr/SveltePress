@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@carbon/themes': 10.54.0
+  '@carbon/themes': 11.2.0
   '@sveltejs/adapter-node': 1.0.0-next.73
   '@sveltejs/kit': 1.0.0-next.324
   carbon-components: 10.56.0
@@ -27,7 +27,7 @@ dependencies:
   turndown: 7.1.1
 
 devDependencies:
-  '@carbon/themes': 10.54.0
+  '@carbon/themes': 11.2.0
   '@sveltejs/adapter-node': 1.0.0-next.73
   '@sveltejs/kit': 1.0.0-next.324_sass@1.50.1+svelte@3.47.0
   carbon-components: 10.56.0
@@ -46,23 +46,18 @@ devDependencies:
 
 packages:
 
-  /@carbon/colors/10.37.1:
-    resolution: {integrity: sha512-Bst1o2RGB0Fpdd2p9y+2fl2oxtXuI0RiVhxKBChKOPZkeBJZTWj1jNgQuNK1ZALHWGX9rL75i7tJmhlXbukfmA==}
+  /@carbon/colors/11.1.0:
+    resolution: {integrity: sha512-06VIETXyOgZRNkrZBG+scq5r2souu1klJntSvKaiuDCCgWa3zvMEx0PSGmlnQbj8fCMJlUYx6fUHq6WD9h84pQ==}
     dev: true
 
-  /@carbon/grid/10.43.1:
-    resolution: {integrity: sha512-gBfAEIfso5GjYPB1+BHjpNIfzDzBHb8xz9GRBhdrTlDVw9RJ4KH4MfYDeObiFQ/I7/6YCOE+LjjLv/BTm9iWBQ==}
+  /@carbon/grid/11.1.0:
+    resolution: {integrity: sha512-AS78yH03bEqBysxRQ/zujAJTE69NLBsNezDiECUFf+VAS6hJQi0LSDxuuo6HOKQpLqUANj4d6eZdcnrIuw/Z5A==}
     dependencies:
-      '@carbon/import-once': 10.7.0
-      '@carbon/layout': 10.37.1
+      '@carbon/layout': 11.1.0
     dev: true
 
-  /@carbon/import-once/10.7.0:
-    resolution: {integrity: sha512-KoqbfzGKjO89iUPabN6zNpXpcjxgQYgpHmesZ/DXc/zeV0PyHrnAOC8Q3J0cRPf1zYpGRHN2Tbw1ttTjonzbjg==}
-    dev: true
-
-  /@carbon/layout/10.37.1:
-    resolution: {integrity: sha512-iX8rWc2CkFB7W7wi5NLa3pVRVb/jRI2KrVDna3FO3X3DgNz3zoRCgN+r2c+8FEhpJWeUwds5aDzTWUuTtlOT3w==}
+  /@carbon/layout/11.1.0:
+    resolution: {integrity: sha512-aryW3p8nr4xjPtr8uN5oheV9ymtVf6SCYgSkDhCPFSIK8UZt1SCUMobaMVRi3stKTm/7B9WzC27T9nKGz336aA==}
     dev: true
 
   /@carbon/telemetry/0.1.0:
@@ -70,20 +65,19 @@ packages:
     hasBin: true
     dev: true
 
-  /@carbon/themes/10.54.0:
-    resolution: {integrity: sha512-Q//XENDqFcgJbide0QbaAvAOKg/u3HIR3na0DsmoWtX4ZWrSz8zpUdvN8Yy9ybJBg1dT+IOfNCdjjhjbCVikKA==}
+  /@carbon/themes/11.2.0:
+    resolution: {integrity: sha512-dhZwbAoHl47MEdSYSr1S2vq/DYef9djNR/XU9QpbsyuKXvsHwxJti6+hdIKQc9DxQ+jtpCsGYxLeAKu8I8q6XA==}
     dependencies:
-      '@carbon/colors': 10.37.1
-      '@carbon/layout': 10.37.1
-      '@carbon/type': 10.44.0
+      '@carbon/colors': 11.1.0
+      '@carbon/layout': 11.1.0
+      '@carbon/type': 11.2.0
       color: 3.2.1
     dev: true
 
-  /@carbon/type/10.44.0:
-    resolution: {integrity: sha512-sLe4e9gu2QuM8k6PrXWc9xWpH6W9Q/FJ+/IHNFpx+8zBLkBsM6dbf4o76Zw9OcV2HuAA+8K3JOpZJ4r76fw8kg==}
+  /@carbon/type/11.2.0:
+    resolution: {integrity: sha512-CRv2VA5MyGTYa4WUxUfLal6DVfaWpZCwnvfQr4RgT0qPD3uuGfP6DFoQ7YFnZFVnCZtcsMPJuqzcHiAJFR5jvQ==}
     dependencies:
-      '@carbon/grid': 10.43.1
-      '@carbon/import-once': 10.7.0
+      '@carbon/grid': 11.1.0
     dev: true
 
   /@eslint/eslintrc/1.2.1:
