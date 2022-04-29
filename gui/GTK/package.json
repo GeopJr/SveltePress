@@ -19,7 +19,7 @@
 		"esbuild": "0.14.37",
 		"fs-extra": "10.1.0",
 		"handlebars": "4.7.7",
-		"nodemon": "2.0.15"
+		"nodemon": "2.0.16"
 	},
 	"license": "Unlicense"
 }
